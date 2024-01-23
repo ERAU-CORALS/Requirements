@@ -1,0 +1,5 @@
+settings:
+  digits: '1'
+  parent: OBJ
+  prefix: HLR
+  sep: '-'

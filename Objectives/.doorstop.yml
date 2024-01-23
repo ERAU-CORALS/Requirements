@@ -1,0 +1,4 @@
+settings:
+  digits: '1'
+  prefix: OBJ
+  sep: '-'
