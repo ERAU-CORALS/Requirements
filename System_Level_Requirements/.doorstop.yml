@@ -1,5 +1,5 @@
 settings:
   digits: '2'
-  parent: HLR
-  prefix: SSLR
+  parent: OBJ
+  prefix: SLR
   sep: '-'

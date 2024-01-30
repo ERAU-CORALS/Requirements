@@ -1,5 +1,0 @@
-settings:
-  digits: '2'
-  parent: HSLR
-  prefix: STD_MSR
-  sep: '-'
