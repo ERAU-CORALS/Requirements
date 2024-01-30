@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  Pivot Endurance
+level: 5.0
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  CORALS *should* utilize a pivot point that is durable for a duration longer than a week of continuous use.

@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  Range of Motion
+level: 3.0
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  CORALS *should* be capable of controlled movement in yaw to ±180 degrees of motion, and in pitch and roll to ±45 degrees of motion.

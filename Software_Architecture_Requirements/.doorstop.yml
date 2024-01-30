@@ -1,5 +1,5 @@
 settings:
   digits: '2'
-  parent: HLR
+  parent: SLR
   prefix: SAR
   sep: '-'

@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  Wireless Telemetry
+level: 2.0
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  CORALS *should* transmit data wirelessly to continuously stream telemetry data throughout CORALS' operation.

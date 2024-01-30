@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  Roof Arrangement
+level: 4.0
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  CORALS *should* utilize a Control Moment Gyroscope array with a lower likelihood of gimbal lock by using a roof arrangement.
