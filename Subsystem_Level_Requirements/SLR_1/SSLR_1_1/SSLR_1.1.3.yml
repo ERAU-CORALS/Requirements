@@ -1,0 +1,16 @@
+Metric: Simulated Roll
+Range: '[-180°, 180°]'
+Req?: true
+Verification: Demonstration
+active: true
+derived: false
+header: |
+  Simulated Array Roll
+level: 1.2
+links:
+- SLR_1.1: Jdv6OrGe1euVUzqA3I3iY35XzaatjgRdCZQYJeChHPE=
+normative: true
+ref: ''
+reviewed: null
+text: |
+  The CORALS simulation **SHALL** verify the CMG array parameters are capable of controlled roll to ±180°.

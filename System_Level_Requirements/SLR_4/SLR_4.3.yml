@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Verification: Automated Test
+active: true
+derived: false
+header: |
+  Singularity Halt
+level: 4.3
+links:
+- OBJ-4: SDNuI8NEJhMooqTtI3lrrZMbEJbKd8dWPPYQsmoAorI=
+normative: true
+ref: ''
+reviewed: dssocVFG3MBXO3h4xZewIvSslda3uFKnWUOogLhKHPQ=
+text: |
+  If a singularity state is detected, CORALS **SHALL** halt.

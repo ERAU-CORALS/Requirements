@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Verification: Inspection
+active: true
+derived: false
+header: |
+  Air Bearing
+level: 5.1
+links:
+- SLR_5.1: IbRkV-t8EeNuDEEfAcErjjz4SBDXxRqiyoq1mneruQo=
+normative: true
+ref: ''
+reviewed: 6HEAUD2rZBI5FX824Wt9cxod0VHPSVVXjGI1HZtUEsk=
+text: |
+  CORALS **SHALL** use a spherical air bearing for controlled pivoting.

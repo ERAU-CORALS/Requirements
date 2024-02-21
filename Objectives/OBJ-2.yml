@@ -6,6 +6,6 @@ level: 2.0
 links: []
 normative: true
 ref: ''
-reviewed: null
+reviewed: 6fC5MovF24tX_njkLO_vJ9Bwb7cS7UzaP-oR1w4Nu5g=
 text: |
-  CORALS *should* transmit data wirelessly to continuously stream telemetry data throughout CORALS' operation.
+  CORALS *should* continuously stream telemetry data wirelessly throughout its operation.

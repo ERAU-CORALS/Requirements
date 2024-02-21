@@ -1,0 +1,16 @@
+Metric: Attitude Control Accuracy
+Range: '[-1.8°, 1.8°]'
+Req?: true
+Verification: Automated Test
+active: true
+derived: false
+header: |
+  Attitude Accuracy
+level: 3.5
+links:
+- OBJ-3: -2BYWfjd_S5jx9ZytovdyZhaqYYxcifkXT8CA8gHh8k=
+normative: true
+ref: ''
+reviewed: 1Wza3XarlhSwnN72nJ8aa7IQ9v60mWiFOd1H_pms9zw=
+text: |
+  CORALS **SHALL** be capable of attitude control within ±1.8°.

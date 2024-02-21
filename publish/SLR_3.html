@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head><title>Doorstop</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="assets/doorstop/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/doorstop/general.css" />
+  <link type="text/css" rel="stylesheet" href="assets/doorstop/sidebar.css" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" ></script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+  });
+  </script>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-2 hidden-sm hidden-xs">
+          <nav id="TOC" class="nav nav-stacked fixed sidebar">
+              <h3>Table of Contents</h3>
+<pre><code>* [Onboard Control System](#SLR_3.1)
+* [Testbed Roll](#SLR_3.2)
+* [Testbed Pitch](#SLR_3.3)
+* [Testbed Yaw](#SLR_3.4)
+* [Attitude Accuracy](#SLR_3.5)
+* [Testbed Balance](#SLR_3.6)
+</code></pre>
+          </nav>
+      </div>
+      <div class="col-lg-8" id="main">
+        <h2 id="SLR_3.1">Onboard Control System <small>SLR_3.1</small></h2>
+<p>CORALS <strong>SHALL</strong> have a common onboard control system.</p>
+<p><em>Parent links:</em> <a href="OBJ.html#OBJ-3">OBJ-3 Range of Motion</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Inspection</td>
+</tr>
+</tbody>
+</table>
+<h2 id="SLR_3.2">Testbed Roll <small>SLR_3.2</small></h2>
+<p>CORALS <strong>SHALL</strong> be capable of roll to ±180°.</p>
+<p><em>Parent links:</em> <a href="OBJ.html#OBJ-3">OBJ-3 Range of Motion</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Hardware Roll</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>[-180°, 180°]</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Inspection</td>
+</tr>
+</tbody>
+</table>
+<h2 id="SLR_3.3">Testbed Pitch <small>SLR_3.3</small></h2>
+<p>CORALS <strong>SHALL</strong> be capable of pitch to ±30°.</p>
+<p><em>Parent links:</em> <a href="OBJ.html#OBJ-3">OBJ-3 Range of Motion</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Hardware Pitch</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>[-30°, 30°]</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Inspection</td>
+</tr>
+</tbody>
+</table>
+<h2 id="SLR_3.4">Testbed Yaw <small>SLR_3.4</small></h2>
+<p>CORALS <strong>SHALL</strong> be capable of yaw to ±180°.</p>
+<p><em>Parent links:</em> <a href="OBJ.html#OBJ-3">OBJ-3 Range of Motion</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Hardware Yaw</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>[-180°, 180°]</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Inspection</td>
+</tr>
+</tbody>
+</table>
+<h2 id="SLR_3.5">Attitude Accuracy <small>SLR_3.5</small></h2>
+<p>CORALS <strong>SHALL</strong> be capable of attitude control within ±1.8°.</p>
+<p><em>Parent links:</em> <a href="OBJ.html#OBJ-3">OBJ-3 Range of Motion</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Attitude Control Accuracy</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>[-1.8°, 1.8°]</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Automated Test</td>
+</tr>
+</tbody>
+</table>
+<h2 id="SLR_3.6">Testbed Balance <small>SLR_3.6</small></h2>
+<p>CORALS <strong>SHALL</strong> operate with an imbalance torque less than 10E-6 Nm.</p>
+<p><em>Parent links:</em> <a href="OBJ.html#OBJ-3">OBJ-3 Range of Motion</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Imbalance Torque</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>[0 Nm, 10E-6 Nm]</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Manual Test</td>
+</tr>
+</tbody>
+</table>
+      </div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="assets/doorstop/jquery.min.js"></script>
+<script src="assets/doorstop/bootstrap.min.js"></script>
+<script>
+    $(function() {
+        $("table").addClass("table");
+        $("nav ul").addClass("nav nav-stacked");
+        $("nav").affix();
+        $('body').scrollspy({
+          target: '.sidebar'
+        });
+        $("#main a").attr("target", "parent");
+
+  $(window).on('hashchange', function() {
+    $(window).scrollTop($(location.hash.toLowerCase()).offset().top);});
+  });
+</script>
+</body>
+</html>
+

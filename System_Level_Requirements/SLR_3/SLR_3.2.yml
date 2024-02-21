@@ -1,0 +1,16 @@
+Metric: Hardware Roll
+Range: '[-180°, 180°]'
+Req?: true
+Verification: Inspection
+active: true
+derived: false
+header: |
+  Testbed Roll
+level: 3.2
+links:
+- OBJ-3: -2BYWfjd_S5jx9ZytovdyZhaqYYxcifkXT8CA8gHh8k=
+normative: true
+ref: ''
+reviewed: YRVeV5-1IE619kB48P0cpay2XSowMY2yWj03hzidkF4=
+text: |
+  CORALS **SHALL** be capable of roll to ±180°.

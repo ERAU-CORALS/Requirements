@@ -6,6 +6,6 @@ level: 4.0
 links: []
 normative: true
 ref: ''
-reviewed: null
+reviewed: SDNuI8NEJhMooqTtI3lrrZMbEJbKd8dWPPYQsmoAorI=
 text: |
-  CORALS *should* utilize a Control Moment Gyroscope array with a lower likelihood of gimbal lock by using a roof arrangement.
+  CORALS *should* use a Control Moment Gyroscope array that can escape gimbal lock.

@@ -1,0 +1,16 @@
+Metric: Hardware Pitch
+Range: '[-30°, 30°]'
+Req?: true
+Verification: Inspection
+active: true
+derived: false
+header: |
+  Testbed Pitch
+level: 3.3
+links:
+- OBJ-3: -2BYWfjd_S5jx9ZytovdyZhaqYYxcifkXT8CA8gHh8k=
+normative: true
+ref: ''
+reviewed: TMa53LCVwkh9_whunK2rY-gNhHYssDoOM8Ru5qXRmp4=
+text: |
+  CORALS **SHALL** be capable of pitch to ±30°.

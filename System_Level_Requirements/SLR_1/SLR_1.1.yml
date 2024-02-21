@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Verification: Demonstration
+active: true
+derived: false
+header: |
+  Simulation Existence
+level: 1.1
+links:
+- OBJ-1: Fzca3kxKBIKZwXAfSrA4TQaPJ05fyKdMEZDU3gdJwCI=
+normative: true
+ref: ''
+reviewed: qlhe-fKGwnJ90a_pzHqJDM2EbG6tBIFKxrjWjgRnTB8=
+text: |
+  CORALS **SHALL** create a simulation of the testbed to verify functionality of the testbed.

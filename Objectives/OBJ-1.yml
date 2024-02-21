@@ -6,6 +6,6 @@ level: 1.0
 links: []
 normative: true
 ref: ''
-reviewed: null
+reviewed: Fzca3kxKBIKZwXAfSrA4TQaPJ05fyKdMEZDU3gdJwCI=
 text: |
-  CORALS *should* utilize a control algorithm to successfully demonstrate yaw, pitch, and roll control in a computer simulation.
+  CORALS *should* use a control algorithm to successfully demonstrate yaw, pitch and roll control in a computer simulation.
