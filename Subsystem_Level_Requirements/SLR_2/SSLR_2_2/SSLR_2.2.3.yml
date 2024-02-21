@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: Test
+Req?: true
+Verification: Automated Test
+active: true
+derived: false
+header: |
+  HDARS Telemetry Response
+level: 1.2
+links:
+- SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
+normative: true
+ref: ''
+reviewed: null
+text: |
+  CORALS **SHALL** use HDARS to respond to CORALS Testbed telecommands with telemetry responses as described in the CORALS Software Interface Design Document.

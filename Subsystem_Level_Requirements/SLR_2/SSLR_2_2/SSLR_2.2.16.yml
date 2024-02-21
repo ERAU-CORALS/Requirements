@@ -1,0 +1,16 @@
+Metric: Testbed Telemetry Period
+Range: '[13s, 17s]'
+Req?: true
+Verification: Automated Test
+active: true
+derived: false
+header: |
+  Testbed Telemetry Period
+level: 1.5.4
+links:
+- SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
+normative: true
+ref: ''
+reviewed: null
+text: |
+  CORALS Software **SHALL** transmit an attitude state telemetry packet every 15s±2s.

@@ -20,10 +20,499 @@
       <div class="col-lg-2 hidden-sm hidden-xs">
           <nav id="TOC" class="nav nav-stacked fixed sidebar">
               <h3>Table of Contents</h3>
+<ul>
+<li><a href="#SSLR_2.2.1">Software Subsystem</a><ul>
+<li><a href="#SSLR_2.2.2">Telemetry Forwarding</a></li>
+<li><a href="#SSLR_2.2.3">HDARS Telemetry Response</a></li>
+<li><a href="#SSLR_2.2.4">HDARS-Simulink Communication</a><ul>
+<li><a href="#SSLR_2.2.5">HDARS IP Tx</a></li>
+<li><a href="#SSLR_2.2.6">HDARS Data Structure</a></li>
+</ul>
+</li>
+<li><a href="#SSLR_2.2.7">CORALS-HDARS Communication</a><ul>
+<li><a href="#SSLR_2.2.8">HDARS Bluetooth Rx</a></li>
+<li><a href="#SSLR_2.2.9">HDARS Telemetry Structure</a></li>
+<li><a href="#SSLR_2.2.10">HDARS Telecommand Rx</a></li>
+<li><a href="#SSLR_2.2.11">HDARS Telecommand Structure</a></li>
+</ul>
+</li>
+<li><a href="#SSLR_2.2.12">CORALS Reported Telemetry</a><ul>
+<li><a href="#SSLR_2.2.13">Attitude Telemetry Packet Structure</a></li>
+<li><a href="#SSLR_2.2.15">Attitude Telemetry Period</a></li>
+<li><a href="#SSLR_2.2.14">Testbed Telemetry Packet Structure</a></li>
+<li><a href="#SSLR_2.2.16">Testbed Telemetry Period</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#SSLR_2.2.17">Electrical Subsystem</a><ul>
+<li><a href="#SSLR_2.2.18">Inertial Measurement Unit (IMU)</a></li>
+<li><a href="#SSLR_2.2.19">IMU Roll</a></li>
+<li><a href="#SSLR_2.2.20">IMU Pitch</a></li>
+<li><a href="#SSLR_2.2.21">IMU Yaw</a></li>
+<li><a href="#SSLR_2.2.22">IMU Angular Rate</a></li>
+<li><a href="#SSLR_2.2.23">IMU Angular Acceleration</a></li>
+</ul>
+</li>
+</ul>
           </nav>
       </div>
       <div class="col-lg-8" id="main">
-        
+        <h1 id="SSLR_2.2.1">Software Subsystem</h1>
+<h2 id="SSLR_2.2.2">Telemetry Forwarding <small>SSLR_2.2.2</small></h2>
+<p>CORALS <strong>SHALL</strong> use HDARS to forward CORALS telemetry to the SIMULINK simulation.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Demonstration</td>
+</tr>
+</tbody>
+</table>
+<h2 id="SSLR_2.2.3">HDARS Telemetry Response <small>SSLR_2.2.3</small></h2>
+<p>CORALS <strong>SHALL</strong> use HDARS to respond to CORALS Testbed telecommands with telemetry responses as described in the CORALS Software Interface Design Document.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>Test</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Automated Test</td>
+</tr>
+</tbody>
+</table>
+<h2 id="SSLR_2.2.4">HDARS-Simulink Communication</h2>
+<h3 id="SSLR_2.2.5">HDARS IP Tx <small>SSLR_2.2.5</small></h3>
+<p>HDARS <strong>SHALL</strong> transmit telemetry data to the SIMULINK simulation over IP:Port 127.0.0.1:4071.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Automated Test</td>
+</tr>
+</tbody>
+</table>
+<h3 id="SSLR_2.2.6">HDARS Data Structure <small>SSLR_2.2.6</small></h3>
+<p>HDARS <strong>SHALL</strong> transmit telemetry data to the SIMULINK simulation as described in the CORALS Software Interface Design Document.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Automated Test</td>
+</tr>
+</tbody>
+</table>
+<h2 id="SSLR_2.2.7">CORALS-HDARS Communication</h2>
+<h3 id="SSLR_2.2.8">HDARS Bluetooth Rx <small>SSLR_2.2.8</small></h3>
+<p>HDARS <strong>SHALL</strong> receive telemetry packets from the CORALS Testbed over Bluetooth.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Automated Test</td>
+</tr>
+</tbody>
+</table>
+<h3 id="SSLR_2.2.9">HDARS Telemetry Structure <small>SSLR_2.2.9</small></h3>
+<p>HDARS <strong>SHALL</strong> process telemetry packets from the CORALS Testbed if the command structure and content is valid as described in the CORALS Software Interface Design Document.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Automated Test</td>
+</tr>
+</tbody>
+</table>
+<h3 id="SSLR_2.2.10">HDARS Telecommand Rx <small>SSLR_2.2.10</small></h3>
+<p>HDARS <strong>SHALL</strong> receive telecommand packets from the CORALS Testbed over Bluetooth.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Automated Test</td>
+</tr>
+</tbody>
+</table>
+<h3 id="SSLR_2.2.11">HDARS Telecommand Structure <small>SSLR_2.2.11</small></h3>
+<p>HDARS <strong>SHALL</strong> process telecommand packets from the CORALS Testbed if the command structure and content is valid as described in the CORALS Software Interface Design Document.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Automated Test</td>
+</tr>
+</tbody>
+</table>
+<h2 id="SSLR_2.2.12">CORALS Reported Telemetry</h2>
+<h3 id="SSLR_2.2.13">Attitude Telemetry Packet Structure <small>SSLR_2.2.13</small></h3>
+<p>CORALS Software <strong>SHALL</strong> transmit attitude state telemetry packets from the CORALS Testbed to HDARS as described in the CORALS Software Interface Design Document.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Automated Test</td>
+</tr>
+</tbody>
+</table>
+<h3 id="SSLR_2.2.15">Attitude Telemetry Period <small>SSLR_2.2.15</small></h3>
+<p>CORALS Software <strong>SHALL</strong> transmit an attitude state telemetry packet every 0.5s±0.1s.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Attitude Telemetry Period</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>[0.4s, 0.6s]</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Automated Test</td>
+</tr>
+</tbody>
+</table>
+<h3 id="SSLR_2.2.14">Testbed Telemetry Packet Structure <small>SSLR_2.2.14</small></h3>
+<p>CORALS Software SHALL transmit Testbed state telemetry packets from the CORALS Testbed to HDARS as described in the CORALS Software Interface Design Document.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Automated Test</td>
+</tr>
+</tbody>
+</table>
+<h3 id="SSLR_2.2.16">Testbed Telemetry Period <small>SSLR_2.2.16</small></h3>
+<p>CORALS Software <strong>SHALL</strong> transmit an attitude state telemetry packet every 15s±2s.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Testbed Telemetry Period</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>[13s, 17s]</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Automated Test</td>
+</tr>
+</tbody>
+</table>
+<h1 id="SSLR_2.2.17">Electrical Subsystem</h1>
+<h2 id="SSLR_2.2.18">Inertial Measurement Unit (IMU) <small>SSLR_2.2.18</small></h2>
+<p>CORALS <strong>SHALL</strong> have an Inertial Measurement Unit (IMU).</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Inspection</td>
+</tr>
+</tbody>
+</table>
+<h2 id="SSLR_2.2.19">IMU Roll <small>SSLR_2.2.19</small></h2>
+<p>The IMU <strong>SHALL</strong> measure current testbed roll.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Automated Test</td>
+</tr>
+</tbody>
+</table>
+<h2 id="SSLR_2.2.20">IMU Pitch <small>SSLR_2.2.20</small></h2>
+<p>The IMU <strong>SHALL</strong> measure current testbed pitch.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Automated Test</td>
+</tr>
+</tbody>
+</table>
+<h2 id="SSLR_2.2.21">IMU Yaw <small>SSLR_2.2.21</small></h2>
+<p>The IMU <strong>SHALL</strong> measure current testbed yaw.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Automated Test</td>
+</tr>
+</tbody>
+</table>
+<h2 id="SSLR_2.2.22">IMU Angular Rate <small>SSLR_2.2.22</small></h2>
+<p>The IMU <strong>SHALL</strong> measure current testbed angular rate.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Automated Test</td>
+</tr>
+</tbody>
+</table>
+<h2 id="SSLR_2.2.23">IMU Angular Acceleration <small>SSLR_2.2.23</small></h2>
+<p>The IMU <strong>SHALL</strong> measure testbed angular acceleration.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Automated Test</td>
+</tr>
+</tbody>
+</table>
       </div>
     </div>
 </div>

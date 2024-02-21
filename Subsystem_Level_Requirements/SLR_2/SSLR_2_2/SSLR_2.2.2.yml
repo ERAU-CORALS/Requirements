@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Verification: Demonstration
+active: true
+derived: false
+header: |
+  Telemetry Forwarding
+level: 1.1
+links:
+- SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
+normative: true
+ref: ''
+reviewed: null
+text: |
+  CORALS **SHALL** use HDARS to forward CORALS telemetry to the SIMULINK simulation.

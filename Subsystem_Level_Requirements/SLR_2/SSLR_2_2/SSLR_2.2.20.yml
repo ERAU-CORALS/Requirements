@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Verification: Automated Test
+active: true
+derived: false
+header: |
+  IMU Pitch
+level: 2.3
+links:
+- SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
+normative: true
+ref: ''
+reviewed: null
+text: |
+  The IMU **SHALL** measure current testbed pitch.

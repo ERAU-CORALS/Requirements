@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Verification: Automated Test
+active: true
+derived: false
+header: |
+  HDARS Telecommand Rx
+level: 1.4.3
+links:
+- SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
+normative: true
+ref: ''
+reviewed: null
+text: |
+  HDARS **SHALL** receive telecommand packets from the CORALS Testbed over Bluetooth.
