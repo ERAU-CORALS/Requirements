@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Verification: Inspection
+active: true
+derived: false
+header: |
+  CMG Spin Motors
+level: 1.3
+links:
+- SLR_3.5: DP8gE3a0fnlQJAsl3BAfrwXjMaYLlxetQ0m2x70Hklo=
+normative: true
+ref: ''
+reviewed: null
+text: |
+  Each CMG **SHALL** have a spin motor.

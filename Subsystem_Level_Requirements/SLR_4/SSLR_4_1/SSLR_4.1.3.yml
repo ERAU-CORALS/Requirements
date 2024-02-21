@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Verification: Demonstration
+active: true
+derived: false
+header: |
+  CMG Spin Motor Power Control
+level: 1.2
+links:
+- SLR_4.1: cp-io6zjqP8iPgDunONfXh-32O_eAAKJBYSY3AB4xtk=
+normative: true
+ref: ''
+reviewed: null
+text: |
+  CORALS Software **SHALL** support power toggle of an even, dynamic number of CMG spin motors.

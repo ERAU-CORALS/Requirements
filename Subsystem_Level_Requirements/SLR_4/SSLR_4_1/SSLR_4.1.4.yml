@@ -1,0 +1,16 @@
+Metric: TBD
+Range: TBD
+Req?: true
+Verification: |
+  Demonstration, Inspection, Manual Test, or Automated Test
+active: true
+derived: false
+header: |
+  CMG Gimbal Motor Control
+level: 1.3
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  CORALS Software **SHALL** support PWM control of an even, dynamic number of CMG gimbal motors.

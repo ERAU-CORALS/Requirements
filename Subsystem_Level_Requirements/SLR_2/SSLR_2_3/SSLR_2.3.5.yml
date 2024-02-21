@@ -1,0 +1,17 @@
+Metric: TBD
+Range: TBD
+Req?: true
+Verification: |
+  Demonstration, Inspection, Manual Test, or Automated Test
+active: true
+derived: false
+header: |
+  Telemetry Logging
+level: 1.3.1
+links:
+- SLR_2.3: UFBkHwfdJmB8-xiUaQkt8xY-thlML4N1Ch1Yr28S27U=
+normative: true
+ref: ''
+reviewed: null
+text: |
+  HDARS **SHALL** write all received CORALS attitude telemetry data to a formatted session data file.

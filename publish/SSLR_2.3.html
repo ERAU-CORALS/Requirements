@@ -20,10 +20,209 @@
       <div class="col-lg-2 hidden-sm hidden-xs">
           <nav id="TOC" class="nav nav-stacked fixed sidebar">
               <h3>Table of Contents</h3>
+<ul>
+<li><a href="#SSLR_2.3.1">Software Subsystem</a><ul>
+<li><a href="#SSLR_2.3.2">Data Log File</a></li>
+<li><a href="#SSLR_2.3.3">Telemetry Log File</a></li>
+<li><a href="#SSLR_2.3.4">HDARS Data Logging</a><ul>
+<li><a href="#SSLR_2.3.5">Telemetry Logging</a></li>
+</ul>
+</li>
+<li><a href="#SSLR_2.3.6">HDARS Telemetry/Telecommand Logging</a><ul>
+<li><a href="#SSLR_2.3.7">HDARS Telecommand Logging</a></li>
+<li><a href="#SSLR_2.3.8">HDARS Telemetry Response Logging</a></li>
+<li><a href="#SSLR_2.3.9">HDARS Telemetry Logging</a></li>
+<li><a href="#SSLR_2.3.10">HDARS Received Telecommand Logging</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
           </nav>
       </div>
       <div class="col-lg-8" id="main">
-        
+        <h1 id="SSLR_2.3.1">Software Subsystem</h1>
+<h2 id="SSLR_2.3.2">Data Log File <small>SSLR_2.3.2</small></h2>
+<p>HDARS  <strong>SHALL</strong> initialize a new formatted data file on session startup.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.3">SLR_2.3 Telemetry Storage</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Demonstration</td>
+</tr>
+</tbody>
+</table>
+<h2 id="SSLR_2.3.3">Telemetry Log File <small>SSLR_2.3.3</small></h2>
+<p>HDARS <strong>SHALL</strong> initialize a telemetry/telecommand log file on session startup.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.3">SLR_2.3 Telemetry Storage</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Demonstration</td>
+</tr>
+</tbody>
+</table>
+<h2 id="SSLR_2.3.4">HDARS Data Logging</h2>
+<h3 id="SSLR_2.3.5">Telemetry Logging <small>SSLR_2.3.5</small></h3>
+<p>HDARS <strong>SHALL</strong> write all received CORALS attitude telemetry data to a formatted session data file.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.3">SLR_2.3 Telemetry Storage</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>TBD</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>TBD</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Demonstration, Inspection, Manual Test, or Automated Test</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="SSLR_2.3.6">HDARS Telemetry/Telecommand Logging</h2>
+<h3 id="SSLR_2.3.7">HDARS Telecommand Logging <small>SSLR_2.3.7</small></h3>
+<p>HDARS <strong>SHALL</strong> write all transmitted telecommands to a session telemetry/telecommand log file.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.3">SLR_2.3 Telemetry Storage</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Inspection</td>
+</tr>
+</tbody>
+</table>
+<h3 id="SSLR_2.3.8">HDARS Telemetry Response Logging <small>SSLR_2.3.8</small></h3>
+<p>HDARS <strong>SHALL</strong> write all transmitted telecommand response telemetry to a session telemetry/telecommand log file.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.3">SLR_2.3 Telemetry Storage</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Inspection</td>
+</tr>
+</tbody>
+</table>
+<h3 id="SSLR_2.3.9">HDARS Telemetry Logging <small>SSLR_2.3.9</small></h3>
+<p>HDARS <strong>SHALL</strong> write all received telemetry to a session telemetry/telecommand log file.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.3">SLR_2.3 Telemetry Storage</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Inspection</td>
+</tr>
+</tbody>
+</table>
+<h3 id="SSLR_2.3.10">HDARS Received Telecommand Logging <small>SSLR_2.3.10</small></h3>
+<p>HDARS <strong>SHALL</strong> write all received telecommands to a session telemetry/telecommand log file.</p>
+<p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.3">SLR_2.3 Telemetry Storage</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Inspection</td>
+</tr>
+</tbody>
+</table>
       </div>
     </div>
 </div>

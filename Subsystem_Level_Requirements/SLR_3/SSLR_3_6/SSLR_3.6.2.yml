@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Verification: Inspection
+active: true
+derived: false
+header: |
+  Balancing System
+level: 1.1
+links:
+- SLR_3.6: NV_PcI_bUGU3VFGHneT5NjpUhzVAI8hAZxUitsFWhnM=
+normative: true
+ref: ''
+reviewed: null
+text: |
+  CORALS **SHALL** have a Mass Balancing System.

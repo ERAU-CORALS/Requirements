@@ -1,0 +1,16 @@
+Metric: TBD
+Range: TBD
+Req?: true
+Verification: |
+  Demonstration, Inspection, Manual Test, or Automated Test
+active: true
+derived: false
+header: |
+  CMG Gimbal Position Tracking
+level: 1.4
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  CORALS Software **SHALL** track the position of an even, dynamic number of CMG gimbal motors.

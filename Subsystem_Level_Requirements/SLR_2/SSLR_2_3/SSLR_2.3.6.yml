@@ -1,0 +1,14 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Verification: Inspection
+active: true
+derived: false
+header: ''
+level: 1.4.0
+links: []
+normative: false
+ref: ''
+reviewed: null
+text: |
+  HDARS Telemetry/Telecommand Logging

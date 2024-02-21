@@ -1,0 +1,17 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Verification: |
+  Demonstration, Inspection, Manual Test, or Automated Test
+active: true
+derived: false
+header: |
+  Electrical Power System
+level: 1.1
+links:
+- SLR_3.1: PvMqKBzb4BSKgDTOMdHrOvfHxwUmD9nfNofy4OLs3eo=
+normative: true
+ref: ''
+reviewed: null
+text: |
+  CORALS **SHALL** have an Electrical Power System (EPS).

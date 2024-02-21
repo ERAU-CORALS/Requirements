@@ -1,0 +1,16 @@
+Metric: Capacity
+Range: '[2000, inf)'
+Req?: true
+Verification: Manual Test
+active: true
+derived: false
+header: |
+  Battery Capacity
+level: 1.2
+links:
+- SLR_3.1: PvMqKBzb4BSKgDTOMdHrOvfHxwUmD9nfNofy4OLs3eo=
+normative: true
+ref: ''
+reviewed: null
+text: |
+  The EPS battery **SHALL** have a capacity of at least 2000mAh.
