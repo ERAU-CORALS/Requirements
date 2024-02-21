@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Verification: Inspection
+active: true
+derived: false
+header: |
+  HDARS
+level: 1.1
+links:
+- SLR_2.1: Q9cZiDV8pMzLppmxkkj9wgW9D3qeKnBWlCbkTjJpPB0=
+normative: true
+ref: ''
+reviewed: null
+text: |
+  CORALS **SHALL** use HDARS to covert SIMULINK commands to CORALS testbed telecommands.

@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Verification: Demonstration
+active: true
+derived: false
+header: |
+  HDARS Command Interpretation
+level: 1.4
+links:
+- SLR_2.1: Q9cZiDV8pMzLppmxkkj9wgW9D3qeKnBWlCbkTjJpPB0=
+normative: false
+ref: ''
+reviewed: null
+text: |
+  If HDARS received a command from the SIMULINK simulation, HDARS **SHALL** send the command as a telecommand packet formatted as described in the CORALS Software Interface Design Document.

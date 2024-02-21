@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Verification: Automated Test
+active: true
+derived: false
+header: |
+  Simulink Command Structure
+level: 1.2.2
+links:
+- SLR_2.1: Q9cZiDV8pMzLppmxkkj9wgW9D3qeKnBWlCbkTjJpPB0=
+normative: true
+ref: ''
+reviewed: null
+text: |
+  HDARS **SHALL** process commands from the SIMULINK simulation if the command structure and content is valid as described in the CORALS Software Interface Design Document
