@@ -11,6 +11,6 @@ links:
 - SLR_2.1: Q9cZiDV8pMzLppmxkkj9wgW9D3qeKnBWlCbkTjJpPB0=
 normative: true
 ref: ''
-reviewed: null
+reviewed: 0LHOPoOFkAyh50uk5RurrzPzgC24hGQ-316aiL56WN0=
 text: |
   HDARS **SHALL** transmit telecommand response telemetry packets to the CORALS Testbed over Bluetooth.

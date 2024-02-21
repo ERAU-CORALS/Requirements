@@ -11,6 +11,6 @@ links:
 - SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
 normative: true
 ref: ''
-reviewed: null
+reviewed: pwypMTdUDdQLrRG4okj7m41J9p2FCn-Myp9oNXGx5ko=
 text: |
   HDARS **SHALL** transmit telemetry data to the SIMULINK simulation over IP:Port 127.0.0.1:4071.

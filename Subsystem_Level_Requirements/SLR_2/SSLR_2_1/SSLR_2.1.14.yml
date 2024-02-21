@@ -11,6 +11,6 @@ links:
 - SLR_2.1: Q9cZiDV8pMzLppmxkkj9wgW9D3qeKnBWlCbkTjJpPB0=
 normative: true
 ref: ''
-reviewed: null
+reviewed: BSNrFQI1QmEWF5P8ayKxhb6GGmmvSUvIfFrA9uOWM0A=
 text: |
   CORALS **SHALL** process telemetry response packets from HDARS if the command structure and content is valid as described in the CORALS Software Interface Design Document.

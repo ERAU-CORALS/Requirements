@@ -11,6 +11,6 @@ links:
 - SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
 normative: true
 ref: ''
-reviewed: null
+reviewed: w1cbXmra12A6mB1rjjVUs65pH01GSzeTKWcexrAHU4o=
 text: |
   The IMU **SHALL** measure testbed angular acceleration.

@@ -11,6 +11,6 @@ links:
 - SLR_1.1: Jdv6OrGe1euVUzqA3I3iY35XzaatjgRdCZQYJeChHPE=
 normative: true
 ref: ''
-reviewed: null
+reviewed: OgVqO4MZmi4chkhMmCnzW5CnUPm-5flA5gvPjGu9qx0=
 text: |
   The CORALS simulation **SHALL** verify the CMG array parameters can avoid singularity.

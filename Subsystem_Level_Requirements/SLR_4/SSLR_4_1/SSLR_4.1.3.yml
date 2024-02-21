@@ -11,6 +11,6 @@ links:
 - SLR_4.1: cp-io6zjqP8iPgDunONfXh-32O_eAAKJBYSY3AB4xtk=
 normative: true
 ref: ''
-reviewed: null
+reviewed: n1PqdZWe5D7jB87Lt4DZ9nv9owVYlI73CsjgpO84Qqo=
 text: |
   CORALS Software **SHALL** support power toggle of an even, dynamic number of CMG spin motors.

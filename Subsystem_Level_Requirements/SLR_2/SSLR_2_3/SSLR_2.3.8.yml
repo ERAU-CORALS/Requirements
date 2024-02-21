@@ -11,6 +11,6 @@ links:
 - SLR_2.3: UFBkHwfdJmB8-xiUaQkt8xY-thlML4N1Ch1Yr28S27U=
 normative: true
 ref: ''
-reviewed: null
+reviewed: 0o9Hw1AyQFN9SxpzjqIuCQTvn1ZFYv6yJE8ZxFyJ4KQ=
 text: |
   HDARS **SHALL** write all transmitted telecommand response telemetry to a session telemetry/telecommand log file.

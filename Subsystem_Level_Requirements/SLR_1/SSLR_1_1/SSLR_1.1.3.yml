@@ -11,6 +11,6 @@ links:
 - SLR_1.1: Jdv6OrGe1euVUzqA3I3iY35XzaatjgRdCZQYJeChHPE=
 normative: true
 ref: ''
-reviewed: null
+reviewed: IXlB5yZmVNhm2gKiJh2jFDfnBH00_YT01IFHPrRLppM=
 text: |
   The CORALS simulation **SHALL** verify the CMG array parameters are capable of controlled roll to ±180°.

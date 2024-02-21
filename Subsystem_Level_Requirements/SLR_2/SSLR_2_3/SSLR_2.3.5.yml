@@ -12,6 +12,6 @@ links:
 - SLR_2.3: UFBkHwfdJmB8-xiUaQkt8xY-thlML4N1Ch1Yr28S27U=
 normative: true
 ref: ''
-reviewed: null
+reviewed: Z6XIkBELMJhR2QBrkrRFdG71XGPLT3bdLOdarQ4hNX0=
 text: |
   HDARS **SHALL** write all received CORALS attitude telemetry data to a formatted session data file.

@@ -11,6 +11,6 @@ links:
 - SLR_2.1: Q9cZiDV8pMzLppmxkkj9wgW9D3qeKnBWlCbkTjJpPB0=
 normative: true
 ref: ''
-reviewed: null
+reviewed: Z5UCyPhXEmwbkrhrurzLGqPXxeQzeBPsfRB02poIJ8c=
 text: |
   CORALS **SHALL** process commands from HDARS if the command structure and content is valid as described in the CORALS Software Interface Design Document.

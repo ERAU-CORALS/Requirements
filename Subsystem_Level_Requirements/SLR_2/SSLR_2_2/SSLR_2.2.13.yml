@@ -11,6 +11,6 @@ links:
 - SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
 normative: true
 ref: ''
-reviewed: null
+reviewed: UrICiKaPD2qosukBqE4c_krJoMzdML_fIwv_we9Mh4o=
 text: |
   CORALS Software **SHALL** transmit attitude state telemetry packets from the CORALS Testbed to HDARS as described in the CORALS Software Interface Design Document.

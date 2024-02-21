@@ -11,6 +11,6 @@ links:
 - SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
 normative: true
 ref: ''
-reviewed: null
+reviewed: JD17VxWKx5niZNNFkcIY0eJJAHC20ObLFc9rVVS5Mnc=
 text: |
   The IMU **SHALL** measure current testbed yaw.

@@ -11,6 +11,6 @@ links:
 - SLR_2.1: Q9cZiDV8pMzLppmxkkj9wgW9D3qeKnBWlCbkTjJpPB0=
 normative: false
 ref: ''
-reviewed: null
+reviewed: KpJ7k1-NGM_VxrH0AapDo2Wyadt1lWT6T4HNfMuhp_Q=
 text: |
   If HDARS received a command from the SIMULINK simulation, HDARS **SHALL** send the command as a telecommand packet formatted as described in the CORALS Software Interface Design Document.

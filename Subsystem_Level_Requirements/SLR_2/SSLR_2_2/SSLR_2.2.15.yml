@@ -11,6 +11,6 @@ links:
 - SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
 normative: true
 ref: ''
-reviewed: null
+reviewed: ucbC3rePzk7gI_gTc_ECS0rSOgaw0JKIFgdf4iT62BU=
 text: |
   CORALS Software **SHALL** transmit an attitude state telemetry packet every 0.5s±0.1s.
