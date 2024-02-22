@@ -21,12 +21,13 @@
           <nav id="TOC" class="nav nav-stacked fixed sidebar">
               <h3>Table of Contents</h3>
 <pre><code>* [Simulation Existence](#SLR_1.1)
+* [Simulation Control Law](#SLR_1.2)
 </code></pre>
           </nav>
       </div>
       <div class="col-lg-8" id="main">
         <h2 id="SLR_1.1">Simulation Existence <small>SLR_1.1</small></h2>
-<p>CORALS <strong>SHALL</strong> create a simulation of the testbed to verify functionality of the testbed.</p>
+<p>CORALS <strong>SHALL</strong> create a simulation of the CORALS testbed capable of independent roll, pitch, and yaw control.</p>
 <p><em>Parent links:</em> <a href="OBJ.html#OBJ-1">OBJ-1 Simulation Control Algorithm</a></p>
 <p><em>Child links:</em> <a href="SSLR_1.1.html#SSLR_1.1.2">SSLR_1.1.2 Array Parameters</a>, <a href="SSLR_1.1.html#SSLR_1.1.3">SSLR_1.1.3 Simulated Array Roll</a>, <a href="SSLR_1.1.html#SSLR_1.1.4">SSLR_1.1.4 Simulated Array Pitch</a>, <a href="SSLR_1.1.html#SSLR_1.1.5">SSLR_1.1.5 Simulated Array Yaw</a></p>
 <table>
@@ -48,6 +49,35 @@
 <tr>
 <td>Verification</td>
 <td>Demonstration</td>
+</tr>
+</tbody>
+</table>
+<h2 id="SLR_1.2">Simulation Control Law <small>SLR_1.2</small></h2>
+<p>The CORALS simulation <strong>SHALL</strong> use a Linear Quadratic Regulator (LQR) Controller.</p>
+<p><em>Parent links:</em> <a href="OBJ.html#OBJ-1">OBJ-1 Simulation Control Algorithm</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>TBD</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>TBD</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Demonstration, Inspection, Manual Test, or Automated Test</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>

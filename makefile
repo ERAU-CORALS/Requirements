@@ -5,3 +5,6 @@ publish:
 
 integrity:
 	doorstop --verbose --reorder --strict-child-check --warn-all
+
+pathfix:
+	set PATH=%PATH%;%APPDATA%Roaming\Python\Python311\Scripts

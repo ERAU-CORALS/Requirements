@@ -1,0 +1,15 @@
+active: true
+derived: false
+header: |
+  Message Format
+level: 3.1.1
+links: []
+normative: true
+ref: ''
+reviewed: BSxxdPAVNcFfUVXOl2y5jTJfSG9Fq2y8Vdfb6TDH0x4=
+text: |
+  The Bluetooth Serial Bus **SHALL** use the following communication format:
+
+  ```
+  TARGET . LEN COMMAND, KEY VALUE, KEY VALUE ..., KEY VALUE . CRC32 0xABCDEF01
+  ```

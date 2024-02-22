@@ -1,5 +1,5 @@
 Metric: Primary Rail Current
-Range: '[0 mA, 500 mA]'
+Range: '[0, 500] mA'
 Req?: true
 Verification: Automated Test
 active: true

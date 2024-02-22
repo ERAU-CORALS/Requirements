@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  Scope
+level: 1.1
+links: []
+normative: true
+ref: ''
+reviewed: 2HyKMd4T2cym1w1J4lDo0Y09iPmHqC3VdqM7i4vEL6E=
+text: |
+  This document contains the software interface design decisions for the CORALS Testbed Control Software and the Host Data Acquisition and Routing Script. This includes decisions on message format, parameters, keywords, valid ranges, and transmission rates.

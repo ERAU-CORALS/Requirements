@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  Telemetry and Telecommands
+level: 3.1.5
+links: []
+normative: true
+ref: ''
+reviewed: QmjhpjyrPTY9602a0mv7quqgW1e05gMmc-XDnmPwq1Y=
+text: |
+  Considering format, there is no difference between Telemetry and Telecommands. However, a telecommand always results in a telemetry reply. Telemetry can be sent in response to a telecommand, or periodically.

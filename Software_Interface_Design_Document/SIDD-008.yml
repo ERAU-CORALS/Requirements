@@ -1,0 +1,12 @@
+active: true
+derived: false
+header: ''
+level: 3.1.0
+links: []
+normative: false
+ref: ''
+reviewed: BzulavXX9bjq0JKeMIR66ZuKd0vW8JB3-3JQcZX20ug=
+text: |
+  Bluetooth Communication Protocol
+
+  HDARS and the CORALS Testbed communicate of a Bluetooth Serial connection. This means that loss is possible, and data could be corrupted in transmission. To detect and prevent this, the CORALS Testbed and HDARS will use a restricted communication protocol to minimize error passthrough.

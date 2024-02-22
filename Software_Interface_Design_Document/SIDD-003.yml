@@ -1,0 +1,12 @@
+active: true
+derived: false
+header: ''
+level: 3.0
+links: []
+normative: false
+ref: ''
+reviewed: cX0_OQ0tNo3vJDSW0iKBoq_aWq3ug17JeSa9J_BdxKg=
+text: |
+  General Command Structure
+
+  The CORALS Software and Host Data Acquisition and Routing Script will follow two defined protocols for data transmission. There will be a set protocol for Bluetooth transmission between the CORALS Tesbed and HDARS, as well as a set protocol between HDARS and the Host SIMULINK simulation.

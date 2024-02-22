@@ -1,5 +1,5 @@
 Metric: Max Gimbal Rate
-Range: '[0 rad/s, 3 rad/s]'
+Range: '[-3, 3] rad/s'
 Req?: true
 Verification: Demonstration
 active: true

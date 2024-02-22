@@ -1,14 +1,14 @@
-Metric: TBD
-Range: TBD
+Metric: Boolean
+Range: 'True'
 Req?: true
-Verification: |
-  Demonstration, Inspection, Manual Test, or Automated Test
+Verification: Manual Test
 active: true
 derived: false
 header: |
   CMG Gimbal Position Tracking
 level: 1.4
-links: []
+links:
+- SLR_4.1: cp-io6zjqP8iPgDunONfXh-32O_eAAKJBYSY3AB4xtk=
 normative: true
 ref: ''
 reviewed: mvEjSwnDBUgeraqwUrZVGYpWPlUsHzFuguFoZgzqERo=

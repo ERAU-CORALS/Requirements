@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head><title>Doorstop</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="assets/doorstop/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/doorstop/general.css" />
+  <link type="text/css" rel="stylesheet" href="assets/doorstop/sidebar.css" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" ></script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+  });
+  </script>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-2 hidden-sm hidden-xs">
+          <nav id="TOC" class="nav nav-stacked fixed sidebar">
+              <h3>Table of Contents</h3>
+<ul>
+<li><a href="#SIDD-001">Introduction</a><ul>
+<li><a href="#SIDD-006">Scope</a></li>
+<li><a href="#SIDD-007">Background</a></li>
+</ul>
+</li>
+<li><a href="#SIDD-002">Related Documents</a></li>
+<li><a href="#SIDD-003">General Command Structure</a><ul>
+<li><a href="#SIDD-008">Bluetooth Communication Protocol</a><ul>
+<li><a href="#SIDD-009">Message Format</a></li>
+<li><a href="#SIDD-010">Valid Targets (TARGET)</a></li>
+<li><a href="#SIDD-011">Valid Length (LEN)</a></li>
+<li><a href="#SIDD-012">CRC32 Checksum</a></li>
+<li><a href="#SIDD-013">Telemetry and Telecommands</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#SIDD-004">Available Commands</a></li>
+<li><a href="#SIDD-005">Command Details</a></li>
+</ul>
+          </nav>
+      </div>
+      <div class="col-lg-8" id="main">
+        <h1 id="SIDD-001">Introduction</h1>
+<p>The CORALS Software Interface Design document was developed by Team CORALS as a design standard and reference for the Software Communication Protocols used on the CORALS Testbed. It is meant to replace the need for requirements specifying the format and breadth of command/data transmission to and from the CORALS Testbed with the client, as the requirements were not derivable from the customer objectives; the customer did not stipulate a standard. This document will serve as a source of design truth for the CORALS Software Communication interfaces.</p>
+<h2 id="SIDD-006">Scope <small>SIDD-006</small></h2>
+<p>This document contains the software interface design decisions for the CORALS Testbed Control Software and the Host Data Acquisition and Routing Script. This includes decisions on message format, parameters, keywords, valid ranges, and transmission rates.</p>
+<h2 id="SIDD-007">Background <small>SIDD-007</small></h2>
+<p>TBC</p>
+<h1 id="SIDD-002">Related Documents</h1>
+<p>This document is related to the CORALS System Requirements Specification, and links will be made as necessary to the relevant System Level Requirements and Subsystem Level Requirements.</p>
+<h1 id="SIDD-003">General Command Structure</h1>
+<p>The CORALS Software and Host Data Acquisition and Routing Script will follow two defined protocols for data transmission. There will be a set protocol for Bluetooth transmission between the CORALS Tesbed and HDARS, as well as a set protocol between HDARS and the Host SIMULINK simulation.</p>
+<h2 id="SIDD-008">Bluetooth Communication Protocol</h2>
+<p>HDARS and the CORALS Testbed communicate of a Bluetooth Serial connection. This means that loss is possible, and data could be corrupted in transmission. To detect and prevent this, the CORALS Testbed and HDARS will use a restricted communication protocol to minimize error passthrough.</p>
+<h3 id="SIDD-009">Message Format <small>SIDD-009</small></h3>
+<p>The Bluetooth Serial Bus <strong>SHALL</strong> use the following communication format:</p>
+<pre><code>TARGET . LEN COMMAND, KEY VALUE, KEY VALUE ..., KEY VALUE . CRC32 0xABCDEF01
+</code></pre>
+<h3 id="SIDD-010">Valid Targets (TARGET) <small>SIDD-010</small></h3>
+<p>The Bluetooth Communication bus <strong>SHALL</strong> support two targets:</p>
+<table>
+  <tbody>
+    <tr>
+      <th>
+        Valid Targets
+      </th>
+    </tr>
+    <tr>
+      <td>
+        HDARS
+      </td>
+    </tr>
+    <tr>
+      <td>
+        CORALS
+      </td>
+    </tr>
+  </tbody>
+</table
+
+### Valid Length (LEN) <small>
+<p>SIDD-011</small> {#SIDD-011 }</p>
+<p>LEN <strong>SHALL</strong> be an unsigned integer decimal numeric value which accounts for the entire message length.</p>
+<h3 id="SIDD-012">CRC32 Checksum <small>SIDD-012</small></h3>
+<p>The message <strong>SHALL</strong> be proofed by the CRC32 Checksum attached to the end of the message. The checksum will be unique for all messages less than 2^32 characters in length.</p>
+<p>The checksum <strong>SHALL</strong> be run on all characters before the CRC32 Keyword.</p>
+<p>The checksum <strong>SHALL</strong> be computed on both sides using the following algorithm:</p>
+<pre><code class="language-c">uint32_t crc32(const uint8_t *data, uint32_t length)
+{
+    uint32_t crc = 0xFFFFFFFF;
+
+    for (uint32_t i = 0; i &lt; length; ++i)
+    {
+        crc ^= data[i];
+        for (uint8_t j = 0; j &lt; 8; ++j)
+        {
+            uint32_t mask = -(crc &amp; 1);
+            crc = (crc &gt;&gt; 1) ^ (0xEDB88320 &amp; mask);
+        }
+    }
+
+    return crc;
+}
+
+</code></pre>
+<h3 id="SIDD-013">Telemetry and Telecommands <small>SIDD-013</small></h3>
+<p>Considering format, there is no difference between Telemetry and Telecommands. However, a telecommand always results in a telemetry reply. Telemetry can be sent in response to a telecommand, or periodically.</p>
+<h1 id="SIDD-004">Available Commands</h1>
+<h1 id="SIDD-005">Command Details</h1>
+      </div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="assets/doorstop/jquery.min.js"></script>
+<script src="assets/doorstop/bootstrap.min.js"></script>
+<script>
+    $(function() {
+        $("table").addClass("table");
+        $("nav ul").addClass("nav nav-stacked");
+        $("nav").affix();
+        $('body').scrollspy({
+          target: '.sidebar'
+        });
+        $("#main a").attr("target", "parent");
+
+  $(window).on('hashchange', function() {
+    $(window).scrollTop($(location.hash.toLowerCase()).offset().top);});
+  });
+</script>
+</body>
+</html>
+

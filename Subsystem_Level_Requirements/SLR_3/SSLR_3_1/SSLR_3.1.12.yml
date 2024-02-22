@@ -1,5 +1,5 @@
 Metric: Secondary Rail Voltage
-Range: '[7 V, 10 V]'
+Range: '[7, 10] V'
 Req?: true
 Verification: Automated Test
 active: true

@@ -1,4 +1,5 @@
 settings:
   digits: '1'
+  parent: SIDD
   prefix: OBJ
   sep: '-'

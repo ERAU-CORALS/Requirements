@@ -1,0 +1,31 @@
+active: true
+derived: false
+header: |
+  Valid Targets (TARGET)
+level: 3.1.2
+links: []
+normative: true
+ref: ''
+reviewed: vc91NeMlX-M1ux_TDPDEt4PVVrJHkyvS0q27jomeHxg=
+text: |
+  The Bluetooth Communication bus **SHALL** support two targets:
+
+  <table>
+    <tbody>
+      <tr>
+        <th>
+          Valid Targets
+        </th>
+      </tr>
+      <tr>
+        <td>
+          HDARS
+        </td>
+      </tr>
+      <tr>
+        <td>
+          CORALS
+        </td>
+      </tr>
+    </tbody>
+  </table

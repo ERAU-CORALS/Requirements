@@ -1,5 +1,5 @@
 Metric: Primary Rail Voltage
-Range: '[5.9 V, 6.1 V]'
+Range: '[5.9, 6.1] V'
 Req?: true
 Verification: Automated Test
 active: true

@@ -1,5 +1,5 @@
 Metric: Secondary Rail Current
-Range: '[0 mA, 750 mA]'
+Range: '[0, 750] mA'
 Req?: true
 Verification: Automated Test
 active: true
