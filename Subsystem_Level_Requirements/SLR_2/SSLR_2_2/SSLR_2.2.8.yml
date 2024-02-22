@@ -5,12 +5,12 @@ Verification: Automated Test
 active: true
 derived: false
 header: |
-  HDARS Bluetooth Rx
-level: 1.4.1
+  DARTS Bluetooth Rx
+level: 1.1.1
 links:
 - SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
 normative: true
 ref: ''
 reviewed: GQ07vDxj9fYanxjFt-H5LOvz4-7xX86-p2nytJSzKc8=
 text: |
-  HDARS **SHALL** receive telemetry packets from the CORALS Testbed over Bluetooth.
+  DARTS **SHALL** receive telemetry packets from the CORALS Testbed over Bluetooth.

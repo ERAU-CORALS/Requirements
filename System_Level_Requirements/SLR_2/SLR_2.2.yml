@@ -13,4 +13,4 @@ normative: true
 ref: ''
 reviewed: MgMKrvt4ybjak00LFP5PpZkDPvq6mfsyXqgFJR2PphE=
 text: |
-  CORALS **SHALL** transmit current attitude telemetry data to a SIMULINK simulation.
+  CORALS **SHALL** transmit current attitude telemetry data to a host computer.

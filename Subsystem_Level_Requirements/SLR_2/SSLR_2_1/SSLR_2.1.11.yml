@@ -6,11 +6,11 @@ active: true
 derived: false
 header: |
   CORALS Bluetooth Rx
-level: 1.3.5
+level: 1.2.3
 links:
 - SLR_2.1: Q9cZiDV8pMzLppmxkkj9wgW9D3qeKnBWlCbkTjJpPB0=
 normative: true
 ref: ''
 reviewed: ujQq95VA6F_xFkk_lIDCzd0Prp7T8FEzscHSnaLG96c=
 text: |
-  CORALS **SHALL** receive telecommand packets from HDARS over Bluetooth.
+  CORALS **SHALL** receive telecommand packets from DARTS over Bluetooth.

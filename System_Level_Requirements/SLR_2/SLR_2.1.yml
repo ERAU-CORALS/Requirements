@@ -13,4 +13,4 @@ normative: true
 ref: ''
 reviewed: Z-RbtA8jvPh1sTJv0oOthrMibD2sU_LgzUXabMsmEt0=
 text: |
-  CORALS **SHALL** receive attitude control telecommands from a SIMULINK simulation.
+  CORALS **SHALL** receive attitude control telecommands from a host computer.

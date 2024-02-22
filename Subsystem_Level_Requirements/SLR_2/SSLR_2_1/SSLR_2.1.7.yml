@@ -5,12 +5,12 @@ Verification: Demonstration
 active: true
 derived: false
 header: |
-  HDARS Bluetooth Tx
-level: 1.3.1
+  DARTS Bluetooth Tx
+level: 1.2.1
 links:
 - SLR_2.1: Q9cZiDV8pMzLppmxkkj9wgW9D3qeKnBWlCbkTjJpPB0=
 normative: true
 ref: ''
 reviewed: e5smz1JBFVKWKpl94PnxaRcwwfd115S_0gQtFJ5qE5Y=
 text: |
-  HDARS **SHALL** transmit telecommand packets to the CORALS Testbed over Bluetooth.
+  DARTS **SHALL** transmit telecommand packets to the CORALS Testbed over Bluetooth.

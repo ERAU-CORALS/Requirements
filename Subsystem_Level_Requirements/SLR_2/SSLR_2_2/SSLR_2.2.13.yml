@@ -6,7 +6,7 @@ active: true
 derived: false
 header: |
   Attitude Telemetry Packet Structure
-level: 1.5.1
+level: 1.2.1
 links:
 - SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
 normative: true

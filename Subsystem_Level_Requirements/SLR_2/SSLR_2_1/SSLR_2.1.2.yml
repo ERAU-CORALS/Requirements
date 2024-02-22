@@ -5,7 +5,7 @@ Verification: Inspection
 active: true
 derived: false
 header: |
-  HDARS
+  Data Acquisition and Remote Telecommand Script
 level: 1.1
 links:
 - SLR_2.1: Q9cZiDV8pMzLppmxkkj9wgW9D3qeKnBWlCbkTjJpPB0=
@@ -13,4 +13,4 @@ normative: true
 ref: ''
 reviewed: ZHdmQPxC92PRP1ha4l5MeZ7fpcLpew07TSsNmNsdq-s=
 text: |
-  CORALS **SHALL** use HDARS to covert SIMULINK commands to CORALS testbed telecommands.
+  CORALS **SHALL** use the Data Acquisition and Remote Telecommand Script (DARTS) to communicate to CORALS testbed telecommands.

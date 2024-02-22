@@ -6,7 +6,7 @@ active: true
 derived: false
 header: |
   Testbed Telemetry Packet Structure
-level: 1.5.3
+level: 1.2.2
 links:
 - SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
 normative: true
