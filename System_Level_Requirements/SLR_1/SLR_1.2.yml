@@ -1,0 +1,17 @@
+Metric: TBD
+Range: TBD
+Req?: true
+Verification: |
+  Demonstration, Inspection, Manual Test, or Automated Test
+active: true
+derived: false
+header: |
+  Simulation Control Law
+level: 1.2
+links:
+- OBJ-1: Fzca3kxKBIKZwXAfSrA4TQaPJ05fyKdMEZDU3gdJwCI=
+normative: true
+ref: ''
+reviewed: RbxO0x-aNOO68bCx9uaR2lsCS4nNPbMNxzxnH3kmtcY=
+text: |
+  The CORALS simulation **SHALL** use a Linear Quadratic Regulator (LQR) Controller.
