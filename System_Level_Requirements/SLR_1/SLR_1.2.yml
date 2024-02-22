@@ -1,8 +1,7 @@
-Metric: TBD
-Range: TBD
+Metric: Boolean
+Range: 'True'
 Req?: true
-Verification: |
-  Demonstration, Inspection, Manual Test, or Automated Test
+Verification: Inspection
 active: true
 derived: false
 header: |
@@ -12,6 +11,6 @@ links:
 - OBJ-1: Fzca3kxKBIKZwXAfSrA4TQaPJ05fyKdMEZDU3gdJwCI=
 normative: true
 ref: ''
-reviewed: RbxO0x-aNOO68bCx9uaR2lsCS4nNPbMNxzxnH3kmtcY=
+reviewed: EcyaRocPkFOJrZ-u5ib41_RJd9Tv8eB-JV63I8T9hRk=
 text: |
-  The CORALS simulation **SHALL** use a Linear Quadratic Regulator (LQR) Controller.
+  The CORALS simulation **SHALL** use a Proportional-Derivative (PD) Controller.

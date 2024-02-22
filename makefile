@@ -1,7 +1,9 @@
 all: integrity publish
 
-publish:
+publish: FORCE
 	doorstop publish --verbose --no-levels all all publish
+
+.PHONY: FORCE
 
 integrity:
 	doorstop --verbose --reorder --strict-child-check --warn-all
