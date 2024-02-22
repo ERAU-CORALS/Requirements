@@ -5,7 +5,7 @@ Verification: Inspection
 active: true
 derived: false
 header: |
-  HDARS Telecommand Logging
+  DARTS Telecommand Logging
 level: 1.4.1
 links:
 - SLR_2.3: UFBkHwfdJmB8-xiUaQkt8xY-thlML4N1Ch1Yr28S27U=
@@ -13,4 +13,4 @@ normative: true
 ref: ''
 reviewed: rmKb4JZ8JVPSmIW1LIAkBpTkda6YBHUXBulcPcruDoE=
 text: |
-  HDARS **SHALL** write all transmitted telecommands to a session telemetry/telecommand log file.
+  DARTS **SHALL** write all transmitted telecommands to a session telemetry/telecommand log file.

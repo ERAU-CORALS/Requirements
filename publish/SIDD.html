@@ -38,7 +38,10 @@
 </li>
 </ul>
 </li>
-<li><a href="#SIDD-004">Available Commands</a></li>
+<li><a href="#SIDD-004">Available Commands</a><ul>
+<li><a href="#SIDD-014">DARTS Telecommands</a></li>
+</ul>
+</li>
 <li><a href="#SIDD-005">Command Details</a></li>
 </ul>
           </nav>
@@ -53,9 +56,9 @@
 <h1 id="SIDD-002">Related Documents</h1>
 <p>This document is related to the CORALS System Requirements Specification, and links will be made as necessary to the relevant System Level Requirements and Subsystem Level Requirements.</p>
 <h1 id="SIDD-003">General Command Structure</h1>
-<p>The CORALS Software and Host Data Acquisition and Routing Script will follow two defined protocols for data transmission. There will be a set protocol for Bluetooth transmission between the CORALS Tesbed and HDARS, as well as a set protocol between HDARS and the Host SIMULINK simulation.</p>
+<p>The CORALS Software and the Data Acquisition and Remote Telecommand Script (DARTS) will follow a common defined protocol for serial data transmission.</p>
 <h2 id="SIDD-008">Bluetooth Communication Protocol</h2>
-<p>HDARS and the CORALS Testbed communicate of a Bluetooth Serial connection. This means that loss is possible, and data could be corrupted in transmission. To detect and prevent this, the CORALS Testbed and HDARS will use a restricted communication protocol to minimize error passthrough.</p>
+<p>DARTS and the CORALS Testbed communicate using a Bluetooth Serial connection. This means that loss is possible, and data could be corrupted in transmission. To detect and prevent this, the CORALS Testbed and HDARS will use a restricted, keyword-based communication protocol to minimize error passthrough.</p>
 <h3 id="SIDD-009">Message Format <small>SIDD-009</small></h3>
 <p>The Bluetooth Serial Bus <strong>SHALL</strong> use the following communication format:</p>
 <pre><code>TARGET . LEN COMMAND, KEY VALUE, KEY VALUE ..., KEY VALUE . CRC32 0xABCDEF01
@@ -71,7 +74,7 @@
     </tr>
     <tr>
       <td>
-        HDARS
+        DARTS
       </td>
     </tr>
     <tr>
@@ -108,8 +111,10 @@
 
 </code></pre>
 <h3 id="SIDD-013">Telemetry and Telecommands <small>SIDD-013</small></h3>
-<p>Considering format, there is no difference between Telemetry and Telecommands. However, a telecommand always results in a telemetry reply. Telemetry can be sent in response to a telecommand, or periodically.</p>
+<p>Considering format, there is no difference between Telemetry and Telecommands. However, telemetry is always sent to the DARTS target. Telecommands are available for both targets.</p>
 <h1 id="SIDD-004">Available Commands</h1>
+<p>There are commands available depending on the target selected. They are enumerated in this section:</p>
+<h2 id="SIDD-014">DARTS Telecommands <small>SIDD-014</small></h2>
 <h1 id="SIDD-005">Command Details</h1>
       </div>
     </div>

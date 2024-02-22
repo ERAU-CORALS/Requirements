@@ -13,4 +13,4 @@ normative: true
 ref: ''
 reviewed: UFDJ8lqmlc8Xfc2wm7KagsaOIIAyqzx9QzHw8iLsCpU=
 text: |
-  HDARS **SHALL** initialize a telemetry/telecommand log file on session startup.
+  DARTS **SHALL** initialize a telemetry/telecommand log file on session startup.

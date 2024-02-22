@@ -14,4 +14,4 @@ normative: true
 ref: ''
 reviewed: Z6XIkBELMJhR2QBrkrRFdG71XGPLT3bdLOdarQ4hNX0=
 text: |
-  HDARS **SHALL** write all received CORALS attitude telemetry data to a formatted session data file.
+  DARTS **SHALL** write all received CORALS attitude telemetry data to a formatted session data file.
