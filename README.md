@@ -1,7 +1,7 @@
 # Requirements
 CORALS Version Controlled Requirements Database
 
-View the current [published version here](https://htmlpreview.github.io/?https://github.com/ERAU-CORALS/Requirements/blob/main/publish/index.html).
+View the current [published version here](https://erau-corals.github.io/Requirements/publish/).
 
 
 This databse uses *doorstop*, *doorhole*, and *doorstop-edit* to manage requirements.
