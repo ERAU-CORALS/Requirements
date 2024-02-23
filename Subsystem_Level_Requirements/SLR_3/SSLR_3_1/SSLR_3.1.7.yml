@@ -1,15 +1,14 @@
-Metric: TBD
-Range: TBD
-Req?: true
-Verification: |
-  Demonstration, Inspection, Manual Test, or Automated Test
+Metric: ''
+Range: ''
+Req?: false
+Verification: ''
 active: true
 derived: false
-header: |
-  EPS Primary Rail
+header: ''
 level: 1.3.3.0
 links: []
-normative: true
+normative: false
 ref: ''
 reviewed: jGHdltH-Cs-y26wgTyOZZGpGsF4MpDQYtnxZqx6whys=
-text: ''
+text: |
+  EPS Primary Rail

@@ -1,15 +1,14 @@
-Metric: TBD
-Range: TBD
-Req?: true
-Verification: |
-  Demonstration, Inspection, Manual Test, or Automated Test
+Metric: ''
+Range: ''
+Req?: false
+Verification: ''
 active: true
 derived: false
-header: |
-  Electrical Subsystem
+header: ''
 level: 1.0
 links: []
-normative: true
+normative: false
 ref: ''
 reviewed: bzK8SV_PUz8JkfR-EcuO-x75zD6KM4Q2k9s_2nSqKV0=
-text: ''
+text: |
+  Electrical Subsystem
