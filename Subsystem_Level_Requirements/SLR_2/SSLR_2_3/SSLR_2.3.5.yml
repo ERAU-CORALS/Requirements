@@ -1,8 +1,7 @@
-Metric: TBD
-Range: TBD
+Metric: Boolean
+Range: 'True'
 Req?: true
-Verification: |
-  Demonstration, Inspection, Manual Test, or Automated Test
+Verification: Manual Test
 active: true
 derived: false
 header: |
