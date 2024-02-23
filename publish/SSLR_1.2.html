@@ -20,10 +20,93 @@
       <div class="col-lg-2 hidden-sm hidden-xs">
           <nav id="TOC" class="nav nav-stacked fixed sidebar">
               <h3>Table of Contents</h3>
+<ul>
+<li><a href="#SSLR_1.2.1">Simulation Subsystem</a><ul>
+<li><a href="#SSLR_1.2.2">Minimum Energy Control</a></li>
+<li><a href="#SSLR_1.2.3">Linear Quadratic Regulator</a></li>
+<li><a href="#SSLR_1.2.4">Control Decision Frequency</a></li>
+</ul>
+</li>
+</ul>
           </nav>
       </div>
       <div class="col-lg-8" id="main">
-        
+        <h1 id="SSLR_1.2.1">Simulation Subsystem</h1>
+<h2 id="SSLR_1.2.2">Minimum Energy Control <small>SSLR_1.2.2</small></h2>
+<p>The CORALS simulation SHALL determine CMG position and rate for the calculated torque using the Minimum Energy Solution.</p>
+<p><em>Parent links:</em> <a href="SLR_1.html#SLR_1.2">SLR_1.2 Simulation Control Law</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Inspection</td>
+</tr>
+</tbody>
+</table>
+<h2 id="SSLR_1.2.3">Linear Quadratic Regulator <small>SSLR_1.2.3</small></h2>
+<p>The CORALS simulation <strong>SHALL</strong> use the LQR control scheme to determine torque gain matrix.</p>
+<p><em>Parent links:</em> <a href="SLR_1.html#SLR_1.2">SLR_1.2 Simulation Control Law</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Inspection</td>
+</tr>
+</tbody>
+</table>
+<h2 id="SSLR_1.2.4">Control Decision Frequency <small>SSLR_1.2.4</small></h2>
+<p>The CORALS simulation SHALL make control decisions at 10 Hz.</p>
+<p><em>Parent links:</em> <a href="SLR_1.html#SLR_1.2">SLR_1.2 Simulation Control Law</a></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metric</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Verification</td>
+<td>Inspection</td>
+</tr>
+</tbody>
+</table>
       </div>
     </div>
 </div>

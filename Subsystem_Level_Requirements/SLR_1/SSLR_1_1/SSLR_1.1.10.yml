@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Verification: Demonstration
+active: true
+derived: false
+header: |
+  CMG Gimbal Plotting
+level: 1.9
+links:
+- SLR_1.1: ccwxD9C47KTaEXhUxy-uvcQe2I72TOm1j3dGcsRUwE8=
+normative: true
+ref: ''
+reviewed: 8HD_ZkSe0quPjDzZRo2dGz5mcC5Pvskiq7R8JRi-xWg=
+text: |
+  The CORALS simulation **SHALL** plot the resulting CMG gimbal positions and rates, as well as attitude error, at the end of runtime.
