@@ -11,6 +11,6 @@ links:
 - SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
 normative: true
 ref: ''
-reviewed: GQ07vDxj9fYanxjFt-H5LOvz4-7xX86-p2nytJSzKc8=
+reviewed: s2aMxFmE3UPzdlrbSA3CkNqMuqX01xqw6g3APiS1SnA=
 text: |
   DARTS **SHALL** receive telemetry packets from the CORALS Testbed over Bluetooth.

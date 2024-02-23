@@ -11,6 +11,6 @@ links:
 - SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
 normative: true
 ref: ''
-reviewed: la5I-D4iQnZmvv4zKBU-QwOXAipO4nNBEBzX8hYbDrk=
+reviewed: MWq9LK9C2T47FxwbGdpl8r4lmrVWuzTpE_GuliXe5dM=
 text: |
-  CORALS Software SHALL transmit Testbed state telemetry packets from the CORALS Testbed to DARTS as described in the CORALS Software Interface Design Document.
+  CORALS Software SHALL periodically transmit Testbed state telemetry packets from the CORALS Testbed to DARTS as described in the CORALS Software Interface Design Document.
