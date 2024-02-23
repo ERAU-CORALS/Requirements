@@ -22,7 +22,7 @@
               <h3>Table of Contents</h3>
 <ul>
 <li><a href="#SSLR_2.2.1">Software Subsystem</a><ul>
-<li><a href="#SSLR_2.2.7">CORALS-HDARS Communication</a><ul>
+<li><a href="#SSLR_2.2.7">CORALS-DARTS Telemetry Responses</a><ul>
 <li><a href="#SSLR_2.2.8">DARTS Bluetooth Rx</a></li>
 <li><a href="#SSLR_2.2.9">DARTS Telemetry Structure</a></li>
 <li><a href="#SSLR_2.2.10">CORALS Telemetry Tx</a></li>
@@ -50,9 +50,9 @@
       </div>
       <div class="col-lg-8" id="main">
         <h1 id="SSLR_2.2.1">Software Subsystem</h1>
-<h2 id="SSLR_2.2.7">CORALS-HDARS Communication</h2>
+<h2 id="SSLR_2.2.7">CORALS-DARTS Telemetry Responses</h2>
 <h3 id="SSLR_2.2.8">DARTS Bluetooth Rx <small>SSLR_2.2.8</small></h3>
-<p>DARTS <strong>SHALL</strong> receive telemetry packets from the CORALS Testbed over Bluetooth.</p>
+<p>DARTS <strong>SHALL</strong> receive telemetry response packets from the CORALS Testbed over Bluetooth.</p>
 <p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
 <table>
 <thead>
@@ -77,7 +77,7 @@
 </tbody>
 </table>
 <h3 id="SSLR_2.2.9">DARTS Telemetry Structure <small>SSLR_2.2.9</small></h3>
-<p>DARTS <strong>SHALL</strong> process telemetry packets from the CORALS Testbed if the command structure and content is valid as described in the CORALS Software Interface Design Document.</p>
+<p>DARTS <strong>SHALL</strong> process telemetry response packets from the CORALS Testbed if the packet structure and content is valid as described in the CORALS Software Interface Design Document.</p>
 <p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
 <table>
 <thead>
@@ -102,7 +102,7 @@
 </tbody>
 </table>
 <h3 id="SSLR_2.2.10">CORALS Telemetry Tx <small>SSLR_2.2.10</small></h3>
-<p>CORALS <strong>SHALL</strong> transmit telemetry packets from DARTS over Bluetooth.</p>
+<p>CORALS <strong>SHALL</strong> transmit telemetry response packets from DARTS over Bluetooth.</p>
 <p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
 <table>
 <thead>
@@ -127,7 +127,7 @@
 </tbody>
 </table>
 <h3 id="SSLR_2.2.11">CORALS Telemetry Structure <small>SSLR_2.2.11</small></h3>
-<p>CORALS <strong>SHALL</strong> transmit telemetry packets to DARTS as described in the CORALS Software Interface Design Document.</p>
+<p>CORALS <strong>SHALL</strong> transmit telemetry response packets to DARTS as described in the CORALS Software Interface Design Document.</p>
 <p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
 <table>
 <thead>
@@ -153,7 +153,7 @@
 </table>
 <h2 id="SSLR_2.2.12">CORALS Reported Telemetry</h2>
 <h3 id="SSLR_2.2.13">Attitude Telemetry Packet Structure <small>SSLR_2.2.13</small></h3>
-<p>CORALS Software <strong>SHALL</strong> periodically transmit attitude state telemetry packets from the CORALS Testbed to DARTS as described in the CORALS Software Interface Design Document.</p>
+<p>CORALS Software <strong>SHALL</strong> periodically transmit attitude state telemetry response packets from the CORALS Testbed to DARTS as described in the CORALS Software Interface Design Document.</p>
 <p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
 <table>
 <thead>
@@ -178,7 +178,7 @@
 </tbody>
 </table>
 <h3 id="SSLR_2.2.14">Testbed Telemetry Packet Structure <small>SSLR_2.2.14</small></h3>
-<p>CORALS Software SHALL periodically transmit Testbed state telemetry packets from the CORALS Testbed to DARTS as described in the CORALS Software Interface Design Document.</p>
+<p>CORALS Software SHALL periodically transmit Testbed state telemetry response packets from the CORALS Testbed to DARTS as described in the CORALS Software Interface Design Document.</p>
 <p><em>Parent links:</em> <a href="SLR_2.html#SLR_2.2">SLR_2.2 Telemetry Transmission</a></p>
 <table>
 <thead>

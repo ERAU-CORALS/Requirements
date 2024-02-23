@@ -13,4 +13,4 @@ normative: true
 ref: ''
 reviewed: Uq7oUpLHByWPMdS9ncNMk1YJ037yesKF2BOoxpI3eRg=
 text: |
-  DARTS **SHALL** write all received telemetry to a session telemetry/telecommand log file.
+  DARTS **SHALL** write all received telemetry responses to a session telemetry/telecommand log file.

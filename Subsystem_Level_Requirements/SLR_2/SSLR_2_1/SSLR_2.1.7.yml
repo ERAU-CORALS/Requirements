@@ -5,7 +5,7 @@ Verification: Demonstration
 active: true
 derived: false
 header: |
-  DARTS Bluetooth Tx
+  DARTS Bluetooth Telecommand Tx
 level: 1.2.1
 links:
 - SLR_2.1: Q9cZiDV8pMzLppmxkkj9wgW9D3qeKnBWlCbkTjJpPB0=

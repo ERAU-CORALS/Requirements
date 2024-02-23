@@ -13,4 +13,4 @@ normative: true
 ref: ''
 reviewed: s2aMxFmE3UPzdlrbSA3CkNqMuqX01xqw6g3APiS1SnA=
 text: |
-  DARTS **SHALL** receive telemetry packets from the CORALS Testbed over Bluetooth.
+  DARTS **SHALL** receive telemetry response packets from the CORALS Testbed over Bluetooth.

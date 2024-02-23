@@ -13,4 +13,4 @@ normative: true
 ref: ''
 reviewed: Z5UCyPhXEmwbkrhrurzLGqPXxeQzeBPsfRB02poIJ8c=
 text: |
-  CORALS **SHALL** process commands from DARTS if the command structure and content is valid as described in the CORALS Software Interface Design Document.
+  CORALS **SHALL** process telecommands from DARTS if the packet structure and content is valid as described in the CORALS Software Interface Design Document.

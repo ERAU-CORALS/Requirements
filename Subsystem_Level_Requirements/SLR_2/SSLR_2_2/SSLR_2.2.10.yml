@@ -13,4 +13,4 @@ normative: true
 ref: ''
 reviewed: du83igG-0ktP4Osi8jQoTftuBdx7If60dRlqLQW2rEQ=
 text: |
-  CORALS **SHALL** transmit telemetry packets from DARTS over Bluetooth.
+  CORALS **SHALL** transmit telemetry response packets from DARTS over Bluetooth.

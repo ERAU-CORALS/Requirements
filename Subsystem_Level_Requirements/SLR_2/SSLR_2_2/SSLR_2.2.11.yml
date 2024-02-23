@@ -13,4 +13,4 @@ normative: true
 ref: ''
 reviewed: oO5wkjYZRNPh5VQxejDWXMnbRJrAffeJHRtaCcqauNc=
 text: |
-  CORALS **SHALL** transmit telemetry packets to DARTS as described in the CORALS Software Interface Design Document.
+  CORALS **SHALL** transmit telemetry response packets to DARTS as described in the CORALS Software Interface Design Document.

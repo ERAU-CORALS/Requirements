@@ -5,12 +5,12 @@ Verification: Automated Test
 active: true
 derived: false
 header: |
-  CORALS Bluetooth Telecommand Rx
-level: 1.2.3
+  CORALS Bluetooth Telemetry Request Rx
+level: 1.3.3
 links:
-- SLR_2.1: Q9cZiDV8pMzLppmxkkj9wgW9D3qeKnBWlCbkTjJpPB0=
+- SLR_2.1: htUuBaJix4GUfLHWdRoE224pfbiQsqmngH94zNcJfAo=
 normative: true
 ref: ''
-reviewed: ujQq95VA6F_xFkk_lIDCzd0Prp7T8FEzscHSnaLG96c=
+reviewed: null
 text: |
   CORALS **SHALL** receive telecommand packets from DARTS over Bluetooth.

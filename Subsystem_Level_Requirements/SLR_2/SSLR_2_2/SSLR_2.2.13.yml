@@ -13,4 +13,4 @@ normative: true
 ref: ''
 reviewed: cm6jRIUs8Jv13da-bspSF6Et9XciC4Lp0qE-VNtjaGo=
 text: |
-  CORALS Software **SHALL** periodically transmit attitude state telemetry packets from the CORALS Testbed to DARTS as described in the CORALS Software Interface Design Document.
+  CORALS Software **SHALL** periodically transmit attitude state telemetry response packets from the CORALS Testbed to DARTS as described in the CORALS Software Interface Design Document.
