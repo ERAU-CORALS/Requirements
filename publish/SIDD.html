@@ -54,6 +54,7 @@
 <li><a href="#SIDD-024">SET_POWER Telecommand</a></li>
 <li><a href="#SIDD-025">SET_INERTIA Telecommand</a></li>
 <li><a href="#SIDD-026">SET_CONTROL Telecommand</a></li>
+<li><a href="#SIDD-027">SET_SINGULARITY</a></li>
 <li><a href="#SIDD-020">GET Telemetry Request</a></li>
 </ul>
 </li>
@@ -374,6 +375,11 @@
 <td>SET_SINGULARITY, GET_SINGULARITY, SINGULARITY_STATE</td>
 </tr>
 <tr>
+<td>SINGULARITY_OVERRIDE_ERROR</td>
+<td>'ON', 'OFF'</td>
+<td>SET_ERROR, GET_ERROR, ERROR_STATE</td>
+</tr>
+<tr>
 <td>SINGULARITY_THOLD</td>
 <td>decimal [0, 1]</td>
 <td>SET_SINGULARITY, GET_SINGULARITY, SINGULARITY_STATE</td>
@@ -566,6 +572,8 @@
 <p>The SET_INERTIA Telecommand supports use of the Inertia keywords. It requires inclusion of ALL Inertia keywords to be valid. The SET_INERTIA Telecommand always prompts a INERTIA_MATRIX Telemetry Response including the changed keywords.</p>
 <h3 id="SIDD-026">SET_CONTROL Telecommand <small>SIDD-026</small></h3>
 <p>The SET_CONTROL Telecommand supports use of the CORALS Control Parameter keywords. It requires including of one or more loop rate keywords or all gain keywords to be valid (if a non-zero number of gain keywords are included, all gain keywords must be included regardless of loop rate keywords). The SET_CONTROL Telecommand always prompts a CONTROL_STATE Telemetry Response including the changed keywords.</p>
+<h3 id="SIDD-027">SET_SINGULARITY <small>SIDD-027</small></h3>
+<p>The SET_SINGULARITY Telecommand supports use of the Singularity keywords. It requires one or more keywords to be valid. If the SINGULARITY_HALTING or SINGULARITY_TRIP keywords are included, then the ENABLE_OVERRIDE keyword must be included and 'ON'. If either aforementioned keyword is included, and if ENABLE_OVERRIDE is not included, then the setting of those particular keywords will be ignored, prompting an ERROR_STATE Telemetry Response with ARGUMENT_ERROR and SINGULARITY_OVERRIDE_ERROR set 'ON' and included. Otherwise, or if other keywords are included, the SET_SINGULARITY prompts a SINGULARITY_STATE Telemetry Response including the changed keywords.</p>
 <h3 id="SIDD-020">GET Telemetry Request <small>SIDD-020</small></h3>
 <p>The GET Telemetry Request supports use of ALL keywords. The GET Telemetry Request requires one or more keywords to be valid. Uniquely, the GET keywords are valid with value pairs (entered value pairs <strong>SHALL</strong> be disregarded). The GET Telemetry Request always prompts a REGISTER Telemetry Response containing the requested register values.</p>
       </div>
