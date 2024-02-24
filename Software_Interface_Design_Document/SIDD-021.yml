@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  ECHO Telecommand
+level: 5.2.2
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  The ECHO Telecommand does not support any keywords. The ECHO Telecommand always prompts an ECHO_REPLY Telemetry Response to confirm reception of the ECHO Telecommand. This Telecommand is intended for connection confirmation purposes.

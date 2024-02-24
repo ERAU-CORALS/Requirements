@@ -48,6 +48,13 @@
 <li><a href="#SIDD-016">Telecommand/Telemetry Keywords</a></li>
 <li><a href="#SIDD-017">Telecommand/Telemetry Request Details</a><ul>
 <li><a href="#SIDD-018">SET Telecommand</a></li>
+<li><a href="#SIDD-021">ECHO Telecommand</a></li>
+<li><a href="#SIDD-022">TARGET_ADD Telecommand</a></li>
+<li><a href="#SIDD-023">HALT Telecommand</a></li>
+<li><a href="#SIDD-024">SET_POWER Telecommand</a></li>
+<li><a href="#SIDD-025">SET_INERTIA Telecommand</a></li>
+<li><a href="#SIDD-026">SET_CONTROL Telecommand</a></li>
+<li><a href="#SIDD-020">GET Telemetry Request</a></li>
 </ul>
 </li>
 </ul>
@@ -114,7 +121,7 @@
 
 </code></pre>
 <h3 id="SIDD-013">Telemetry and Telecommands <small>SIDD-013</small></h3>
-<p>Considering format, there is no difference between Telemetry and Telecommands. However, telemetry is always sent to the DARTS target. Telecommands are available for both targets.</p>
+<p>Considering format, there is little difference between Telemetry Requests, Telemetry Responses, and Telecommands. However, Telemetry Responses are always sent to the DARTS target. Telecommands and Telemetry Requests are always set to the CORALS Target. Telemetry Requests do not include values in their key value pairs; they only contain lists of keys for which they request values.</p>
 <h1 id="SIDD-004">Available Commands</h1>
 <p>There are commands available depending on the target selected. They are enumerated in this section:</p>
 <h2 id="SIDD-014">DARTS Telecommands <small>SIDD-014</small></h2>
@@ -128,6 +135,8 @@
 <li>SET_INERTIA</li>
 <li>SET_CONTROL</li>
 <li>SET_SINGULARITY</li>
+<li>SET_ERROR</li>
+<li>CLEAR_ERRORS</li>
 </ul>
 <h2 id="SIDD-015">DARTS Telemetry Requests <small>SIDD-015</small></h2>
 <p>DARTS <strong>SHALL</strong> support the following telemetry requests:</p>
@@ -142,6 +151,8 @@
 <li>GET_SINGULARITY</li>
 <li>GET_STATE</li>
 <li>GET_ATTITUDE</li>
+<li>GET_ERROR</li>
+<li>GET_ERRORS</li>
 </ul>
 <h2 id="SIDD-019">CORALS Telemetry Replies <small>SIDD-019</small></h2>
 <p>CORALS <strong>SHALL</strong> support the following telemetry replies:</p>
@@ -157,6 +168,7 @@
 <li>SINGULARITY_STATE</li>
 <li>CORALS_STATE</li>
 <li>ATTITUDE</li>
+<li>ERROR_STATE</li>
 </ul>
 <h1 id="SIDD-005">Telecommand/Telemetry Details</h1>
 <h2 id="SIDD-016">Telecommand/Telemetry Keywords <small>SIDD-016</small></h2>
@@ -171,6 +183,11 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>ARGUMENT_ERROR</td>
+<td>'ON', 'OFF'</td>
+<td>SET_ERROR, GET_ERROR, ERROR_STATE</td>
+</tr>
 <tr>
 <td>COMM_LR</td>
 <td>decimal frequency (Hz)</td>
@@ -340,6 +357,11 @@
 <td>Q4</td>
 <td>decimal [0, 1]</td>
 <td>TARGET_ADD, GET_TARGET, CURRENT_TARGET</td>
+</tr>
+<tr>
+<td>QUAT_DISAGREE_ERROR</td>
+<td>'ON', 'OFF'</td>
+<td>SET_ERROR, GET_ERROR, ERROR_STATE</td>
 </tr>
 <tr>
 <td>QUAT_FORMAT</td>
@@ -530,6 +552,22 @@
 </table>
 <h2 id="SIDD-017">Telecommand/Telemetry Request Details</h2>
 <h3 id="SIDD-018">SET Telecommand <small>SIDD-018</small></h3>
+<p>The SET Telecommand supports use of ALL keywords. The SET Telecommand requires one or more keywords to be valid. The SET Telecommand always prompts a REGISTER Telemetry Response to confirm the updated register values.</p>
+<h3 id="SIDD-021">ECHO Telecommand <small>SIDD-021</small></h3>
+<p>The ECHO Telecommand does not support any keywords. The ECHO Telecommand always prompts an ECHO_REPLY Telemetry Response to confirm reception of the ECHO Telecommand. This Telecommand is intended for connection confirmation purposes.</p>
+<h3 id="SIDD-022">TARGET_ADD Telecommand <small>SIDD-022</small></h3>
+<p>The TARGET_ADD Telecommand supports use of the Quaternion Telecommand keywords. It requires the Q1, Q2, and Q3 keywords. It also requires the Q0 keyword if the QUAT_FORMAT is Q0; otherwise, it also requires the Q4 keyword. If QUAT_FORMAT is unknown to the user, the user may elect to include the QUAT_FORMAT of the message. If QUAT_FORMAT is included, the TARGET_ADD Telecommand always prompts a REGISTER Telemetry response to confirm the updated register values. If the QUAT_FORMAT is not included, and if the registered QUAT_FORMAT disagrees with the arguments supplied, then the command is invalid, prompting an ERROR_STATE Telemetry Response with ARGUMENT_ERROR and QUAT_DISAGREE_ERROR set 'ON' and included. Otherwise, the TARGET_ADD Telecommand always prompts a CURRENT_TARGET Telemetry Response to confirm the current target.</p>
+<p><em>Note: The CORALS Testbed supports multiple stacked targets. Therefore, the TARGET_ADD CURRENT_TARGET Telemetry Response may not represent the commanded data if there are queued targets. It will always include the current target data.</em></p>
+<h3 id="SIDD-023">HALT Telecommand <small>SIDD-023</small></h3>
+<p>The HALT Telecommand does not support any keywords. The HALT Telecommand always prompts a HALT_STATE Telemetry Response to confirm the halt. The HALT Telecommand always causes motor master power off. Therefore, the HALT Telecommand prompts a REGISTER Telemetry Response including GM_MASTER_POWER and SM_MASTER_POWER to confirm CMG power discontinuity.</p>
+<h3 id="SIDD-024">SET_POWER Telecommand <small>SIDD-024</small></h3>
+<p>The SET_POWER Telecommand supports use of the Power Control keywords. It requires inclusion of one or more keywords to be valid. The SET_POWER Telecommand always prompts a POWER_STATE Telemetry Response including the changed keywords.</p>
+<h3 id="SIDD-025">SET_INERTIA Telecommand <small>SIDD-025</small></h3>
+<p>The SET_INERTIA Telecommand supports use of the Inertia keywords. It requires inclusion of ALL Inertia keywords to be valid. The SET_INERTIA Telecommand always prompts a INERTIA_MATRIX Telemetry Response including the changed keywords.</p>
+<h3 id="SIDD-026">SET_CONTROL Telecommand <small>SIDD-026</small></h3>
+<p>The SET_CONTROL Telecommand supports use of the CORALS Control Parameter keywords. It requires including of one or more loop rate keywords or all gain keywords to be valid (if a non-zero number of gain keywords are included, all gain keywords must be included regardless of loop rate keywords). The SET_CONTROL Telecommand always prompts a CONTROL_STATE Telemetry Response including the changed keywords.</p>
+<h3 id="SIDD-020">GET Telemetry Request <small>SIDD-020</small></h3>
+<p>The GET Telemetry Request supports use of ALL keywords. The GET Telemetry Request requires one or more keywords to be valid. Uniquely, the GET keywords are valid with value pairs (entered value pairs <strong>SHALL</strong> be disregarded). The GET Telemetry Request always prompts a REGISTER Telemetry Response containing the requested register values.</p>
       </div>
     </div>
 </div>

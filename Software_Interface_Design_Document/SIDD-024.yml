@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  SET_POWER Telecommand
+level: 5.2.5
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  The SET_POWER Telecommand supports use of the Power Control keywords. It requires inclusion of one or more keywords to be valid. The SET_POWER Telecommand always prompts a POWER_STATE Telemetry Response including the changed keywords.

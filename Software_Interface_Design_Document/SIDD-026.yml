@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  SET_CONTROL Telecommand
+level: 5.2.7
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  The SET_CONTROL Telecommand supports use of the CORALS Control Parameter keywords. It requires including of one or more loop rate keywords or all gain keywords to be valid (if a non-zero number of gain keywords are included, all gain keywords must be included regardless of loop rate keywords). The SET_CONTROL Telecommand always prompts a CONTROL_STATE Telemetry Response including the changed keywords.

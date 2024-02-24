@@ -1,0 +1,13 @@
+active: true
+derived: false
+header: |
+  TARGET_ADD Telecommand
+level: 5.2.3
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  The TARGET_ADD Telecommand supports use of the Quaternion Telecommand keywords. It requires the Q1, Q2, and Q3 keywords. It also requires the Q0 keyword if the QUAT_FORMAT is Q0; otherwise, it also requires the Q4 keyword. If QUAT_FORMAT is unknown to the user, the user may elect to include the QUAT_FORMAT of the message. If QUAT_FORMAT is included, the TARGET_ADD Telecommand always prompts a REGISTER Telemetry response to confirm the updated register values. If the QUAT_FORMAT is not included, and if the registered QUAT_FORMAT disagrees with the arguments supplied, then the command is invalid, prompting an ERROR_STATE Telemetry Response with ARGUMENT_ERROR and QUAT_DISAGREE_ERROR set 'ON' and included. Otherwise, the TARGET_ADD Telecommand always prompts a CURRENT_TARGET Telemetry Response to confirm the current target.
+
+  *Note: The CORALS Testbed supports multiple stacked targets. Therefore, the TARGET_ADD CURRENT_TARGET Telemetry Response may not represent the commanded data if there are queued targets. It will always include the current target data.*

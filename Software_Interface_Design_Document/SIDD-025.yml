@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  SET_INERTIA Telecommand
+level: 5.2.6
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  The SET_INERTIA Telecommand supports use of the Inertia keywords. It requires inclusion of ALL Inertia keywords to be valid. The SET_INERTIA Telecommand always prompts a INERTIA_MATRIX Telemetry Response including the changed keywords.
