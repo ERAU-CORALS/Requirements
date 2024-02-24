@@ -8,7 +8,7 @@ normative: true
 ref: ''
 reviewed: null
 text: |
-  DARTS **SHALL** support the following telecommands:
+  CORALS **SHALL** support the following telemetry replies:
 
   * REGISTER
   * ECHO_REPLY

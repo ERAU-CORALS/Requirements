@@ -8,7 +8,7 @@ normative: true
 ref: ''
 reviewed: null
 text: |
-  DARTS **SHALL** support the following telecommands:
+  DARTS **SHALL** support the following telemetry requests:
 
   * GET
   * GET_TARGET

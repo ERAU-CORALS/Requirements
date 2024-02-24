@@ -11,5 +11,5 @@ text: |
   The Bluetooth Serial Bus **SHALL** use the following communication format:
 
   ```
-  TARGET . LEN COMMAND, KEY VALUE, KEY VALUE ..., KEY VALUE . CRC32 0xABCDEF01
+  TARGET . LEN PACKET_TYPE, KEY VALUE, KEY VALUE ..., KEY VALUE . CRC32 0xABCDEF01
   ```

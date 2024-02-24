@@ -1,7 +1,7 @@
 active: true
 derived: false
 header: |
-  New item
+  SET Telecommand
 level: 5.2.1
 links: []
 normative: true

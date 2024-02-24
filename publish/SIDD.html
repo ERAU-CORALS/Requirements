@@ -47,7 +47,7 @@
 <li><a href="#SIDD-005">Telecommand/Telemetry Details</a><ul>
 <li><a href="#SIDD-016">Telecommand/Telemetry Keywords</a></li>
 <li><a href="#SIDD-017">Telecommand/Telemetry Request Details</a><ul>
-<li><a href="#SIDD-018">New item</a></li>
+<li><a href="#SIDD-018">SET Telecommand</a></li>
 </ul>
 </li>
 </ul>
@@ -70,32 +70,26 @@
 <p>DARTS and the CORALS Testbed communicate using a Bluetooth Serial connection. This means that loss is possible, and data could be corrupted in transmission. To detect and prevent this, the CORALS Testbed and HDARS will use a restricted, keyword-based communication protocol to minimize error passthrough.</p>
 <h3 id="SIDD-009">Message Format <small>SIDD-009</small></h3>
 <p>The Bluetooth Serial Bus <strong>SHALL</strong> use the following communication format:</p>
-<pre><code>TARGET . LEN COMMAND, KEY VALUE, KEY VALUE ..., KEY VALUE . CRC32 0xABCDEF01
+<pre><code>TARGET . LEN PACKET_TYPE, KEY VALUE, KEY VALUE ..., KEY VALUE . CRC32 0xABCDEF01
 </code></pre>
 <h3 id="SIDD-010">Valid Targets (TARGET) <small>SIDD-010</small></h3>
 <p>The Bluetooth Communication bus <strong>SHALL</strong> support two targets:</p>
 <table>
-  <tbody>
-    <tr>
-      <th>
-        Valid Targets
-      </th>
-    </tr>
-    <tr>
-      <td>
-        DARTS
-      </td>
-    </tr>
-    <tr>
-      <td>
-        CORALS
-      </td>
-    </tr>
-  </tbody>
-</table
-
-### Valid Length (LEN) <small>
-<p>SIDD-011</small> {#SIDD-011 }</p>
+<thead>
+<tr>
+<th>Valid Targets</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DARTS</td>
+</tr>
+<tr>
+<td>CORALS</td>
+</tr>
+</tbody>
+</table>
+<h3 id="SIDD-011">Valid Length (LEN) <small>SIDD-011</small></h3>
 <p>LEN <strong>SHALL</strong> be an unsigned integer decimal numeric value which accounts for the entire message length.</p>
 <h3 id="SIDD-012">CRC32 Checksum <small>SIDD-012</small></h3>
 <p>The message <strong>SHALL</strong> be proofed by the CRC32 Checksum attached to the end of the message. The checksum will be unique for all messages less than 2^32 characters in length.</p>
@@ -131,12 +125,12 @@
 <li>TARGET_ADD</li>
 <li>HALT</li>
 <li>SET_POWER</li>
-<li>INERTIA</li>
+<li>SET_INERTIA</li>
 <li>SET_CONTROL</li>
 <li>SET_SINGULARITY</li>
 </ul>
 <h2 id="SIDD-015">DARTS Telemetry Requests <small>SIDD-015</small></h2>
-<p>DARTS <strong>SHALL</strong> support the following telecommands:</p>
+<p>DARTS <strong>SHALL</strong> support the following telemetry requests:</p>
 <ul>
 <li>GET</li>
 <li>GET_TARGET</li>
@@ -150,7 +144,7 @@
 <li>GET_ATTITUDE</li>
 </ul>
 <h2 id="SIDD-019">CORALS Telemetry Replies <small>SIDD-019</small></h2>
-<p>DARTS <strong>SHALL</strong> support the following telecommands:</p>
+<p>CORALS <strong>SHALL</strong> support the following telemetry replies:</p>
 <ul>
 <li>REGISTER</li>
 <li>ECHO_REPLY</li>
@@ -165,9 +159,377 @@
 <li>ATTITUDE</li>
 </ul>
 <h1 id="SIDD-005">Telecommand/Telemetry Details</h1>
-<h2 id="SIDD-016">Telecommand/Telemetry Keywords</h2>
+<h2 id="SIDD-016">Telecommand/Telemetry Keywords <small>SIDD-016</small></h2>
+<p>The valid keywords for CORALS communication are listed below with possible value pairs and packet coorelations.</p>
+<p><em>Note: All Keywords supported by SET, GET, and REGISTER</em></p>
+<table>
+<thead>
+<tr>
+<th>Keyword</th>
+<th>Valid Values</th>
+<th>Valid Packet Types</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>COMM_LR</td>
+<td>decimal frequency (Hz)</td>
+<td>SET_CONTROL, GET_CONTROL, CONTROL_STATE</td>
+</tr>
+<tr>
+<td>CONTROL_LR</td>
+<td>decimal frequency (Hz)</td>
+<td>SET_CONTROL, GET_CONTROL, CONTROL_STATE</td>
+</tr>
+<tr>
+<td>ENABLE_OVERRIDE</td>
+<td>'ON', 'OFF'</td>
+<td>SET_SINGULARITY, GET_SINGULARITY, SINGULARITY_STATE</td>
+</tr>
+<tr>
+<td>GAIN11</td>
+<td>decimal</td>
+<td>SET_CONTROL, GET_CONTROL, CONTROL_STATE</td>
+</tr>
+<tr>
+<td>GAIN12</td>
+<td>decimal</td>
+<td>SET_CONTROL, GET_CONTROL, CONTROL_STATE</td>
+</tr>
+<tr>
+<td>GAIN13</td>
+<td>decimal</td>
+<td>SET_CONTROL, GET_CONTROL, CONTROL_STATE</td>
+</tr>
+<tr>
+<td>GAIN21</td>
+<td>decimal</td>
+<td>SET_CONTROL, GET_CONTROL, CONTROL_STATE</td>
+</tr>
+<tr>
+<td>GAIN22</td>
+<td>decimal</td>
+<td>SET_CONTROL, GET_CONTROL, CONTROL_STATE</td>
+</tr>
+<tr>
+<td>GAIN23</td>
+<td>decimal</td>
+<td>SET_CONTROL, GET_CONTROL, CONTROL_STATE</td>
+</tr>
+<tr>
+<td>GAIN31</td>
+<td>decimal</td>
+<td>SET_CONTROL, GET_CONTROL, CONTROL_STATE</td>
+</tr>
+<tr>
+<td>GAIN32</td>
+<td>decimal</td>
+<td>SET_CONTROL, GET_CONTROL, CONTROL_STATE</td>
+</tr>
+<tr>
+<td>GAIN33</td>
+<td>decimal</td>
+<td>SET_CONTROL, GET_CONTROL, CONTROL_STATE</td>
+</tr>
+<tr>
+<td>GM_MASTER_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>GM0_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>GM1_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>GM2_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>GM3_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>GM4_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>GM5_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>GM6_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>GM7_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>GM8_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>GM9_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>GMA_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>GMB_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>GMC_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>GMD_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>GME_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>GMF_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>Q0</td>
+<td>decimal [0, 1]</td>
+<td>TARGET_ADD, GET_TARGET, CURRENT_TARGET</td>
+</tr>
+<tr>
+<td>Q1</td>
+<td>decimal [0, 1]</td>
+<td>TARGET_ADD, GET_TARGET, CURRENT_TARGET</td>
+</tr>
+<tr>
+<td>Q2</td>
+<td>decimal [0, 1]</td>
+<td>TARGET_ADD, GET_TARGET, CURRENT_TARGET</td>
+</tr>
+<tr>
+<td>Q3</td>
+<td>decimal [0, 1]</td>
+<td>TARGET_ADD, GET_TARGET, CURRENT_TARGET</td>
+</tr>
+<tr>
+<td>Q4</td>
+<td>decimal [0, 1]</td>
+<td>TARGET_ADD, GET_TARGET, CURRENT_TARGET</td>
+</tr>
+<tr>
+<td>QUAT_FORMAT</td>
+<td>'Q0', 'Q4'</td>
+<td>TARGET_ADD, GET_TARGET, CURRENT_TARGET</td>
+</tr>
+<tr>
+<td>SINGULARITY_HALTING</td>
+<td>'ON', 'OFF'</td>
+<td>SET_SINGULARITY, GET_SINGULARITY, SINGULARITY_STATE</td>
+</tr>
+<tr>
+<td>SINGULARITY_THOLD</td>
+<td>decimal [0, 1]</td>
+<td>SET_SINGULARITY, GET_SINGULARITY, SINGULARITY_STATE</td>
+</tr>
+<tr>
+<td>SINGULARITY_TRIP</td>
+<td>'SET', 'RESET'</td>
+<td>SET_SINGULARITY, GET_SINGULARITY, SINGULARITY_STATE</td>
+</tr>
+<tr>
+<td>SM_MASTER_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>SM0_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>SM1_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>SM2_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>SM3_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>SM4_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>SM5_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>SM6_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>SM7_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>SM8_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>SM9_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>SMA_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>SMB_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>SMC_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>SMD_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>SME_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>SMF_POWER</td>
+<td>'ON', 'OFF'</td>
+<td>SET_POWER, GET_POWER, POWER_STATE</td>
+</tr>
+<tr>
+<td>TARGET0</td>
+<td>{decimal (Hex)} x 4</td>
+<td>TARGET_LIST</td>
+</tr>
+<tr>
+<td>TARGET1</td>
+<td>{decimal (Hex)} x 4</td>
+<td>TARGET_LIST</td>
+</tr>
+<tr>
+<td>TARGET2</td>
+<td>{decimal (Hex)} x 4</td>
+<td>TARGET_LIST</td>
+</tr>
+<tr>
+<td>TARGET3</td>
+<td>{decimal (Hex)} x 4</td>
+<td>TARGET_LIST</td>
+</tr>
+<tr>
+<td>TARGET4</td>
+<td>{decimal (Hex)} x 4</td>
+<td>TARGET_LIST</td>
+</tr>
+<tr>
+<td>TARGET5</td>
+<td>{decimal (Hex)} x 4</td>
+<td>TARGET_LIST</td>
+</tr>
+<tr>
+<td>TARGET6</td>
+<td>{decimal (Hex)} x 4</td>
+<td>TARGET_LIST</td>
+</tr>
+<tr>
+<td>TARGET7</td>
+<td>{decimal (Hex)} x 4</td>
+<td>TARGET_LIST</td>
+</tr>
+<tr>
+<td>TARGET8</td>
+<td>{decimal (Hex)} x 4</td>
+<td>TARGET_LIST</td>
+</tr>
+<tr>
+<td>TARGET9</td>
+<td>{decimal (Hex)} x 4</td>
+<td>TARGET_LIST</td>
+</tr>
+<tr>
+<td>TARGETA</td>
+<td>{decimal (Hex)} x 4</td>
+<td>TARGET_LIST</td>
+</tr>
+<tr>
+<td>TARGETB</td>
+<td>{decimal (Hex)} x 4</td>
+<td>TARGET_LIST</td>
+</tr>
+<tr>
+<td>TARGETC</td>
+<td>{decimal (Hex)} x 4</td>
+<td>TARGET_LIST</td>
+</tr>
+<tr>
+<td>TARGETD</td>
+<td>{decimal (Hex)} x 4</td>
+<td>TARGET_LIST</td>
+</tr>
+<tr>
+<td>TARGETE</td>
+<td>{decimal (Hex)} x 4</td>
+<td>TARGET_LIST</td>
+</tr>
+<tr>
+<td>TARGETF</td>
+<td>{decimal (Hex)} x 4</td>
+<td>TARGET_LIST</td>
+</tr>
+</tbody>
+</table>
 <h2 id="SIDD-017">Telecommand/Telemetry Request Details</h2>
-<h3 id="SIDD-018">New item <small>SIDD-018</small></h3>
+<h3 id="SIDD-018">SET Telecommand <small>SIDD-018</small></h3>
       </div>
     </div>
 </div>

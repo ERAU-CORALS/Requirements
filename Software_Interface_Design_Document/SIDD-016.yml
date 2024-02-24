@@ -1,10 +1,87 @@
 active: true
 derived: false
-header: ''
-level: 5.1.0
+header: |
+  Telecommand/Telemetry Keywords
+level: 5.1
 links: []
-normative: false
+normative: true
 ref: ''
 reviewed: null
 text: |
-  Telecommand/Telemetry Keywords
+  The valid keywords for CORALS communication are listed below with possible value pairs and packet coorelations.
+
+  *Note: All Keywords supported by SET, GET, and REGISTER*
+
+  | Keyword | Valid Values | Valid Packet Types |
+  | ------- | ------------ | ------------------ |
+  | COMM_LR | decimal frequency (Hz) | SET_CONTROL, GET_CONTROL, CONTROL_STATE |
+  | CONTROL_LR | decimal frequency (Hz) | SET_CONTROL, GET_CONTROL, CONTROL_STATE |
+  | ENABLE_OVERRIDE | 'ON', 'OFF' | SET_SINGULARITY, GET_SINGULARITY, SINGULARITY_STATE |
+  | GAIN11 | decimal | SET_CONTROL, GET_CONTROL, CONTROL_STATE |
+  | GAIN12 | decimal | SET_CONTROL, GET_CONTROL, CONTROL_STATE |
+  | GAIN13 | decimal | SET_CONTROL, GET_CONTROL, CONTROL_STATE |
+  | GAIN21 | decimal | SET_CONTROL, GET_CONTROL, CONTROL_STATE |
+  | GAIN22 | decimal | SET_CONTROL, GET_CONTROL, CONTROL_STATE |
+  | GAIN23 | decimal | SET_CONTROL, GET_CONTROL, CONTROL_STATE |
+  | GAIN31 | decimal | SET_CONTROL, GET_CONTROL, CONTROL_STATE |
+  | GAIN32 | decimal | SET_CONTROL, GET_CONTROL, CONTROL_STATE |
+  | GAIN33 | decimal | SET_CONTROL, GET_CONTROL, CONTROL_STATE |
+  | GM_MASTER_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | GM0_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | GM1_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | GM2_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | GM3_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | GM4_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | GM5_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | GM6_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | GM7_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | GM8_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | GM9_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | GMA_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | GMB_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | GMC_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | GMD_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | GME_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | GMF_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | Q0 | decimal [0, 1] | TARGET_ADD, GET_TARGET, CURRENT_TARGET |
+  | Q1 | decimal [0, 1] | TARGET_ADD, GET_TARGET, CURRENT_TARGET |
+  | Q2 | decimal [0, 1] | TARGET_ADD, GET_TARGET, CURRENT_TARGET |
+  | Q3 | decimal [0, 1] | TARGET_ADD, GET_TARGET, CURRENT_TARGET |
+  | Q4 | decimal [0, 1] | TARGET_ADD, GET_TARGET, CURRENT_TARGET |
+  | QUAT_FORMAT | 'Q0', 'Q4' | TARGET_ADD, GET_TARGET, CURRENT_TARGET |
+  | SINGULARITY_HALTING | 'ON', 'OFF' | SET_SINGULARITY, GET_SINGULARITY, SINGULARITY_STATE |
+  | SINGULARITY_THOLD | decimal [0, 1] | SET_SINGULARITY, GET_SINGULARITY, SINGULARITY_STATE |
+  | SINGULARITY_TRIP | 'SET', 'RESET' | SET_SINGULARITY, GET_SINGULARITY, SINGULARITY_STATE |
+  | SM_MASTER_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | SM0_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | SM1_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | SM2_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | SM3_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | SM4_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | SM5_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | SM6_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | SM7_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | SM8_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | SM9_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | SMA_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | SMB_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | SMC_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | SMD_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | SME_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | SMF_POWER | 'ON', 'OFF' | SET_POWER, GET_POWER, POWER_STATE |
+  | TARGET0 | {decimal (Hex)} x 4 | TARGET_LIST |
+  | TARGET1 | {decimal (Hex)} x 4 | TARGET_LIST |
+  | TARGET2 | {decimal (Hex)} x 4 | TARGET_LIST |
+  | TARGET3 | {decimal (Hex)} x 4 | TARGET_LIST |
+  | TARGET4 | {decimal (Hex)} x 4 | TARGET_LIST |
+  | TARGET5 | {decimal (Hex)} x 4 | TARGET_LIST |
+  | TARGET6 | {decimal (Hex)} x 4 | TARGET_LIST |
+  | TARGET7 | {decimal (Hex)} x 4 | TARGET_LIST |
+  | TARGET8 | {decimal (Hex)} x 4 | TARGET_LIST |
+  | TARGET9 | {decimal (Hex)} x 4 | TARGET_LIST |
+  | TARGETA | {decimal (Hex)} x 4 | TARGET_LIST |
+  | TARGETB | {decimal (Hex)} x 4 | TARGET_LIST |
+  | TARGETC | {decimal (Hex)} x 4 | TARGET_LIST |
+  | TARGETD | {decimal (Hex)} x 4 | TARGET_LIST |
+  | TARGETE | {decimal (Hex)} x 4 | TARGET_LIST |
+  | TARGETF | {decimal (Hex)} x 4 | TARGET_LIST |
