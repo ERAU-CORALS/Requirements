@@ -7,4 +7,14 @@ links: []
 normative: true
 ref: ''
 reviewed: IxrzlBRLNe916gsWZAG3ehrIlc-Y3ZM1PuoXZxlQErk=
-text: ''
+text: |
+  DARTS **SHALL** support the following telecommands:
+
+  * SET
+  * ECHO
+  * TARGET_ADD
+  * HALT
+  * SET_POWER
+  * INERTIA
+  * SET_CONTROL
+  * SET_SINGULARITY

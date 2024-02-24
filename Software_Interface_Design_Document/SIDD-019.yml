@@ -1,0 +1,23 @@
+active: true
+derived: false
+header: |
+  CORALS Telemetry Replies
+level: 4.3
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  DARTS **SHALL** support the following telecommands:
+
+  * REGISTER
+  * ECHO_REPLY
+  * CURRENT_TARGET
+  * TARGET_LIST
+  * HALT_STATE
+  * POWER_STATE
+  * INERTIA_MATRIX
+  * CONTROL_STATE
+  * SINGULARITY_STATE
+  * CORALS_STATE
+  * ATTITUDE

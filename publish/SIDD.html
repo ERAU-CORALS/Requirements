@@ -40,9 +40,18 @@
 </li>
 <li><a href="#SIDD-004">Available Commands</a><ul>
 <li><a href="#SIDD-014">DARTS Telecommands</a></li>
+<li><a href="#SIDD-015">DARTS Telemetry Requests</a></li>
+<li><a href="#SIDD-019">CORALS Telemetry Replies</a></li>
 </ul>
 </li>
-<li><a href="#SIDD-005">Command Details</a></li>
+<li><a href="#SIDD-005">Telecommand/Telemetry Details</a><ul>
+<li><a href="#SIDD-016">Telecommand/Telemetry Keywords</a></li>
+<li><a href="#SIDD-017">Telecommand/Telemetry Request Details</a><ul>
+<li><a href="#SIDD-018">New item</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
           </nav>
       </div>
@@ -115,7 +124,50 @@
 <h1 id="SIDD-004">Available Commands</h1>
 <p>There are commands available depending on the target selected. They are enumerated in this section:</p>
 <h2 id="SIDD-014">DARTS Telecommands <small>SIDD-014</small></h2>
-<h1 id="SIDD-005">Command Details</h1>
+<p>DARTS <strong>SHALL</strong> support the following telecommands:</p>
+<ul>
+<li>SET</li>
+<li>ECHO</li>
+<li>TARGET_ADD</li>
+<li>HALT</li>
+<li>SET_POWER</li>
+<li>INERTIA</li>
+<li>SET_CONTROL</li>
+<li>SET_SINGULARITY</li>
+</ul>
+<h2 id="SIDD-015">DARTS Telemetry Requests <small>SIDD-015</small></h2>
+<p>DARTS <strong>SHALL</strong> support the following telecommands:</p>
+<ul>
+<li>GET</li>
+<li>GET_TARGET</li>
+<li>GET_TARGETS</li>
+<li>GET_HALT</li>
+<li>GET_POWER</li>
+<li>GET_INERTIA</li>
+<li>GET_CONTROL</li>
+<li>GET_SINGULARITY</li>
+<li>GET_STATE</li>
+<li>GET_ATTITUDE</li>
+</ul>
+<h2 id="SIDD-019">CORALS Telemetry Replies <small>SIDD-019</small></h2>
+<p>DARTS <strong>SHALL</strong> support the following telecommands:</p>
+<ul>
+<li>REGISTER</li>
+<li>ECHO_REPLY</li>
+<li>CURRENT_TARGET</li>
+<li>TARGET_LIST</li>
+<li>HALT_STATE</li>
+<li>POWER_STATE</li>
+<li>INERTIA_MATRIX</li>
+<li>CONTROL_STATE</li>
+<li>SINGULARITY_STATE</li>
+<li>CORALS_STATE</li>
+<li>ATTITUDE</li>
+</ul>
+<h1 id="SIDD-005">Telecommand/Telemetry Details</h1>
+<h2 id="SIDD-016">Telecommand/Telemetry Keywords</h2>
+<h2 id="SIDD-017">Telecommand/Telemetry Request Details</h2>
+<h3 id="SIDD-018">New item <small>SIDD-018</small></h3>
       </div>
     </div>
 </div>

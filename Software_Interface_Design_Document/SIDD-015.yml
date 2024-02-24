@@ -1,0 +1,22 @@
+active: true
+derived: false
+header: |
+  DARTS Telemetry Requests
+level: 4.2
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  DARTS **SHALL** support the following telecommands:
+
+  * GET
+  * GET_TARGET
+  * GET_TARGETS
+  * GET_HALT
+  * GET_POWER
+  * GET_INERTIA
+  * GET_CONTROL
+  * GET_SINGULARITY
+  * GET_STATE
+  * GET_ATTITUDE
