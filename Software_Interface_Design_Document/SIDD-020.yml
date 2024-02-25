@@ -2,10 +2,10 @@ active: true
 derived: false
 header: |
   GET Telemetry Request
-level: 5.2.20
+level: 5.3.1
 links: []
 normative: true
 ref: ''
-reviewed: null
+reviewed: rHfqii-c2uycCqkFewMVgjgCWN7CPp4oaSJNO8SdzYw=
 text: |
-  The GET Telemetry Request supports use of ALL keywords. The GET Telemetry Request requires one or more keywords to be valid. Uniquely, the GET keywords are valid with value pairs (entered value pairs **SHALL** be disregarded). The GET Telemetry Request always prompts a REGISTER Telemetry Response containing the requested register values.
+  The GET Telemetry Request supports use of ALL keywords. The GET Telemetry Request requires one or more keywords to be valid. The GET Telemetry Request always prompts a REGISTER Telemetry Response containing the requested register values.

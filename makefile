@@ -1,4 +1,4 @@
-all: integrity publish
+all: review integrity publish
 
 publish: FORCE
 	doorstop publish --no-levels all all publish
@@ -10,3 +10,6 @@ integrity:
 
 pathfix:
 	set PATH=%PATH%;%APPDATA%Roaming\Python\Python311\Scripts
+
+review:
+	doorstop review all

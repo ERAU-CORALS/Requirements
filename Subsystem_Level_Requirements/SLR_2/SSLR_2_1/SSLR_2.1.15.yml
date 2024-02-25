@@ -11,6 +11,6 @@ links:
 - SLR_2.1: htUuBaJix4GUfLHWdRoE224pfbiQsqmngH94zNcJfAo=
 normative: true
 ref: ''
-reviewed: null
+reviewed: hi6Cl9ItpMrx_70BFDbV_AeDBhYIBVqOVbmiTJ41ycE=
 text: |
   CORALS **SHALL** receive telecommand packets from DARTS over Bluetooth.

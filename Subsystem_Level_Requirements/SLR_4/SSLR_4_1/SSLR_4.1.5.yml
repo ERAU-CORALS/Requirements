@@ -11,6 +11,6 @@ links:
 - SLR_4.1: cp-io6zjqP8iPgDunONfXh-32O_eAAKJBYSY3AB4xtk=
 normative: true
 ref: ''
-reviewed: mvEjSwnDBUgeraqwUrZVGYpWPlUsHzFuguFoZgzqERo=
+reviewed: In-ctNIuS7Drs72WhqbhJG-Moaq0oWnyFOhViinH6aQ=
 text: |
   CORALS Software **SHALL** track the position of an even, dynamic number of CMG gimbal motors.

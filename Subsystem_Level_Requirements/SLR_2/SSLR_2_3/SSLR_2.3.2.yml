@@ -11,6 +11,6 @@ links:
 - SLR_2.3: UFBkHwfdJmB8-xiUaQkt8xY-thlML4N1Ch1Yr28S27U=
 normative: true
 ref: ''
-reviewed: gsrhBdBTrvLpQ_a1N0xHndI54dRfslADURrJXKnUHjw=
+reviewed: 7TIo955jE-AVcTy69gYGKyoqk9H_eK_Wxh_UIUqohzc=
 text: |
   DARTS  **SHALL** initialize a new formatted data file on session startup.

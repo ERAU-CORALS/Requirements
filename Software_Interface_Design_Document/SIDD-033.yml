@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  GET_INERTIA Telemetry Request
+level: 5.3.6
+links: []
+normative: true
+ref: ''
+reviewed: cc2jYpUmkGXbTaM6YP78iNAofX064foorHpK9frNGfE=
+text: |
+  The GET_INERTIA Telemetry Request supports use of the Inertial keywords. If keywords are included, the GET_INERTIA Telemetry Request always prompts a INERTIA_MATRIX Telemetry Response inncluding the requested data. Otherwise, the GET_INERTIA Telemetry Request always prompts a INERTIA_MATRIX Telemetry Response including all Inertia data.

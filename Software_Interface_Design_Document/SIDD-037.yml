@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  GET_ATTITUDE Telemetry Request
+level: 5.3.10
+links: []
+normative: true
+ref: ''
+reviewed: QzdXZRfouUNpuOuMVy6fKV7O830YLmdh7JFRkq7KBm0=
+text: |
+  The GET_ATTITUDE Telemetry Request does not support any keywords. The GET_ATTITUDE Telemetry Request always prompts an ATTITUDE Telemetry Response.

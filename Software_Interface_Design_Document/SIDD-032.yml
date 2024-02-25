@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  GET_POWER Telemetry Request
+level: 5.3.5
+links: []
+normative: true
+ref: ''
+reviewed: Q_zNuq7GKhW8_7ZQRWP_eXRfqrz1YzToy0nc86gDe4U=
+text: |
+  The GET_POWER Telemetry Request supports use of the Power Control keywords. If keywords are included, the GET_POWER Telemetry Request always prompts a POWER_STATE Telemetry Response inncluding the requested data. Otherwise, the GET_POWER Telemetry Request always prompts a POWER_STATE Telemetry Response including all Power Control data.

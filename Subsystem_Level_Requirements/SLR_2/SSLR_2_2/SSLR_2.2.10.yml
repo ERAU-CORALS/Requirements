@@ -11,6 +11,6 @@ links:
 - SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
 normative: true
 ref: ''
-reviewed: du83igG-0ktP4Osi8jQoTftuBdx7If60dRlqLQW2rEQ=
+reviewed: ZlfG5ecJX-khmcSreMS-3Oc8zbpOQs6ffXazwzsirN8=
 text: |
   CORALS **SHALL** transmit telemetry response packets from DARTS over Bluetooth.

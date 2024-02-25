@@ -11,6 +11,6 @@ links:
 - SLR_2.3: UFBkHwfdJmB8-xiUaQkt8xY-thlML4N1Ch1Yr28S27U=
 normative: true
 ref: ''
-reviewed: rmKb4JZ8JVPSmIW1LIAkBpTkda6YBHUXBulcPcruDoE=
+reviewed: 8N2ZJFMSbPl4qXfrY_eGYCC5EsWwPWOLUlNxMd0M5Dc=
 text: |
   DARTS **SHALL** write all transmitted telecommands and telemetry requests to a session telemetry/telecommand log file.

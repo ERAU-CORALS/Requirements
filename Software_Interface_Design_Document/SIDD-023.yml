@@ -6,6 +6,6 @@ level: 5.2.4
 links: []
 normative: true
 ref: ''
-reviewed: null
+reviewed: N5dqNrnFMycNY7K12FAj1XcxZvHGzyj5GCIA37dor1Q=
 text: |
   The HALT Telecommand does not support any keywords. The HALT Telecommand always prompts a HALT_STATE Telemetry Response to confirm the halt. The HALT Telecommand always causes motor master power off. Therefore, the HALT Telecommand prompts a REGISTER Telemetry Response including GM_MASTER_POWER and SM_MASTER_POWER to confirm CMG power discontinuity.

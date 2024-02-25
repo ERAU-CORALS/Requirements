@@ -11,6 +11,6 @@ links:
 - SLR_2.1: Q9cZiDV8pMzLppmxkkj9wgW9D3qeKnBWlCbkTjJpPB0=
 normative: true
 ref: ''
-reviewed: ZHdmQPxC92PRP1ha4l5MeZ7fpcLpew07TSsNmNsdq-s=
+reviewed: ACj44_S3I1LAAUrKX5ApeN9CaU33X9rDb9Ui2WrAxZY=
 text: |
   CORALS **SHALL** use the Data Acquisition and Remote Telecommand Script (DARTS) to communicate to CORALS testbed telecommands.

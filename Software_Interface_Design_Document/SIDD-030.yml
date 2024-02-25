@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  GET_TARGETS Telemetry Request
+level: 5.3.3
+links: []
+normative: true
+ref: ''
+reviewed: 14LMcdFtzIEUuBnxQZ3kT7_Q0nrcVUJ2ZSGcBx6Sma4=
+text: |
+  The GET_TARGETS Telemetry Request does not support any keywords. The GET_TARGETS Telemetry Request always prompts a TARGET_LIST Telemetry Response.

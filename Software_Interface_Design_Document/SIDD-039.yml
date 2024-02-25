@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  CLEAR_ERRORS Telecommand
+level: 5.2.10
+links: []
+normative: true
+ref: ''
+reviewed: MGLAWPZfNe98euMb1O7K5TMcwPi2h1a-j04e-ayowvA=
+text: |
+  The CLEAR_ERRORS Telecommand does not support any keywords. The CLEAR_ERRORS Telecommand always prompts an ERROR_STATE Telemetry Response.

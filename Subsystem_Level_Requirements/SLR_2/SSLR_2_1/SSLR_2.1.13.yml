@@ -11,6 +11,6 @@ links:
 - SLR_2.1: htUuBaJix4GUfLHWdRoE224pfbiQsqmngH94zNcJfAo=
 normative: true
 ref: ''
-reviewed: null
+reviewed: _jxmEcOgIs-gsel6eJ3vdwTaNGsNXvYDg5r5r3gEW-Q=
 text: |
   DARTS **SHALL** transmit telemetry request packets to the CORALS Testbed over Bluetooth.

@@ -11,6 +11,6 @@ links:
 - SLR_2.1: Q9cZiDV8pMzLppmxkkj9wgW9D3qeKnBWlCbkTjJpPB0=
 normative: true
 ref: ''
-reviewed: ekTozu_iqpPGJRTpehV1sK6r08ig1t1mVAkmT1EJobk=
+reviewed: --V86vc5GhDPbWhJcQsfWhRiXwXmuC3PVTYjCG_v5qw=
 text: |
   DARTS **SHALL** transmit telecommand packets to the CORALS Testbed as described in the CORALS Software Interface Design Document.

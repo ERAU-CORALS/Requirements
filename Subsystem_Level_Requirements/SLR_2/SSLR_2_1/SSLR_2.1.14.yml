@@ -11,6 +11,6 @@ links:
 - SLR_2.1: htUuBaJix4GUfLHWdRoE224pfbiQsqmngH94zNcJfAo=
 normative: true
 ref: ''
-reviewed: null
+reviewed: kua_1qT71Ug-TAEcuIHN3-1tpiPJWWK7_48WdSqDQtQ=
 text: |
   DARTS **SHALL** transmit telemetry request packets to the CORALS Testbed as described in the CORALS Software Interface Design Document.

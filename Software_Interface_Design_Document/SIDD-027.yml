@@ -1,11 +1,11 @@
 active: true
 derived: false
 header: |
-  SET_SINGULARITY
+  SET_SINGULARITY Telecommand
 level: 5.2.8
 links: []
 normative: true
 ref: ''
-reviewed: null
+reviewed: luVdxCuHqpPzzdB93N-EpvDA7eKCN9iOMkdLrGAxd1s=
 text: |
-  The SET_SINGULARITY Telecommand supports use of the Singularity keywords. It requires one or more keywords to be valid. If the SINGULARITY_HALTING or SINGULARITY_TRIP keywords are included, then the ENABLE_OVERRIDE keyword must be included and 'ON'. If either aforementioned keyword is included, and if ENABLE_OVERRIDE is not included, then the setting of those particular keywords will be ignored, prompting an ERROR_STATE Telemetry Response with ARGUMENT_ERROR and SINGULARITY_OVERRIDE_ERROR set 'ON' and included. Otherwise, or if other keywords are included, the SET_SINGULARITY prompts a SINGULARITY_STATE Telemetry Response including the changed keywords.
+  The SET_SINGULARITY Telecommand supports use of the Singularity keywords. It requires one or more keywords to be valid. If the SINGULARITY_HALTING or SINGULARITY_TRIP keywords are included, then the ENABLE_OVERRIDE keyword must be included and 'ON'. If either aforementioned keyword is included, and if ENABLE_OVERRIDE is not included or explicitly 'OFF', then the setting of those particular keywords will be ignored, prompting an ERROR_STATE Telemetry Response with ARGUMENT_ERROR and SINGULARITY_OVERRIDE_ERROR set 'ON' and included. Otherwise, or if other keywords are included, the SET_SINGULARITY prompts a SINGULARITY_STATE Telemetry Response including the changed keywords.

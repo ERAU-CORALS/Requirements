@@ -6,6 +6,6 @@ level: 3.1.5
 links: []
 normative: true
 ref: ''
-reviewed: QmjhpjyrPTY9602a0mv7quqgW1e05gMmc-XDnmPwq1Y=
+reviewed: rVFY2KwzVNSsfvkxMMuK5Cb-6e5gNjQxeJtFDGKD54Q=
 text: |
   Considering format, there is little difference between Telemetry Requests, Telemetry Responses, and Telecommands. However, Telemetry Responses are always sent to the DARTS target. Telecommands and Telemetry Requests are always set to the CORALS Target. Telemetry Requests do not include values in their key value pairs; they only contain lists of keys for which they request values.

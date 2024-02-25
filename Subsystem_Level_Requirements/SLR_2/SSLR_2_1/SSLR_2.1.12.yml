@@ -11,6 +11,6 @@ links:
 - SLR_2.1: Q9cZiDV8pMzLppmxkkj9wgW9D3qeKnBWlCbkTjJpPB0=
 normative: true
 ref: ''
-reviewed: Z5UCyPhXEmwbkrhrurzLGqPXxeQzeBPsfRB02poIJ8c=
+reviewed: 5ZC4f2Soe4GAcT9fK0IsQbVLt-zGDBbbr0hLIRH1O3s=
 text: |
   CORALS **SHALL** process telecommands from DARTS if the packet structure and content is valid as described in the CORALS Software Interface Design Document.

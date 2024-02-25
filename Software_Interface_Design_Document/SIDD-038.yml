@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  SET_ERROR Telecommand
+level: 5.2.9
+links: []
+normative: true
+ref: ''
+reviewed: 3jAAh7kx1PWcLYVs32fFjK6FZMlc-wKqpfbueOdUTqg=
+text: |
+  The SET_ERROR Telecommand supports use of the Error keywords. It requires one or more keywords to be valid. If any errors are set to 'ON', then the ENABLE_OVERRIDE keyword must be included and 'ON'. If an error is set to 'ON', and if ENABLE_OVERRIDE is not included or is explicitly 'OFF', then the setting of those particular keywords will be ignored, prompting an ERROR_STATE Telemetry Response with ARGUMENT_ERROR set 'ON' and included. Otherwise, or if other keywords are included, the SET_ERROR prompts a ERROR_STATE Telemetry Response including the changed keywords.

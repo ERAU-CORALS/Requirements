@@ -11,6 +11,6 @@ links:
 - SLR_4.1: cp-io6zjqP8iPgDunONfXh-32O_eAAKJBYSY3AB4xtk=
 normative: true
 ref: ''
-reviewed: u_s2LK3dd7vbfiFUMuj4HHtv-Z3Rp9Zv6v-QFu6S2yY=
+reviewed: sCk1BvvaSvfSXZgS_dPMxLLlHHPWurfR4Y0OIYYobow=
 text: |
   CORALS Software **SHALL** support PWM control of an even, dynamic number of CMG gimbal motors.

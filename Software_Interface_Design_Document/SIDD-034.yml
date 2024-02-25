@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  GET_CONTROL Telemetry Request
+level: 5.3.7
+links: []
+normative: true
+ref: ''
+reviewed: jlxuoQKAO5TZS77zW7akOd0I1e91oEUOA7y8F7gTpA8=
+text: |
+  The GET_CONTROL Telemetry Request supports use of the Control keywords. The GET_CONTROL Telemetry Request requires one or more keywords to be valid.  The GET_CONTROL Telemetry Request always prompts a CONTROL_STATE Telemetry Response.

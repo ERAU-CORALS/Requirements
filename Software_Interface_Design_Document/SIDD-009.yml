@@ -6,7 +6,7 @@ level: 3.1.1
 links: []
 normative: true
 ref: ''
-reviewed: BSxxdPAVNcFfUVXOl2y5jTJfSG9Fq2y8Vdfb6TDH0x4=
+reviewed: CmHZRbTAi2YAoNWMZD1d33EM9z13oRjAMRcpTJ2Dk1Q=
 text: |
   The Bluetooth Serial Bus **SHALL** use the following communication format:
 

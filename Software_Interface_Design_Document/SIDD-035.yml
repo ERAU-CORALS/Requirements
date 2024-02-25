@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  GET_SINGULARITY Telemetry Request
+level: 5.3.8
+links: []
+normative: true
+ref: ''
+reviewed: Df9pOm1QTBfqNKmsMWSkThx4jy9krEfXnM0NOXEyIsg=
+text: |
+  The GET_SINGULARITY Telemetry Request does not support any keywords. The GET_SINGULARITY Telemetry Request always prompts an SINGULARITY_STATE Telemetry Response.

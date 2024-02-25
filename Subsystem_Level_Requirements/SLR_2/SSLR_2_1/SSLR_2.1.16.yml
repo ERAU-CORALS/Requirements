@@ -11,6 +11,6 @@ links:
 - SLR_2.1: htUuBaJix4GUfLHWdRoE224pfbiQsqmngH94zNcJfAo=
 normative: true
 ref: ''
-reviewed: null
+reviewed: M3_8KlKD-ZSkquiMvhoieCtT82EvCo3X8O0to-2ZO8Y=
 text: |
   CORALS **SHALL** process telemetry requests from DARTS if the packet structure and content is valid as described in the CORALS Software Interface Design Document.

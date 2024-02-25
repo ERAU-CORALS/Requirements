@@ -11,6 +11,6 @@ links:
 - SLR_3.5: DP8gE3a0fnlQJAsl3BAfrwXjMaYLlxetQ0m2x70Hklo=
 normative: true
 ref: ''
-reviewed: TiyWt-vDjys1ZzEsGqQxL1UtlOB0Ot8HfJcay83GJxE=
+reviewed: YoZ8oDV7jUSxrqDTUTl_61EmnFefNJ2-s4jput7i7vA=
 text: |
   Each CMG gimbal motor **SHALL** rotate at up to ±3 rad/s.

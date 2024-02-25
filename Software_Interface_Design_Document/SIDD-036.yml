@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  GET_STATE Telemetry Request
+level: 5.3.9
+links: []
+normative: true
+ref: ''
+reviewed: keo1Fg-K9bojZHnIB-b_639kX6tQ9Eb-SAdZneL7xSg=
+text: |
+  The GET_STATE Telemetry Request does not support any keywords. The GET_STATE Telemetry Request always prompts an CORALS_STATE Telemetry Response.

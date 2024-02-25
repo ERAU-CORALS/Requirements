@@ -6,6 +6,6 @@ level: 5.2.1
 links: []
 normative: true
 ref: ''
-reviewed: null
+reviewed: dLwFbkVO3LdU5h0eGYwpYdUUkwfDYheqkw2cVLvT0VA=
 text: |
   The SET Telecommand supports use of ALL keywords. The SET Telecommand requires one or more keywords to be valid. The SET Telecommand always prompts a REGISTER Telemetry Response to confirm the updated register values.
