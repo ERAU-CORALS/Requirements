@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  REGISTER Telemetry Response
+level: 5.4.1
+links: []
+normative: true
+ref: ''
+reviewed: CyY_arCj5hadVWIHao2c0KzlWW0pBnQirWIWWH5LmIE=
+text: |
+  The REGISTER Telemetry response is sent when requested containing any keywords requested.

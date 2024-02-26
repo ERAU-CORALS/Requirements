@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  TARGET_LIST Telemetry Response
+level: 5.4.4
+links: []
+normative: true
+ref: ''
+reviewed: oPHCJM31qPeBI5IvziGqPCSejJjOK8eVib5JOOS0Uzc=
+text: |
+  The TARGET_LIST Telemetry Response is always sent in response to the GET_TARGETS Telecommand. The TARGET_LIST Telemetry Response always includes the current TARGET_NUM.

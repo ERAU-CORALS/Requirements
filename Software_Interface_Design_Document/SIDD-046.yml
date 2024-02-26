@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  POWER_STATE Telemetry Response
+level: 5.4.6
+links: []
+normative: true
+ref: ''
+reviewed: B-TWdLeW_yDxh8eTQDrfGLVsjzZBl4OrY1FLWA7t6ks=
+text: |
+  The POWER_STATE Telemetry Response is always sent in response to the SET_POWER Telemcommand and the GET_POWER Telemetry Response. The POWER_STATE Telemetry Response.

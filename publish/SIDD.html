@@ -72,7 +72,15 @@
 <li><a href="#SIDD-037">GET_ATTITUDE Telemetry Request</a></li>
 </ul>
 </li>
-<li><a href="#SIDD-040">Telemetry Response Details</a></li>
+<li><a href="#SIDD-040">Telemetry Response Details</a><ul>
+<li><a href="#SIDD-041">REGISTER Telemetry Response</a></li>
+<li><a href="#SIDD-042">ECHO_REPLY Telemetry Response</a></li>
+<li><a href="#SIDD-043">CURRENT_TARGET Telemetry Response</a></li>
+<li><a href="#SIDD-044">TARGET_LIST Telemetry Response</a></li>
+<li><a href="#SIDD-045">HALT_STATE Telemetry Response</a></li>
+<li><a href="#SIDD-046">POWER_STATE Telemetry Response</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -350,6 +358,11 @@
 <td>SET_POWER, GET_POWER, POWER_STATE</td>
 </tr>
 <tr>
+<td>HALT_STATUS</td>
+<td>'ACTIVE', 'INACTIVE'</td>
+<td>HALT_STATE</td>
+</tr>
+<tr>
 <td>Q0</td>
 <td>decimal [0, 1]</td>
 <td>TARGET_ADD, GET_TARGET, CURRENT_TARGET</td>
@@ -490,83 +503,8 @@
 <td>SET_POWER, GET_POWER, POWER_STATE</td>
 </tr>
 <tr>
-<td>TARGET0</td>
-<td>{decimal (Hex)} x 4</td>
-<td>TARGET_LIST</td>
-</tr>
-<tr>
-<td>TARGET1</td>
-<td>{decimal (Hex)} x 4</td>
-<td>TARGET_LIST</td>
-</tr>
-<tr>
-<td>TARGET2</td>
-<td>{decimal (Hex)} x 4</td>
-<td>TARGET_LIST</td>
-</tr>
-<tr>
-<td>TARGET3</td>
-<td>{decimal (Hex)} x 4</td>
-<td>TARGET_LIST</td>
-</tr>
-<tr>
-<td>TARGET4</td>
-<td>{decimal (Hex)} x 4</td>
-<td>TARGET_LIST</td>
-</tr>
-<tr>
-<td>TARGET5</td>
-<td>{decimal (Hex)} x 4</td>
-<td>TARGET_LIST</td>
-</tr>
-<tr>
-<td>TARGET6</td>
-<td>{decimal (Hex)} x 4</td>
-<td>TARGET_LIST</td>
-</tr>
-<tr>
-<td>TARGET7</td>
-<td>{decimal (Hex)} x 4</td>
-<td>TARGET_LIST</td>
-</tr>
-<tr>
-<td>TARGET8</td>
-<td>{decimal (Hex)} x 4</td>
-<td>TARGET_LIST</td>
-</tr>
-<tr>
-<td>TARGET9</td>
-<td>{decimal (Hex)} x 4</td>
-<td>TARGET_LIST</td>
-</tr>
-<tr>
-<td>TARGETA</td>
-<td>{decimal (Hex)} x 4</td>
-<td>TARGET_LIST</td>
-</tr>
-<tr>
-<td>TARGETB</td>
-<td>{decimal (Hex)} x 4</td>
-<td>TARGET_LIST</td>
-</tr>
-<tr>
-<td>TARGETC</td>
-<td>{decimal (Hex)} x 4</td>
-<td>TARGET_LIST</td>
-</tr>
-<tr>
-<td>TARGETD</td>
-<td>{decimal (Hex)} x 4</td>
-<td>TARGET_LIST</td>
-</tr>
-<tr>
-<td>TARGETE</td>
-<td>{decimal (Hex)} x 4</td>
-<td>TARGET_LIST</td>
-</tr>
-<tr>
-<td>TARGETF</td>
-<td>{decimal (Hex)} x 4</td>
+<td>TARGET_NUM</td>
+<td>integer</td>
 <td>TARGET_LIST</td>
 </tr>
 </tbody>
@@ -580,7 +518,7 @@
 <p>The TARGET_ADD Telecommand supports use of the Quaternion Telecommand keywords. It requires the Q1, Q2, and Q3 keywords. It also requires the Q0 keyword if the QUAT_FORMAT is Q0; otherwise, it also requires the Q4 keyword. If QUAT_FORMAT is unknown to the user, the user may elect to include the QUAT_FORMAT of the message. If QUAT_FORMAT is included, the TARGET_ADD Telecommand always prompts a REGISTER Telemetry response to confirm the updated register values. If the QUAT_FORMAT is not included, and if the registered QUAT_FORMAT disagrees with the arguments supplied, then the command is invalid, prompting an ERROR_STATE Telemetry Response with ARGUMENT_ERROR and QUAT_DISAGREE_ERROR set 'ON' and included. Otherwise, the TARGET_ADD Telecommand always prompts a CURRENT_TARGET Telemetry Response to confirm the current target.</p>
 <p><em>Note: The CORALS Testbed supports multiple stacked targets. Therefore, the TARGET_ADD CURRENT_TARGET Telemetry Response may not represent the commanded data if there are queued targets. It will always include the current target data.</em></p>
 <h3 id="SIDD-023">HALT Telecommand <small>SIDD-023</small></h3>
-<p>The HALT Telecommand does not support any keywords. The HALT Telecommand always prompts a HALT_STATE Telemetry Response to confirm the halt. The HALT Telecommand always causes motor master power off. Therefore, the HALT Telecommand prompts a REGISTER Telemetry Response including GM_MASTER_POWER and SM_MASTER_POWER to confirm CMG power discontinuity.</p>
+<p>The HALT Telecommand does not support any keywords. The HALT Telecommand always prompts a HALT_STATE Telemetry Response to confirm the halt. The HALT Telecommand always causes motor master power off. Therefore, the HALT Telecommand prompts a POWER_STATE Telemetry Response including GM_MASTER_POWER and SM_MASTER_POWER to confirm CMG power discontinuity.</p>
 <h3 id="SIDD-024">SET_POWER Telecommand <small>SIDD-024</small></h3>
 <p>The SET_POWER Telecommand supports use of the Power Control keywords. It requires inclusion of one or more keywords to be valid. The SET_POWER Telecommand always prompts a POWER_STATE Telemetry Response including the changed keywords.</p>
 <h3 id="SIDD-025">SET_INERTIA Telecommand <small>SIDD-025</small></h3>
@@ -599,9 +537,9 @@
 <h3 id="SIDD-029">GET_TARGET Telemetry Request <small>SIDD-029</small></h3>
 <p>The GET_TARGET Telemetry Request does not support any keywords. The GET_TARGET Telemetry Request always prompts an CURRENT_TARGET Telemetry Response.</p>
 <h3 id="SIDD-030">GET_TARGETS Telemetry Request <small>SIDD-030</small></h3>
-<p>The GET_TARGETS Telemetry Request does not support any keywords. The GET_TARGETS Telemetry Request always prompts a TARGET_LIST Telemetry Response.</p>
+<p>The GET_TARGETS Telemetry Request does not support any keywords. The GET_TARGETS Telemetry Request always prompts a TARGET_NUM Telemetry Response.</p>
 <h3 id="SIDD-031">GET_HALT Telemetry Request <small>SIDD-031</small></h3>
-<p>The GET_HALT Telemetry Request does not support any keywords. The GET_TARGET Telemetry Request always prompts an HALT_STATE Telemetry Response.</p>
+<p>The GET_HALT Telemetry Request does not support any keywords. The GET_HALT Telemetry Request always prompts an HALT_STATE Telemetry Response.</p>
 <h3 id="SIDD-032">GET_POWER Telemetry Request <small>SIDD-032</small></h3>
 <p>The GET_POWER Telemetry Request supports use of the Power Control keywords. If keywords are included, the GET_POWER Telemetry Request always prompts a POWER_STATE Telemetry Response inncluding the requested data. Otherwise, the GET_POWER Telemetry Request always prompts a POWER_STATE Telemetry Response including all Power Control data.</p>
 <h3 id="SIDD-033">GET_INERTIA Telemetry Request <small>SIDD-033</small></h3>
@@ -615,6 +553,18 @@
 <h3 id="SIDD-037">GET_ATTITUDE Telemetry Request <small>SIDD-037</small></h3>
 <p>The GET_ATTITUDE Telemetry Request does not support any keywords. The GET_ATTITUDE Telemetry Request always prompts an ATTITUDE Telemetry Response.</p>
 <h2 id="SIDD-040">Telemetry Response Details <small>SIDD-040</small></h2>
+<h3 id="SIDD-041">REGISTER Telemetry Response <small>SIDD-041</small></h3>
+<p>The REGISTER Telemetry response is sent when requested containing any keywords requested.</p>
+<h3 id="SIDD-042">ECHO_REPLY Telemetry Response <small>SIDD-042</small></h3>
+<p>The ECHO_REPLY is sent in response to the ECHO Telecommand. It does not support any keywords.</p>
+<h3 id="SIDD-043">CURRENT_TARGET Telemetry Response <small>SIDD-043</small></h3>
+<p>The CURRENT_TARGET Telemetry Response is sent in response to the TARGET_ADD Telecommand and the GET_TARGET Telemetry Request. It always contains the Q1, Q2, and Q3 keywords. If the QUAT_FORMAT is currently 'Q0', then it also contains Q0. Otherwise, it also contains Q4. If the CURRENT_TARGET Telemetry Response is prompted by a TARGET_ADD Telecommand which specified QUAT_FORMAT, then it also contains the current QUAT_FORMAT.</p>
+<h3 id="SIDD-044">TARGET_LIST Telemetry Response <small>SIDD-044</small></h3>
+<p>The TARGET_LIST Telemetry Response is always sent in response to the GET_TARGETS Telecommand. The TARGET_LIST Telemetry Response always includes the current TARGET_NUM.</p>
+<h3 id="SIDD-045">HALT_STATE Telemetry Response <small>SIDD-045</small></h3>
+<p>The HALT_STATE Telemetry Response is always sent in response to the HALT Telecommand and the GET_HALT Telemetry Request. The HALT_STATE Telemetry Response always includes the current HALT_STATUS.</p>
+<h3 id="SIDD-046">POWER_STATE Telemetry Response <small>SIDD-046</small></h3>
+<p>The POWER_STATE Telemetry Response is always sent in response to the SET_POWER Telemcommand and the GET_POWER Telemetry Response. The POWER_STATE Telemetry Response.</p>
       </div>
     </div>
 </div>

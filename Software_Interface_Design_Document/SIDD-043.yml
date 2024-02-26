@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  CURRENT_TARGET Telemetry Response
+level: 5.4.3
+links: []
+normative: true
+ref: ''
+reviewed: 6PQAvtxEl7qpPcUNyR90Ruzgz21uV4UK0Xg7QDqttq8=
+text: |
+  The CURRENT_TARGET Telemetry Response is sent in response to the TARGET_ADD Telecommand and the GET_TARGET Telemetry Request. It always contains the Q1, Q2, and Q3 keywords. If the QUAT_FORMAT is currently 'Q0', then it also contains Q0. Otherwise, it also contains Q4. If the CURRENT_TARGET Telemetry Response is prompted by a TARGET_ADD Telecommand which specified QUAT_FORMAT, then it also contains the current QUAT_FORMAT.

@@ -6,6 +6,6 @@ level: 5.3.4
 links: []
 normative: true
 ref: ''
-reviewed: 7bRwzRJ9GQPapnSYBmst94bslPqQ1p4iLr5gQenaMFU=
+reviewed: DusHZ25yYt3cIwIwOwsXi13ORmAJ0yu_A3feZ9li7XM=
 text: |
-  The GET_HALT Telemetry Request does not support any keywords. The GET_TARGET Telemetry Request always prompts an HALT_STATE Telemetry Response.
+  The GET_HALT Telemetry Request does not support any keywords. The GET_HALT Telemetry Request always prompts an HALT_STATE Telemetry Response.

@@ -6,6 +6,6 @@ level: 5.3.3
 links: []
 normative: true
 ref: ''
-reviewed: 14LMcdFtzIEUuBnxQZ3kT7_Q0nrcVUJ2ZSGcBx6Sma4=
+reviewed: rV_SSvwbUh8eKZC6rArEaBuCqu9oDAqbr7RHOwzIyYs=
 text: |
-  The GET_TARGETS Telemetry Request does not support any keywords. The GET_TARGETS Telemetry Request always prompts a TARGET_LIST Telemetry Response.
+  The GET_TARGETS Telemetry Request does not support any keywords. The GET_TARGETS Telemetry Request always prompts a TARGET_NUM Telemetry Response.

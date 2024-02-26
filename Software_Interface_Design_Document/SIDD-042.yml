@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  ECHO_REPLY Telemetry Response
+level: 5.4.2
+links: []
+normative: true
+ref: ''
+reviewed: Q3T8B8PsBw7OX4nxDl8gm6YFQqu7VbtCo12ZRV7_D_A=
+text: |
+  The ECHO_REPLY is sent in response to the ECHO Telecommand. It does not support any keywords.

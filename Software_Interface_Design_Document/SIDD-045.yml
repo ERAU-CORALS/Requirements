@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  HALT_STATE Telemetry Response
+level: 5.4.5
+links: []
+normative: true
+ref: ''
+reviewed: 4CmTicwkm6i93fmwh2gpw0Wwq92MNoM14HybfEfGfIQ=
+text: |
+  The HALT_STATE Telemetry Response is always sent in response to the HALT Telecommand and the GET_HALT Telemetry Request. The HALT_STATE Telemetry Response always includes the current HALT_STATUS.
