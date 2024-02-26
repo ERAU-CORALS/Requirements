@@ -6,6 +6,6 @@ level: 5.4.6
 links: []
 normative: true
 ref: ''
-reviewed: B-TWdLeW_yDxh8eTQDrfGLVsjzZBl4OrY1FLWA7t6ks=
+reviewed: UYi69Sk3LZxX_e8QdCzXlx2uw0BOQjNgSdrOjuHBBJs=
 text: |
-  The POWER_STATE Telemetry Response is always sent in response to the SET_POWER Telemcommand and the GET_POWER Telemetry Response. The POWER_STATE Telemetry Response.
+  The POWER_STATE Telemetry Response is always sent in response to the SET_POWER Telemcommand and the GET_POWER Telemetry Request. The POWER_STATE Telemetry Response always includes the keywords included in the prompting message. If the POWER_STATE Telemetry Response is prompted by the GET_POWER Telemetry Request, and if the GET_POWER Telemetry Request has no attributes, then the POWER_STATE Telemetry Response includes ALL Power State data.

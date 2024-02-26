@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  ATTITUDE Telemetry Repsonse
+level: 5.4.11
+links: []
+normative: true
+ref: ''
+reviewed: 8-H6jLZ2erCe9emP-FbOJk8hgglekGyrabU6gfUkRBE=
+text: |
+  The ATTITUDE Telemetry Response is sent in response to the GET_ATTITUDE Telemetry Response. The ATTITUDE Telmetry Response is sent automatically on a 5 second period. It always contains the Q1, Q2, and Q3 keywords. If the QUAT_FORMAT is currently 'Q0', then it also contains Q0. Otherwise, it also contains Q4.

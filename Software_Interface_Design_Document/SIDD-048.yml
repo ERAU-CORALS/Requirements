@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  CONTROL_STATE Telemetry Response
+level: 5.4.8
+links: []
+normative: true
+ref: ''
+reviewed: SozHiLEkwY8BzLBkay7mIbjpv3Rq8SNnixJlejj_BcQ=
+text: |
+  The CONTROL_STATE Telemetry Response is always sent in response to the SET_CONTROL Telemcommand and the GET_CONTROL Telemetry Request. The CONTROL_STATE Telemetry Response always includes the keywords included in the prompting message.

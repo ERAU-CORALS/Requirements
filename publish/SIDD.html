@@ -79,6 +79,11 @@
 <li><a href="#SIDD-044">TARGET_LIST Telemetry Response</a></li>
 <li><a href="#SIDD-045">HALT_STATE Telemetry Response</a></li>
 <li><a href="#SIDD-046">POWER_STATE Telemetry Response</a></li>
+<li><a href="#SIDD-047">INERTIA_MATRIX Telemetry Response</a></li>
+<li><a href="#SIDD-048">CONTROL_STATE Telemetry Response</a></li>
+<li><a href="#SIDD-049">SINGULARITY_STATE Telemetry Response</a></li>
+<li><a href="#SIDD-050">CORALS_STATE Telemetry Response</a></li>
+<li><a href="#SIDD-051">ATTITUDE Telemetry Repsonse</a></li>
 </ul>
 </li>
 </ul>
@@ -522,7 +527,7 @@
 <h3 id="SIDD-024">SET_POWER Telecommand <small>SIDD-024</small></h3>
 <p>The SET_POWER Telecommand supports use of the Power Control keywords. It requires inclusion of one or more keywords to be valid. The SET_POWER Telecommand always prompts a POWER_STATE Telemetry Response including the changed keywords.</p>
 <h3 id="SIDD-025">SET_INERTIA Telecommand <small>SIDD-025</small></h3>
-<p>The SET_INERTIA Telecommand supports use of the Inertia keywords. It requires inclusion of ALL Inertia keywords to be valid. The SET_INERTIA Telecommand always prompts a INERTIA_MATRIX Telemetry Response including the changed keywords.</p>
+<p>The SET_INERTIA Telecommand supports use of the Inertia keywords. The SET_INERTIA Telecommand always prompts a INERTIA_MATRIX Telemetry Response including the changed keywords.</p>
 <h3 id="SIDD-026">SET_CONTROL Telecommand <small>SIDD-026</small></h3>
 <p>The SET_CONTROL Telecommand supports use of the CORALS Control Parameter keywords. It requires including of one or more loop rate keywords or all gain keywords to be valid (if a non-zero number of gain keywords are included, all gain keywords must be included regardless of loop rate keywords). The SET_CONTROL Telecommand always prompts a CONTROL_STATE Telemetry Response including the changed keywords.</p>
 <h3 id="SIDD-027">SET_SINGULARITY Telecommand <small>SIDD-027</small></h3>
@@ -543,7 +548,7 @@
 <h3 id="SIDD-032">GET_POWER Telemetry Request <small>SIDD-032</small></h3>
 <p>The GET_POWER Telemetry Request supports use of the Power Control keywords. If keywords are included, the GET_POWER Telemetry Request always prompts a POWER_STATE Telemetry Response inncluding the requested data. Otherwise, the GET_POWER Telemetry Request always prompts a POWER_STATE Telemetry Response including all Power Control data.</p>
 <h3 id="SIDD-033">GET_INERTIA Telemetry Request <small>SIDD-033</small></h3>
-<p>The GET_INERTIA Telemetry Request supports use of the Inertial keywords. If keywords are included, the GET_INERTIA Telemetry Request always prompts a INERTIA_MATRIX Telemetry Response inncluding the requested data. Otherwise, the GET_INERTIA Telemetry Request always prompts a INERTIA_MATRIX Telemetry Response including all Inertia data.</p>
+<p>The GET_INERTIA Telemetry Request supports use of the Inertial keywords. If keywords are included, the GET_INERTIA Telemetry Request always prompts a INERTIA_MATRIX Telemetry Response including the requested data. Otherwise, the GET_INERTIA Telemetry Request always prompts a INERTIA_MATRIX Telemetry Response including all Inertia data.</p>
 <h3 id="SIDD-034">GET_CONTROL Telemetry Request <small>SIDD-034</small></h3>
 <p>The GET_CONTROL Telemetry Request supports use of the Control keywords. The GET_CONTROL Telemetry Request requires one or more keywords to be valid.  The GET_CONTROL Telemetry Request always prompts a CONTROL_STATE Telemetry Response.</p>
 <h3 id="SIDD-035">GET_SINGULARITY Telemetry Request <small>SIDD-035</small></h3>
@@ -564,7 +569,17 @@
 <h3 id="SIDD-045">HALT_STATE Telemetry Response <small>SIDD-045</small></h3>
 <p>The HALT_STATE Telemetry Response is always sent in response to the HALT Telecommand and the GET_HALT Telemetry Request. The HALT_STATE Telemetry Response always includes the current HALT_STATUS.</p>
 <h3 id="SIDD-046">POWER_STATE Telemetry Response <small>SIDD-046</small></h3>
-<p>The POWER_STATE Telemetry Response is always sent in response to the SET_POWER Telemcommand and the GET_POWER Telemetry Response. The POWER_STATE Telemetry Response.</p>
+<p>The POWER_STATE Telemetry Response is always sent in response to the SET_POWER Telemcommand and the GET_POWER Telemetry Request. The POWER_STATE Telemetry Response always includes the keywords included in the prompting message. If the POWER_STATE Telemetry Response is prompted by the GET_POWER Telemetry Request, and if the GET_POWER Telemetry Request has no attributes, then the POWER_STATE Telemetry Response includes ALL Power State data.</p>
+<h3 id="SIDD-047">INERTIA_MATRIX Telemetry Response <small>SIDD-047</small></h3>
+<p>The INERTIA_MATRIX Telemetry Response is always sent in response to the SET_INERTIA Telemcommand and the GET_INERTIA Telemetry Request. The INERTIA_MATRIX Telemetry Response always includes the keywords included in the prompting message. If the INERTIA_MATRIX Telemetry Response is prompted by the GET_INERTIA Telemetry Request, and if the GET_INERTIA Telemetry Request has no attributes, then the INERTIA_MATRIX Telemetry Response includes ALL Inertia data.</p>
+<h3 id="SIDD-048">CONTROL_STATE Telemetry Response <small>SIDD-048</small></h3>
+<p>The CONTROL_STATE Telemetry Response is always sent in response to the SET_CONTROL Telemcommand and the GET_CONTROL Telemetry Request. The CONTROL_STATE Telemetry Response always includes the keywords included in the prompting message.</p>
+<h3 id="SIDD-049">SINGULARITY_STATE Telemetry Response <small>SIDD-049</small></h3>
+<p>The SINGULARITY_STATE Telemetry Response is always sent in response to the GET_SINGULARITY Telemetry Request. The SINGULARITY_STATE Telemetry Response is sent in response to the SET_SINGULARITY Telecommand if the SET_SINGULARITY does not prompt an error or if the telecommand includes the SINGULARITY_THOLD keyword. If prompted by the GET_SINGULARITY Telemetry Request, the SINGULARITY_STATE Telemetry Response includes all Singularity Control keywords. If prompted by the SET_SINGULARITY Telecommand, the SINGULARITY_STATE Telemetry Response includes all keywords specified in the SET_SINGULARITY Telecommand, excepting the ENABLE_OVERRIDE keyword.</p>
+<h3 id="SIDD-050">CORALS_STATE Telemetry Response <small>SIDD-050</small></h3>
+<p>The CORALS_STATE Telemetry Response is sent in response to the GET_STATE Telemetry Response. The CORALS_STATE Telmetry Response is sent automatically on a 5 second period. The CORALS_STATE Telemetry Response includes all Testbed State keywords.</p>
+<h3 id="SIDD-051">ATTITUDE Telemetry Repsonse <small>SIDD-051</small></h3>
+<p>The ATTITUDE Telemetry Response is sent in response to the GET_ATTITUDE Telemetry Response. The ATTITUDE Telmetry Response is sent automatically on a 5 second period. It always contains the Q1, Q2, and Q3 keywords. If the QUAT_FORMAT is currently 'Q0', then it also contains Q0. Otherwise, it also contains Q4.</p>
       </div>
     </div>
 </div>

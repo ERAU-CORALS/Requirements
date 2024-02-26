@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  INERTIA_MATRIX Telemetry Response
+level: 5.4.7
+links: []
+normative: true
+ref: ''
+reviewed: Rl-_Nt0gCRSrMYiv35hTqbbbrod6T92sL4oe6C5rW_g=
+text: |
+  The INERTIA_MATRIX Telemetry Response is always sent in response to the SET_INERTIA Telemcommand and the GET_INERTIA Telemetry Request. The INERTIA_MATRIX Telemetry Response always includes the keywords included in the prompting message. If the INERTIA_MATRIX Telemetry Response is prompted by the GET_INERTIA Telemetry Request, and if the GET_INERTIA Telemetry Request has no attributes, then the INERTIA_MATRIX Telemetry Response includes ALL Inertia data.

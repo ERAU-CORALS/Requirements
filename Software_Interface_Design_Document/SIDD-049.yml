@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  SINGULARITY_STATE Telemetry Response
+level: 5.4.9
+links: []
+normative: true
+ref: ''
+reviewed: 6YFgkJzInoEfl1Zp9S1fiYenCjB1-WfGRZioFvRZLzM=
+text: |
+  The SINGULARITY_STATE Telemetry Response is always sent in response to the GET_SINGULARITY Telemetry Request. The SINGULARITY_STATE Telemetry Response is sent in response to the SET_SINGULARITY Telecommand if the SET_SINGULARITY does not prompt an error or if the telecommand includes the SINGULARITY_THOLD keyword. If prompted by the GET_SINGULARITY Telemetry Request, the SINGULARITY_STATE Telemetry Response includes all Singularity Control keywords. If prompted by the SET_SINGULARITY Telecommand, the SINGULARITY_STATE Telemetry Response includes all keywords specified in the SET_SINGULARITY Telecommand, excepting the ENABLE_OVERRIDE keyword.
