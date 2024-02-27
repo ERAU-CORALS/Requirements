@@ -1,0 +1,16 @@
+Metric: Additional noise read by IMU
+Range: 0-20 (degrees/hr)/sqrt(Hz)
+Req?: true
+Verification: |
+  Compare IMU noise when CMGs are spinning to when there are not spinning
+active: true
+derived: false
+header: |
+  Vibration Isolation
+level: 1.6
+links: []
+normative: true
+ref: ''
+reviewed: DncwY95ZZ6C3kiQPujvPjLGcw0-agSutuDG6nTyr9HI=
+text: |
+  The structural subsystem shall vibrationally isolate each of the CMGs from the rest of the testbed
