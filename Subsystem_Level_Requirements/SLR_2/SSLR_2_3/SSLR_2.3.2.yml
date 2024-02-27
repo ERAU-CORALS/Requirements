@@ -8,9 +8,9 @@ header: |
   Data Log File
 level: 1.1
 links:
-- SLR_2.3: UFBkHwfdJmB8-xiUaQkt8xY-thlML4N1Ch1Yr28S27U=
+- SLR_2.3: NvVV4GCSjipclswXp3A6E3ZFd1Jnrk2j2ZbXlbgCBcs=
 normative: true
 ref: ''
-reviewed: 7TIo955jE-AVcTy69gYGKyoqk9H_eK_Wxh_UIUqohzc=
+reviewed: 6k_Hh_R5WYAe0ZAM_NdR76eBKExyQzV3GYLS7w-UCbk=
 text: |
-  DARTS  **SHALL** initialize a new formatted data file on session startup.
+  DARTS  shall initialize a new formatted data file on session startup.

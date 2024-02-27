@@ -8,9 +8,9 @@ header: |
   Telemetry Storage
 level: 2.3
 links:
-- OBJ-2: 6fC5MovF24tX_njkLO_vJ9Bwb7cS7UzaP-oR1w4Nu5g=
+- OBJ-2: N6kAiMFLFYERywVBprvZnihWBjTEGRnTku5D6C59odc=
 normative: true
 ref: ''
-reviewed: kJ30OMnhDYsovhQ15_MGHyPCGsJVITkmIr2r0F61I9o=
+reviewed: gAZ5x2HjQU-KumS4EbJtQlzzJalnEECpP1SkhnXy4JU=
 text: |
-  CORALS **SHALL** store attitude telemetry data on the host computer.
+  CORALS shall store attitude telemetry data on the host computer.

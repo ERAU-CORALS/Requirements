@@ -8,9 +8,9 @@ header: |
   CMG Software Support
 level: 1.1
 links:
-- SLR_4.1: cp-io6zjqP8iPgDunONfXh-32O_eAAKJBYSY3AB4xtk=
+- SLR_4.1: JpoOYCG7RdKJIstp7oSzOI4bJwFMG31wcJfLbMtGDaM=
 normative: true
 ref: ''
-reviewed: HP5sHNBeNPkcdP1Ut2EqL-lNLmsgFoudjUqmjStiJbU=
+reviewed: -ZCbIcoADBLa7Nkj2iXw2lAdw4l3z8g10apvqa_SmSg=
 text: |
-  CORALS Software **SHALL** support an even, dynamic number of CMGs.
+  CORALS Software shall support an even, dynamic number of CMGs.

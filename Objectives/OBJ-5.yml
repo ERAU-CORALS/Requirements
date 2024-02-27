@@ -6,6 +6,6 @@ level: 5.0
 links: []
 normative: true
 ref: ''
-reviewed: KVVquGPLGVDGLCWbtv9FzakuWK2wJvePRrV9XFWtE60=
+reviewed: E6ibog9rjgelTskU6M9esn58OdYW-8Wqo1t4YsWVIIo=
 text: |
-  CORALS *should* use a pivot point that is durable enough to operate the testbed for at least 1 hour before needing to be serviced or replaced.
+  CORALS should use a pivot point that is durable enough to operate the testbed for at least 1 hour before needing to be serviced or replaced.

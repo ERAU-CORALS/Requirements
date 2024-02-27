@@ -8,9 +8,9 @@ header: |
   CORALS Telemetry Structure
 level: 1.1.4
 links:
-- SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
+- SLR_2.2: UaztSpFN1uCzw30To7kDiB3WFbdNDCntTPYoqJWxDY4=
 normative: true
 ref: ''
-reviewed: 4Af2tJfuoctu1d5Z-_ZMpJ3di0XjRzl8qMdwklkpy38=
+reviewed: KvPTfaW3krtt-T6egL5qwHWp0N2XCcjfGzgvuBygwe4=
 text: |
-  CORALS **SHALL** transmit telemetry response packets to DARTS as described in the CORALS Software Interface Design Document.
+  CORALS shall transmit telemetry response packets to DARTS as described in the CORALS Software Interface Design Document.

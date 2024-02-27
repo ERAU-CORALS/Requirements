@@ -8,9 +8,9 @@ header: |
   Software Pitch Monitoring
 level: 1.1
 links:
-- SLR_3.3: rfECU-geqA6QQX9qYffP1bBnOtKkmeEfzTWWRXArjNc=
+- SLR_3.3: VMDehVh1Z_9lh7c5xcebqYJC9vlFqOv2dFoRYNWbGi4=
 normative: true
 ref: ''
-reviewed: 49AGhv4wMkDN80zN99_jj2R-ZsSdfUT6eNZ4RbeMD4g=
+reviewed: 4V9s9ZYaPYjUWmrs-vKgCuFG8w4XWSF0vT6to7EE2F4=
 text: |
-  If current Testbed pitch exceeds ±27°, CORALS Software **SHALL** transmit Pitch Warning telemetry messages as described in the CORALS Software Interface Design Document.
+  If current Testbed pitch exceeds ±27°, CORALS Software shall transmit Pitch Warning telemetry messages as described in the CORALS Software Interface Design Document.

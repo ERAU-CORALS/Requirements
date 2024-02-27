@@ -6,9 +6,9 @@ level: 4.1
 links: []
 normative: true
 ref: ''
-reviewed: 0PdWwTRiuoybLOFEQhHXT0EPis7N9FymWZDPBJK_zTY=
+reviewed: x-hq4fxdv-CCftRUC26cAnFrz3EiKIqvRWzDMRwOyg8=
 text: |
-  DARTS **SHALL** support the following telecommands:
+  DARTS shall support the following telecommands:
 
   * SET
   * ECHO

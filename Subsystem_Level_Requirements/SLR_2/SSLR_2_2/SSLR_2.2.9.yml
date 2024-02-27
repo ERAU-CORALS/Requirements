@@ -8,9 +8,9 @@ header: |
   DARTS Telemetry Structure
 level: 1.1.2
 links:
-- SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
+- SLR_2.2: UaztSpFN1uCzw30To7kDiB3WFbdNDCntTPYoqJWxDY4=
 normative: true
 ref: ''
-reviewed: po8_Tx78IJCcJiK4CY8KUaMtGZmw-4Pq4xmTUMPedAU=
+reviewed: 9onabBU9qSwlu5hp_VTPxKTCYZI3EJgfqu2C0mSZeDw=
 text: |
-  DARTS **SHALL** process telemetry response packets from the CORALS Testbed if the packet structure and content is valid as described in the CORALS Software Interface Design Document.
+  DARTS shall process telemetry response packets from the CORALS Testbed if the packet structure and content is valid as described in the CORALS Software Interface Design Document.

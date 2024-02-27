@@ -8,9 +8,9 @@ header: |
   IMU Pitch
 level: 2.3
 links:
-- SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
+- SLR_2.2: UaztSpFN1uCzw30To7kDiB3WFbdNDCntTPYoqJWxDY4=
 normative: true
 ref: ''
-reviewed: wTNAHuKK5yHR6NygpqlNuYJkchO8IVN7wqYyAAlsv4M=
+reviewed: FAFC_re5QfulOOqerJLOPLdSyhKIlyNfUCSmQ2cnH8U=
 text: |
-  The IMU **SHALL** measure current testbed pitch.
+  The IMU shall measure current testbed pitch.

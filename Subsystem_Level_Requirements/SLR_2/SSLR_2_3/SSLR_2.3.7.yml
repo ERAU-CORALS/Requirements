@@ -8,9 +8,9 @@ header: |
   DARTS Telecommand Logging
 level: 1.4.1
 links:
-- SLR_2.3: UFBkHwfdJmB8-xiUaQkt8xY-thlML4N1Ch1Yr28S27U=
+- SLR_2.3: NvVV4GCSjipclswXp3A6E3ZFd1Jnrk2j2ZbXlbgCBcs=
 normative: true
 ref: ''
-reviewed: 8N2ZJFMSbPl4qXfrY_eGYCC5EsWwPWOLUlNxMd0M5Dc=
+reviewed: kuyR6ZgQG9NU11EMt5tZvXkx-_qfMP81ThVEZq-uCyA=
 text: |
-  DARTS **SHALL** write all transmitted telecommands and telemetry requests to a session telemetry/telecommand log file.
+  DARTS shall write all transmitted telecommands and telemetry requests to a session telemetry/telecommand log file.

@@ -8,9 +8,9 @@ header: |
   CMG Gimbal Motor Control
 level: 1.3
 links:
-- SLR_4.1: cp-io6zjqP8iPgDunONfXh-32O_eAAKJBYSY3AB4xtk=
+- SLR_4.1: JpoOYCG7RdKJIstp7oSzOI4bJwFMG31wcJfLbMtGDaM=
 normative: true
 ref: ''
-reviewed: sCk1BvvaSvfSXZgS_dPMxLLlHHPWurfR4Y0OIYYobow=
+reviewed: mPw4yPk5H4UGyMR1ocuOcsDa-RMf8odlT61R3p4X-zQ=
 text: |
-  CORALS Software **SHALL** support PWM control of an even, dynamic number of CMG gimbal motors.
+  CORALS Software shall support PWM control of an even, dynamic number of CMG gimbal motors.

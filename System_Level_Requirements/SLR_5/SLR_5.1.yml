@@ -8,9 +8,9 @@ header: |
   Air Bearing
 level: 5.1
 links:
-- OBJ-5: KVVquGPLGVDGLCWbtv9FzakuWK2wJvePRrV9XFWtE60=
+- OBJ-5: E6ibog9rjgelTskU6M9esn58OdYW-8Wqo1t4YsWVIIo=
 normative: true
 ref: ''
-reviewed: RbJ-dfGHtmdePcVXWZg4RSCCxaNIrhM_VJPXqN9nJ80=
+reviewed: -aXj6ikPoxzyGMNDAWW-p3HaO76uLn2XJuX9V0gzIEQ=
 text: |
-  CORALS **SHALL** use a spherical air bearing for controlled pivoting.
+  CORALS shall use a spherical air bearing for controlled pivoting.

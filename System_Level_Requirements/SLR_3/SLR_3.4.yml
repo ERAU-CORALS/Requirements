@@ -8,9 +8,9 @@ header: |
   Testbed Yaw
 level: 3.4
 links:
-- OBJ-3: -2BYWfjd_S5jx9ZytovdyZhaqYYxcifkXT8CA8gHh8k=
+- OBJ-3: 89aMOY1I8lTVEtVYaEePrmKX8UUlxl5Xp-stD3c2Rro=
 normative: true
 ref: ''
-reviewed: xFiYAXNTiqdxqmbtnVfNXe3RDFfhnJxp59upqRwJ-G8=
+reviewed: 7f2Wjt-gp49R7-wTYZXeFedN6PsrmFWqeKn1P3pZ_7s=
 text: |
-  CORALS **SHALL** be capable of yaw to ±180°.
+  CORALS shall be capable of yaw to ±180°.

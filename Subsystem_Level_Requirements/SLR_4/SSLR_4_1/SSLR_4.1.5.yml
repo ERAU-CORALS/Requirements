@@ -8,9 +8,9 @@ header: |
   CMG Gimbal Position Tracking
 level: 1.4
 links:
-- SLR_4.1: cp-io6zjqP8iPgDunONfXh-32O_eAAKJBYSY3AB4xtk=
+- SLR_4.1: JpoOYCG7RdKJIstp7oSzOI4bJwFMG31wcJfLbMtGDaM=
 normative: true
 ref: ''
-reviewed: In-ctNIuS7Drs72WhqbhJG-Moaq0oWnyFOhViinH6aQ=
+reviewed: 9O1zTucMveqX7fiuBcMx8V5NEZERRCd84tIthej4IcU=
 text: |
-  CORALS Software **SHALL** track the position of an even, dynamic number of CMG gimbal motors.
+  CORALS Software shall track the position of an even, dynamic number of CMG gimbal motors.

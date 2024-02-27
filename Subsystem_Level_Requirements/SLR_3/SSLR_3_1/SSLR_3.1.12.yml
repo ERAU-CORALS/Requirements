@@ -8,9 +8,9 @@ header: |
   Secondary Rail Voltage
 level: 1.3.4.1
 links:
-- SLR_3.1: PvMqKBzb4BSKgDTOMdHrOvfHxwUmD9nfNofy4OLs3eo=
+- SLR_3.1: Bg-iBp9F0FHPneMGH1l4lCcZhX3mt3qB-MEfCrVmtcY=
 normative: true
 ref: ''
-reviewed: jpPMRShvUNrCyHrp4_zNO2HFEPpqxxe5SPkcXDA2Zjc=
+reviewed: csEDf_uNqKUBGIi65_1NOmPjTAjOHS0GFvBdbvL36TI=
 text: |
-  The EPS Secondary Rail **SHALL** provide 8.5 V ± 1.5 V.
+  The EPS Secondary Rail shall provide 8.5 V ± 1.5 V.

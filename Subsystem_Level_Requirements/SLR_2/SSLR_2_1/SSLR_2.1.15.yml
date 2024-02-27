@@ -8,9 +8,9 @@ header: |
   CORALS Bluetooth Telemetry Request Rx
 level: 1.3.3
 links:
-- SLR_2.1: htUuBaJix4GUfLHWdRoE224pfbiQsqmngH94zNcJfAo=
+- SLR_2.1: vA-iPVwwhLiSiZJoMtM3U5r3U16JPC99vOLpD0DhxCE=
 normative: true
 ref: ''
-reviewed: hi6Cl9ItpMrx_70BFDbV_AeDBhYIBVqOVbmiTJ41ycE=
+reviewed: lrJAwaVGqIghSlogIHWSJtKwXdFc_zDU7qQlE23gjmQ=
 text: |
-  CORALS **SHALL** receive telecommand packets from DARTS over Bluetooth.
+  CORALS shall receive telecommand packets from DARTS over Bluetooth.

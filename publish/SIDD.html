@@ -105,11 +105,11 @@
 <h2 id="SIDD-008">Bluetooth Communication Protocol</h2>
 <p>DARTS and the CORALS Testbed communicate using a Bluetooth Serial connection. This means that loss is possible, and data could be corrupted in transmission. To detect and prevent this, the CORALS Testbed and HDARS will use a restricted, keyword-based communication protocol to minimize error passthrough.</p>
 <h3 id="SIDD-009">Message Format <small>SIDD-009</small></h3>
-<p>The Bluetooth Serial Bus <strong>SHALL</strong> use the following communication format:</p>
+<p>The Bluetooth Serial Bus shall use the following communication format:</p>
 <pre><code>TARGET . LEN PACKET_TYPE, KEY VALUE, KEY VALUE ..., KEY VALUE . CRC32 0xABCDEF01
 </code></pre>
 <h3 id="SIDD-010">Valid Targets (TARGET) <small>SIDD-010</small></h3>
-<p>The Bluetooth Communication bus <strong>SHALL</strong> support two targets:</p>
+<p>The Bluetooth Communication bus shall support two targets:</p>
 <table>
 <thead>
 <tr>
@@ -126,11 +126,11 @@
 </tbody>
 </table>
 <h3 id="SIDD-011">Valid Length (LEN) <small>SIDD-011</small></h3>
-<p>LEN <strong>SHALL</strong> be an unsigned integer decimal numeric value which accounts for the entire message length.</p>
+<p>LEN shall be an unsigned integer decimal numeric value which accounts for the entire message length.</p>
 <h3 id="SIDD-012">CRC32 Checksum <small>SIDD-012</small></h3>
-<p>The message <strong>SHALL</strong> be proofed by the CRC32 Checksum attached to the end of the message. The checksum will be unique for all messages less than 2^32 characters in length.</p>
-<p>The checksum <strong>SHALL</strong> be run on all characters before the CRC32 Keyword.</p>
-<p>The checksum <strong>SHALL</strong> be computed on both sides using the following algorithm:</p>
+<p>The message shall be proofed by the CRC32 Checksum attached to the end of the message. The checksum will be unique for all messages less than 2^32 characters in length.</p>
+<p>The checksum shall be run on all characters before the CRC32 Keyword.</p>
+<p>The checksum shall be computed on both sides using the following algorithm:</p>
 <pre><code class="language-c">uint32_t crc32(const uint8_t *data, uint32_t length)
 {
     uint32_t crc = 0xFFFFFFFF;
@@ -154,7 +154,7 @@
 <h1 id="SIDD-004">Available Commands</h1>
 <p>There are commands available depending on the target selected. They are enumerated in this section:</p>
 <h2 id="SIDD-014">DARTS Telecommands <small>SIDD-014</small></h2>
-<p>DARTS <strong>SHALL</strong> support the following telecommands:</p>
+<p>DARTS shall support the following telecommands:</p>
 <ul>
 <li>SET</li>
 <li>ECHO</li>
@@ -168,7 +168,7 @@
 <li>CLEAR_ERRORS</li>
 </ul>
 <h2 id="SIDD-015">DARTS Telemetry Requests <small>SIDD-015</small></h2>
-<p>DARTS <strong>SHALL</strong> support the following telemetry requests:</p>
+<p>DARTS shall support the following telemetry requests:</p>
 <ul>
 <li>GET</li>
 <li>GET_TARGET</li>
@@ -184,7 +184,7 @@
 <li>GET_ERRORS</li>
 </ul>
 <h2 id="SIDD-019">CORALS Telemetry Replies <small>SIDD-019</small></h2>
-<p>CORALS <strong>SHALL</strong> support the following telemetry replies:</p>
+<p>CORALS shall support the following telemetry replies:</p>
 <ul>
 <li>REGISTER</li>
 <li>ECHO_REPLY</li>

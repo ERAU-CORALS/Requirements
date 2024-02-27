@@ -8,9 +8,9 @@ header: |
   Mass Balance Adjustment
 level: 1.3
 links:
-- SLR_3.6: NV_PcI_bUGU3VFGHneT5NjpUhzVAI8hAZxUitsFWhnM=
+- SLR_3.6: UKGUkH3EW4O9HIEXLd7QT-0v7Lp5uQT7QJC6G__koHY=
 normative: true
 ref: ''
-reviewed: k34EnqrwrxL-XMZ-mUa_8LKe2ejJvuCmnUcv9GZKh7k=
+reviewed: xZj43eSnsuzjKANyr1I-QM9HGjDMKXobb9U9RLyFl38=
 text: |
-  Each of the counterweights on CORALS **SHALL** have an adjustable position along an axis.
+  Each of the counterweights on CORALS shall have an adjustable position along an axis.

@@ -8,9 +8,9 @@ header: |
   Balancing System
 level: 1.1
 links:
-- SLR_3.6: NV_PcI_bUGU3VFGHneT5NjpUhzVAI8hAZxUitsFWhnM=
+- SLR_3.6: UKGUkH3EW4O9HIEXLd7QT-0v7Lp5uQT7QJC6G__koHY=
 normative: true
 ref: ''
-reviewed: 0OuDSGDF2OJ3LXZCzbB2hBrBfRegqdsbA4GYYoGOXpc=
+reviewed: fu7ibCkgIEgHjh1BO8x08R9zLa9K6I334vgc8rTQAXs=
 text: |
-  CORALS **SHALL** have a Mass Balancing System.
+  CORALS shall have a Mass Balancing System.

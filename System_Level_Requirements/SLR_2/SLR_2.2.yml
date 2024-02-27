@@ -8,9 +8,9 @@ header: |
   Telemetry Transmission
 level: 2.2
 links:
-- OBJ-2: 6fC5MovF24tX_njkLO_vJ9Bwb7cS7UzaP-oR1w4Nu5g=
+- OBJ-2: N6kAiMFLFYERywVBprvZnihWBjTEGRnTku5D6C59odc=
 normative: true
 ref: ''
-reviewed: 0TWGato7YEIKn60BD7xNl-KXvbAq_5ip5As3CIuHytU=
+reviewed: oI0huQUHBt1HbChBbuaaB3iGo4cUrHvMFH3qhRd2GAE=
 text: |
-  CORALS **SHALL** transmit current attitude telemetry data to a host computer.
+  CORALS shall transmit current attitude telemetry data to a host computer.

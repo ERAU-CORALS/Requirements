@@ -8,9 +8,9 @@ header: |
   Telecommand Reception
 level: 2.1
 links:
-- OBJ-2: 6fC5MovF24tX_njkLO_vJ9Bwb7cS7UzaP-oR1w4Nu5g=
+- OBJ-2: N6kAiMFLFYERywVBprvZnihWBjTEGRnTku5D6C59odc=
 normative: true
 ref: ''
-reviewed: CRrebpiZ15U6Z6sheiv0zO6vkMkARFrmZ3jWUw_59mM=
+reviewed: lESEibIQRpb_pb1oavJWhJlSFIC_6v6WkIar7EryV3Y=
 text: |
-  CORALS **SHALL** receive attitude control telecommands from a host computer.
+  CORALS shall receive attitude control telecommands from a host computer.

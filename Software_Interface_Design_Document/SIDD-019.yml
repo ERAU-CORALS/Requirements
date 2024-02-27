@@ -6,9 +6,9 @@ level: 4.3
 links: []
 normative: true
 ref: ''
-reviewed: N7DPIZJyscMQJqkjQkDmN09dYKWMVrDZGSP3t_qX54M=
+reviewed: nTY30fumhq5rAZUgsThUIBGXBX4vzwJqdGuEg1yN_4Q=
 text: |
-  CORALS **SHALL** support the following telemetry replies:
+  CORALS shall support the following telemetry replies:
 
   * REGISTER
   * ECHO_REPLY

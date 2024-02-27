@@ -6,6 +6,6 @@ level: 4.0
 links: []
 normative: true
 ref: ''
-reviewed: SDNuI8NEJhMooqTtI3lrrZMbEJbKd8dWPPYQsmoAorI=
+reviewed: fVJnmrjdya5j1hc3T8F2F6OgMMdH-HUXJ-VCijrma_0=
 text: |
-  CORALS *should* use a Control Moment Gyroscope array that can escape gimbal lock.
+  CORALS should use a Control Moment Gyroscope array that can escape gimbal lock.

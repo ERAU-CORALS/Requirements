@@ -8,9 +8,9 @@ header: |
   Testbed Balance
 level: 3.6
 links:
-- OBJ-3: -2BYWfjd_S5jx9ZytovdyZhaqYYxcifkXT8CA8gHh8k=
+- OBJ-3: 89aMOY1I8lTVEtVYaEePrmKX8UUlxl5Xp-stD3c2Rro=
 normative: true
 ref: ''
-reviewed: rNAMyF_RbQxcOB-69xWBsyY5bd906FQnT2K7Q-R_yVo=
+reviewed: c-tTLZ-Vi6E6uSB4KflDBwTpdtEOJYdY9OJ5DQODQv0=
 text: |
-  CORALS **SHALL** operate with an imbalance torque less than 10E-6 Nm.
+  CORALS shall operate with an imbalance torque less than 10E-6 Nm.

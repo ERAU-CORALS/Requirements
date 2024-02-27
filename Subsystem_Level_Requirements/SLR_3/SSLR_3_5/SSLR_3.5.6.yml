@@ -8,9 +8,9 @@ header: |
   Gimbal Motor Max Rate
 level: 1.5
 links:
-- SLR_3.5: DP8gE3a0fnlQJAsl3BAfrwXjMaYLlxetQ0m2x70Hklo=
+- SLR_3.5: 1xe9Z7jBGlD_vM3elyVeqPYrab6tqos92E4_mHt6K8E=
 normative: true
 ref: ''
-reviewed: YoZ8oDV7jUSxrqDTUTl_61EmnFefNJ2-s4jput7i7vA=
+reviewed: GlJ_0CL5p0j0q7Yvqxc6_x-yRxzGN9Qd55osEm1o3CA=
 text: |
-  Each CMG gimbal motor **SHALL** rotate at up to ±3 rad/s.
+  Each CMG gimbal motor shall rotate at up to ±3 rad/s.

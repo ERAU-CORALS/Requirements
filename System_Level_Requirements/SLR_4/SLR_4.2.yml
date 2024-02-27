@@ -8,9 +8,9 @@ header: |
   Singularity Detection
 level: 4.2
 links:
-- OBJ-4: SDNuI8NEJhMooqTtI3lrrZMbEJbKd8dWPPYQsmoAorI=
+- OBJ-4: fVJnmrjdya5j1hc3T8F2F6OgMMdH-HUXJ-VCijrma_0=
 normative: true
 ref: ''
-reviewed: g2wX127JdxNeCh052fHEUJCwGhvYZNjHBjl1mUVIIIE=
+reviewed: QnQiogsQSoJ_I3PxjIbS6MBESB2ckqlODQ94SFhOnFs=
 text: |
-  CORALS **SHALL** be capable of detecting a singular state.
+  CORALS shall be capable of detecting a singular state.

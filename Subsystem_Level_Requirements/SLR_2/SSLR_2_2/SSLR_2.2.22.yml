@@ -8,9 +8,9 @@ header: |
   IMU Angular Rate
 level: 2.5
 links:
-- SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
+- SLR_2.2: UaztSpFN1uCzw30To7kDiB3WFbdNDCntTPYoqJWxDY4=
 normative: true
 ref: ''
-reviewed: 2vpXgz0bbH86nGOgCe1Eh1bqEagPxuf0MoliqMd5YRA=
+reviewed: hGboitMsEssbNfr1ScpiT6UnXccBahOi6qcOahgSNsU=
 text: |
-  The IMU **SHALL** measure current testbed angular rate.
+  The IMU shall measure current testbed angular rate.

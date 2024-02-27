@@ -8,9 +8,9 @@ header: |
   DARTS Bluetooth Rx
 level: 1.1.1
 links:
-- SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
+- SLR_2.2: UaztSpFN1uCzw30To7kDiB3WFbdNDCntTPYoqJWxDY4=
 normative: true
 ref: ''
-reviewed: K6PlORd5kkR2vIRpdIMUxlpp4xhIsx6ZvrUHQosiS2Y=
+reviewed: ZpjZm9A3XBrO1YZA_fMXgkuG4Q8cIBGG3B844-Ym5wE=
 text: |
-  DARTS **SHALL** receive telemetry response packets from the CORALS Testbed over Bluetooth.
+  DARTS shall receive telemetry response packets from the CORALS Testbed over Bluetooth.

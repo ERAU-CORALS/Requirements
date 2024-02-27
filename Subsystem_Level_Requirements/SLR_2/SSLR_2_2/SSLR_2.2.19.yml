@@ -8,9 +8,9 @@ header: |
   IMU Roll
 level: 2.2
 links:
-- SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
+- SLR_2.2: UaztSpFN1uCzw30To7kDiB3WFbdNDCntTPYoqJWxDY4=
 normative: true
 ref: ''
-reviewed: Yh3R2Hb7s8YQI-Ynd2osUjA4RpszaQWF4pjNfYJZhoo=
+reviewed: M00tMPXypZHzGCWiJLq_CW2SeblwZ_v91w2KLE6FxHc=
 text: |
-  The IMU **SHALL** measure current testbed roll.
+  The IMU shall measure current testbed roll.

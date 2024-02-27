@@ -6,13 +6,13 @@ level: 3.1.4
 links: []
 normative: true
 ref: ''
-reviewed: yp6l_6hQ5VxoSVEYvJaZCW2buVivhGBROW1o0zhBoOI=
+reviewed: cNvWZk04JtFornmOWcN42Qzk2sod35IOYOs1uegXlCA=
 text: |
-  The message **SHALL** be proofed by the CRC32 Checksum attached to the end of the message. The checksum will be unique for all messages less than 2^32 characters in length.
+  The message shall be proofed by the CRC32 Checksum attached to the end of the message. The checksum will be unique for all messages less than 2^32 characters in length.
 
-  The checksum **SHALL** be run on all characters before the CRC32 Keyword.
+  The checksum shall be run on all characters before the CRC32 Keyword.
 
-  The checksum **SHALL** be computed on both sides using the following algorithm:
+  The checksum shall be computed on both sides using the following algorithm:
 
   ```c
   uint32_t crc32(const uint8_t *data, uint32_t length)

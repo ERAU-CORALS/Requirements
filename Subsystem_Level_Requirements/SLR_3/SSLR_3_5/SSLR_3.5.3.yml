@@ -8,9 +8,9 @@ header: |
   Even CMG Count
 level: 1.2
 links:
-- SLR_3.5: DP8gE3a0fnlQJAsl3BAfrwXjMaYLlxetQ0m2x70Hklo=
+- SLR_3.5: 1xe9Z7jBGlD_vM3elyVeqPYrab6tqos92E4_mHt6K8E=
 normative: true
 ref: ''
-reviewed: dlnwWl6emVXPvWRWGUNib32wFbiOhPXpSDMxoZAOWJg=
+reviewed: zTgHKOfGWpp25xKWKpiZ3eUZM4gKgRHcdsK65m3rZss=
 text: |
-  CORALS **SHALL** have an even number of CMGs for attitude control.
+  CORALS shall have an even number of CMGs for attitude control.

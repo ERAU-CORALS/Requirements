@@ -6,9 +6,9 @@ level: 4.2
 links: []
 normative: true
 ref: ''
-reviewed: MYQk-dcKVw4b4KFHCJDGOjcuneKCnWv3RjntZVA6Ijs=
+reviewed: Vh4UcQ-N0yvEeMul0rQfGs8Ge8oYDW_TkC89hKq9530=
 text: |
-  DARTS **SHALL** support the following telemetry requests:
+  DARTS shall support the following telemetry requests:
 
   * GET
   * GET_TARGET

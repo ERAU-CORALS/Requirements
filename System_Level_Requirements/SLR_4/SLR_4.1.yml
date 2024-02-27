@@ -8,9 +8,9 @@ header: |
   Roof Configuration
 level: 4.1
 links:
-- OBJ-4: SDNuI8NEJhMooqTtI3lrrZMbEJbKd8dWPPYQsmoAorI=
+- OBJ-4: fVJnmrjdya5j1hc3T8F2F6OgMMdH-HUXJ-VCijrma_0=
 normative: true
 ref: ''
-reviewed: -mq99W79KmTkOWPRrfiCi0TuuM4VMQR9JEits_fJLPk=
+reviewed: b1on6FTs5idlYwcTWYf9RBcN15qaT_fKvs32y5Td0EM=
 text: |
-  CORALS **SHALL** use a roof configuration CMG array.
+  CORALS shall use a roof configuration CMG array.

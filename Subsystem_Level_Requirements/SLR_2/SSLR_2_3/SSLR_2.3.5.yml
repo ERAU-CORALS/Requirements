@@ -8,9 +8,9 @@ header: |
   Telemetry Logging
 level: 1.3.1
 links:
-- SLR_2.3: UFBkHwfdJmB8-xiUaQkt8xY-thlML4N1Ch1Yr28S27U=
+- SLR_2.3: NvVV4GCSjipclswXp3A6E3ZFd1Jnrk2j2ZbXlbgCBcs=
 normative: true
 ref: ''
-reviewed: gMOjIHd0GtdLv8werfWa2oKN0QwPoRXyWNZp2vVH7wo=
+reviewed: YKPUqn7VdugEqakmDcZ7xxueFgry5aKDtDlDlQgy-2s=
 text: |
-  DARTS **SHALL** write all received CORALS attitude telemetry data to a formatted session data file.
+  DARTS shall write all received CORALS attitude telemetry data to a formatted session data file.

@@ -8,9 +8,9 @@ header: |
   Singularity Halt
 level: 4.3
 links:
-- OBJ-4: SDNuI8NEJhMooqTtI3lrrZMbEJbKd8dWPPYQsmoAorI=
+- OBJ-4: fVJnmrjdya5j1hc3T8F2F6OgMMdH-HUXJ-VCijrma_0=
 normative: true
 ref: ''
-reviewed: dssocVFG3MBXO3h4xZewIvSslda3uFKnWUOogLhKHPQ=
+reviewed: QlxA8WaWkEtQMrKhONsWK30sToVo9r81J9KhMk6AoRI=
 text: |
-  If a singularity state is detected, CORALS **SHALL** halt.
+  If a singularity state is detected, CORALS shall halt.

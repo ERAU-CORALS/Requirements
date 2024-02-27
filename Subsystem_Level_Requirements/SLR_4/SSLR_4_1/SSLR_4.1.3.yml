@@ -8,9 +8,9 @@ header: |
   CMG Spin Motor Power Control
 level: 1.2
 links:
-- SLR_4.1: cp-io6zjqP8iPgDunONfXh-32O_eAAKJBYSY3AB4xtk=
+- SLR_4.1: JpoOYCG7RdKJIstp7oSzOI4bJwFMG31wcJfLbMtGDaM=
 normative: true
 ref: ''
-reviewed: n1PqdZWe5D7jB87Lt4DZ9nv9owVYlI73CsjgpO84Qqo=
+reviewed: oc2GDYaCl-xBmEMzpvTgkMQWiydb6r17GFXzLEFfNeg=
 text: |
-  CORALS Software **SHALL** support power toggle of an even, dynamic number of CMG spin motors.
+  CORALS Software shall support power toggle of an even, dynamic number of CMG spin motors.

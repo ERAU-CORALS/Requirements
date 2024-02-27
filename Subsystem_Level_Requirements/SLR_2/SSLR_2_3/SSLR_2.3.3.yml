@@ -8,9 +8,9 @@ header: |
   Telemetry Log File
 level: 1.2
 links:
-- SLR_2.3: UFBkHwfdJmB8-xiUaQkt8xY-thlML4N1Ch1Yr28S27U=
+- SLR_2.3: NvVV4GCSjipclswXp3A6E3ZFd1Jnrk2j2ZbXlbgCBcs=
 normative: true
 ref: ''
-reviewed: gu0hYsvtXwXg_nb4z-r0p-MTherBgtx5nnH3TWLyz3U=
+reviewed: 7cNSBlH2ek00SAKIN-sg-DvUaR0OQO9VejDowKu7MVc=
 text: |
-  DARTS **SHALL** initialize a telemetry/telecommand log file on session startup.
+  DARTS shall initialize a telemetry/telecommand log file on session startup.

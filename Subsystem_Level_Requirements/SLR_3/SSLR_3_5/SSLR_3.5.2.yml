@@ -8,9 +8,9 @@ header: |
   Minimum Control Moment Gyroscopes
 level: 1.1
 links:
-- SLR_3.5: DP8gE3a0fnlQJAsl3BAfrwXjMaYLlxetQ0m2x70Hklo=
+- SLR_3.5: 1xe9Z7jBGlD_vM3elyVeqPYrab6tqos92E4_mHt6K8E=
 normative: true
 ref: ''
-reviewed: LbHp9eAxqSNU6aBLCMc3o8J6ByR_aIREpnV_hPTe7Ac=
+reviewed: mmY3DLQHa73xECRNTk1I--DrGlfSnfrsaiBZiKeZlQ4=
 text: |
-  CORALS **SHALL** have at least four Control Moment Gyroscopes (CMGs) for attitude control.
+  CORALS shall have at least four Control Moment Gyroscopes (CMGs) for attitude control.

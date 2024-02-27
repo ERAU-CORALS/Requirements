@@ -8,9 +8,9 @@ header: |
   Battery Capacity
 level: 1.2
 links:
-- SLR_3.1: PvMqKBzb4BSKgDTOMdHrOvfHxwUmD9nfNofy4OLs3eo=
+- SLR_3.1: Bg-iBp9F0FHPneMGH1l4lCcZhX3mt3qB-MEfCrVmtcY=
 normative: true
 ref: ''
-reviewed: kfzQtFU0O_srRqgtg3G05axezcxl8H1XX3bFzBJplC0=
+reviewed: WzPHZq_GBHyt4kPsWMKXoOY-mOiI17YDbxtC_muTa_M=
 text: |
-  The EPS battery **SHALL** have a capacity of at least 2000mAh.
+  The EPS battery shall have a capacity of at least 2000mAh.

@@ -8,9 +8,9 @@ header: |
   Inertial Measurement Unit (IMU)
 level: 2.1
 links:
-- SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
+- SLR_2.2: UaztSpFN1uCzw30To7kDiB3WFbdNDCntTPYoqJWxDY4=
 normative: true
 ref: ''
-reviewed: 3Ywz8cVu1XHG8WxcjgktDxoeuxywn6e-7D3lp5rG2oc=
+reviewed: 08BQDjW5ZP__cN4XacbusPriQmqabmC1dtKIpNS-wfk=
 text: |
-  CORALS **SHALL** have an Inertial Measurement Unit (IMU).
+  CORALS shall have an Inertial Measurement Unit (IMU).

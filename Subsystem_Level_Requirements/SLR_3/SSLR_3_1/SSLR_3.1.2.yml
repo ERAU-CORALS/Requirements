@@ -9,9 +9,9 @@ header: |
   Electrical Power System
 level: 1.1
 links:
-- SLR_3.1: PvMqKBzb4BSKgDTOMdHrOvfHxwUmD9nfNofy4OLs3eo=
+- SLR_3.1: Bg-iBp9F0FHPneMGH1l4lCcZhX3mt3qB-MEfCrVmtcY=
 normative: true
 ref: ''
-reviewed: VgBof5WpiVe-SvZ3mr6DLJcawvZpYa4gOLkR7Ob875I=
+reviewed: lC6tLCjHLY6NDEJOwHhZpan8iDJBSJdf1f9Qb5K9AKs=
 text: |
-  CORALS **SHALL** have an Electrical Power System (EPS).
+  CORALS shall have an Electrical Power System (EPS).
