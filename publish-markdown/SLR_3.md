@@ -1,6 +1,6 @@
 ## Onboard Control System <small>SLR_3.1</small> {#SLR_3.1 }
 
-CORALS shall have a common onboard control system.
+The testbed shall have a common onboard control system.
 
 *Parent links:* [OBJ-3 Range of Motion](OBJ.html#OBJ-3)
 
@@ -15,7 +15,7 @@ CORALS shall have a common onboard control system.
 
 ## Testbed Roll <small>SLR_3.2</small> {#SLR_3.2 }
 
-CORALS shall be capable of roll to ±180°.
+The testbed shall be capable of roll to ±180°.
 
 *Parent links:* [OBJ-3 Range of Motion](OBJ.html#OBJ-3)
 
@@ -28,7 +28,7 @@ CORALS shall be capable of roll to ±180°.
 
 ## Testbed Pitch <small>SLR_3.3</small> {#SLR_3.3 }
 
-CORALS shall be capable of pitch to ±30°.
+The testbed shall be capable of pitch to ±30°.
 
 *Parent links:* [OBJ-3 Range of Motion](OBJ.html#OBJ-3)
 
@@ -43,7 +43,7 @@ CORALS shall be capable of pitch to ±30°.
 
 ## Testbed Yaw <small>SLR_3.4</small> {#SLR_3.4 }
 
-CORALS shall be capable of yaw to ±180°.
+The testbed shall be capable of yaw to ±180°.
 
 *Parent links:* [OBJ-3 Range of Motion](OBJ.html#OBJ-3)
 
@@ -56,7 +56,7 @@ CORALS shall be capable of yaw to ±180°.
 
 ## Attitude Accuracy <small>SLR_3.5</small> {#SLR_3.5 }
 
-CORALS shall be capable of attitude control within ±1.8°.
+The testbed shall be capable of attitude control within ±1.8°.
 
 *Parent links:* [OBJ-3 Range of Motion](OBJ.html#OBJ-3)
 
@@ -71,7 +71,7 @@ CORALS shall be capable of attitude control within ±1.8°.
 
 ## testbed Balance <small>SLR_3.6</small> {#SLR_3.6 }
 
-CORALS shall operate with an imbalance torque less than 10E-6 Nm.
+The testbed shall operate with an imbalance torque less than 10E-6 Nm.
 
 *Parent links:* [OBJ-3 Range of Motion](OBJ.html#OBJ-3)
 

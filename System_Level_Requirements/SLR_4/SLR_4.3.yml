@@ -11,6 +11,6 @@ links:
 - OBJ-4: fVJnmrjdya5j1hc3T8F2F6OgMMdH-HUXJ-VCijrma_0=
 normative: true
 ref: ''
-reviewed: QlxA8WaWkEtQMrKhONsWK30sToVo9r81J9KhMk6AoRI=
+reviewed: oWb6JHMzZV2HzaVZwWieX_fOwfIGO_h0PEwvNZ-C0lY=
 text: |
-  If a singularity state is detected, CORALS shall halt.
+  If a singularity state is detected, the testbed shall halt.

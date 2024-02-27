@@ -2,7 +2,7 @@
 
 ## Data Log File <small>SSLR_2.3.2</small> {#SSLR_2.3.2 }
 
-DARTS  shall initialize a new formatted data file on session startup.
+DARTS shall initialize a new formatted attitude data file on session startup.
 
 *Parent links:* [SLR_2.3 Telemetry Storage](SLR_2.html#SLR_2.3)
 

@@ -8,9 +8,9 @@ header: |
   Attitude Telemetry Packet Structure
 level: 1.5.1
 links:
-- SLR_2.2: GwBO7jDlL0knoMU4Z-yXjhx4VHYhtITl_QMML-86P5M=
+- SLR_2.2: 4sSKfr82BM-HwafwVmcJoeRa9_TXnpzmGyQ-ZVzV2L8=
 normative: true
 ref: ''
-reviewed: DKJl3RZxmv8bYamCTvaTeXSc5uUzI3mKPPUfcMdIgQw=
+reviewed: f1pf9S9O7j_U17S4rrOro1z4tW3rXZlT4PV8TDtdAwA=
 text: |
-  The control software shall periodically transmit attitude state telemetry response packets from the testbed to DARTS as described in the CORALS Software Interface Design Document.
+  The control software shall periodically transmit attitude state telemetry response packets from the testbed to DARTS.

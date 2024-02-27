@@ -2,7 +2,7 @@
 
 ## CMG Software Support <small>SSLR_4.1.2</small> {#SSLR_4.1.2 }
 
-CORALS Software shall support an even, dynamic number of CMGs.
+The control software shall support a dynamic number of CMGs.
 
 *Parent links:* [SLR_4.1 Roof Configuration](SLR_4.html#SLR_4.1)
 
@@ -15,7 +15,7 @@ CORALS Software shall support an even, dynamic number of CMGs.
 
 ## CMG Spin Motor Power Control <small>SSLR_4.1.3</small> {#SSLR_4.1.3 }
 
-CORALS Software shall support power toggle of an even, dynamic number of CMG spin motors.
+The control software shall support power toggle of a dynamic number of CMG spin motors.
 
 *Parent links:* [SLR_4.1 Roof Configuration](SLR_4.html#SLR_4.1)
 
@@ -28,7 +28,7 @@ CORALS Software shall support power toggle of an even, dynamic number of CMG spi
 
 ## CMG Gimbal Motor Control <small>SSLR_4.1.4</small> {#SSLR_4.1.4 }
 
-CORALS Software shall support PWM control of an even, dynamic number of CMG gimbal motors.
+The control software shall support PWM control of a dynamic number of CMG gimbal motors.
 
 *Parent links:* [SLR_4.1 Roof Configuration](SLR_4.html#SLR_4.1)
 
@@ -41,7 +41,7 @@ CORALS Software shall support PWM control of an even, dynamic number of CMG gimb
 
 ## CMG Gimbal Position Tracking <small>SSLR_4.1.5</small> {#SSLR_4.1.5 }
 
-CORALS Software shall track the position of an even, dynamic number of CMG gimbal motors.
+The control software shall track the position of a dynamic number of CMG gimbal motors.
 
 *Parent links:* [SLR_4.1 Roof Configuration](SLR_4.html#SLR_4.1)
 
@@ -49,7 +49,7 @@ CORALS Software shall track the position of an even, dynamic number of CMG gimba
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
-| Verification | Manual Test |
+| Verification | Demonstration |
 
 
 ## CMG Mounting <small>SSLR_4.1.6</small> {#SSLR_4.1.6 }

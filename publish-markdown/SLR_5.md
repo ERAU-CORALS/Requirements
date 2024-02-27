@@ -1,6 +1,6 @@
 ## Air Bearing <small>SLR_5.1</small> {#SLR_5.1 }
 
-CORALS shall use a spherical air bearing for controlled pivoting.
+The testbed shall use a spherical air bearing for controlled pivoting.
 
 *Parent links:* [OBJ-5 Pivot Endurance](OBJ.html#OBJ-5)
 

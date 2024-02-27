@@ -1,16 +1,16 @@
 Metric: Boolean
 Range: 'True'
 Req?: true
-Verification: Manual Test
+Verification: Demonstration
 active: true
 derived: false
 header: |
   CMG Gimbal Position Tracking
 level: 1.4
 links:
-- SLR_4.1: JpoOYCG7RdKJIstp7oSzOI4bJwFMG31wcJfLbMtGDaM=
+- SLR_4.1: aYsS2sAuAkPivTWrtpVhJgD2-XYUjDwaOcoutUbyLAg=
 normative: true
 ref: ''
-reviewed: 9O1zTucMveqX7fiuBcMx8V5NEZERRCd84tIthej4IcU=
+reviewed: xylD9bCeSMaOnLYy92JH24kkQ_OA4vPO7umWNbw5hJ4=
 text: |
-  CORALS Software shall track the position of an even, dynamic number of CMG gimbal motors.
+  The control software shall track the position of a dynamic number of CMG gimbal motors.

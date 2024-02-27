@@ -8,9 +8,9 @@ header: |
   Data Log File
 level: 1.1
 links:
-- SLR_2.3: NvVV4GCSjipclswXp3A6E3ZFd1Jnrk2j2ZbXlbgCBcs=
+- SLR_2.3: ceT0ymaGNiC2dMBk2QMi1ihDnAhoav2zGdcQDIrl35c=
 normative: true
 ref: ''
-reviewed: 6k_Hh_R5WYAe0ZAM_NdR76eBKExyQzV3GYLS7w-UCbk=
+reviewed: n7HNOWmY6FD4-otTsZoejFVlsi_u6lC13PJgHzPHR_8=
 text: |
-  DARTS  shall initialize a new formatted data file on session startup.
+  DARTS shall initialize a new formatted attitude data file on session startup.

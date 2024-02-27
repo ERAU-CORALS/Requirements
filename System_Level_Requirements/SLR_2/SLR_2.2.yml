@@ -11,6 +11,6 @@ links:
 - OBJ-2: N6kAiMFLFYERywVBprvZnihWBjTEGRnTku5D6C59odc=
 normative: true
 ref: ''
-reviewed: CddIBKT1a0efwwiwAE7CZ64hBTQ_zZjX6SzksmGbSys=
+reviewed: dLgp_RFHomnIooiCETGH-6YpYkfcIku4ifAJi4wxkA8=
 text: |
-  CORALS shall transmit current attitude telemetry data to a host computer.
+  The testbed shall transmit current attitude telemetry data to a host computer.

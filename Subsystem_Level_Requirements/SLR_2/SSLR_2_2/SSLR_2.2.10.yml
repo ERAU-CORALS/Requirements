@@ -1,16 +1,16 @@
 Metric: Boolean
 Range: 'True'
 Req?: true
-Verification: Automated Test
+Verification: Demonstration
 active: true
 derived: false
 header: |
   CORALS Telemetry Tx
 level: 1.4.3
 links:
-- SLR_2.2: GwBO7jDlL0knoMU4Z-yXjhx4VHYhtITl_QMML-86P5M=
+- SLR_2.2: 4sSKfr82BM-HwafwVmcJoeRa9_TXnpzmGyQ-ZVzV2L8=
 normative: true
 ref: ''
-reviewed: LxI1uIt43bUB093v5aq0g4tq62wKy-YY1AcqeJaGoPg=
+reviewed: b-NQION-j9RIGJN_7ostDW55HfhoS4_cgT5OLa6WWx8=
 text: |
   The control software shall transmit telemetry response packets from DARTS over Bluetooth.

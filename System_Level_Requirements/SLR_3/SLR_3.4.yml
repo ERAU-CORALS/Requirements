@@ -11,6 +11,6 @@ links:
 - OBJ-3: 89aMOY1I8lTVEtVYaEePrmKX8UUlxl5Xp-stD3c2Rro=
 normative: true
 ref: ''
-reviewed: Q9vCK00XFwTT5DhduX48at853zDfnfHDm_oPo7LQnhA=
+reviewed: JQisiJFWe6DX2K5bmeEk1FS6iHZx81G1E9UHOwIdTow=
 text: |
-  CORALS shall be capable of yaw to ±180°.
+  The testbed shall be capable of yaw to ±180°.

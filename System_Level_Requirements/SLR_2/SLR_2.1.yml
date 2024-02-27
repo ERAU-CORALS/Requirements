@@ -11,6 +11,6 @@ links:
 - OBJ-2: N6kAiMFLFYERywVBprvZnihWBjTEGRnTku5D6C59odc=
 normative: true
 ref: ''
-reviewed: 8ta40SgaDUAQbIyhiA_Eovg__576FACZ8BhpfOD_F9Q=
+reviewed: EVWbOTIExMTJBd1SWds8Jf_jg2v89Ojey_lmeQzU7XU=
 text: |
-  CORALS shall receive attitude control telecommands from a host computer.
+  The testbed shall receive attitude control telecommands from a host computer.

@@ -11,6 +11,6 @@ links:
 - OBJ-3: 89aMOY1I8lTVEtVYaEePrmKX8UUlxl5Xp-stD3c2Rro=
 normative: true
 ref: ''
-reviewed: c-tTLZ-Vi6E6uSB4KflDBwTpdtEOJYdY9OJ5DQODQv0=
+reviewed: q5m45YByQvIzFZKnHVa33CA5Ckqkb56PT_9TjqLEyI0=
 text: |
-  CORALS shall operate with an imbalance torque less than 10E-6 Nm.
+  The testbed shall operate with an imbalance torque less than 10E-6 Nm.

@@ -1,6 +1,6 @@
 ## Roof Configuration <small>SLR_4.1</small> {#SLR_4.1 }
 
-CORALS shall use a roof configuration CMG array.
+The testbed shall use a roof configuration CMG array.
 
 *Parent links:* [OBJ-4 Roof Arrangement](OBJ.html#OBJ-4)
 
@@ -15,7 +15,7 @@ CORALS shall use a roof configuration CMG array.
 
 ## Singularity Detection <small>SLR_4.2</small> {#SLR_4.2 }
 
-CORALS shall be capable of detecting a singular state.
+The testbed shall be capable of detecting a singular state.
 
 *Parent links:* [OBJ-4 Roof Arrangement](OBJ.html#OBJ-4)
 
@@ -28,7 +28,7 @@ CORALS shall be capable of detecting a singular state.
 
 ## Singularity Halt <small>SLR_4.3</small> {#SLR_4.3 }
 
-If a singularity state is detected, CORALS shall halt.
+If a singularity state is detected, the testbed shall halt.
 
 *Parent links:* [OBJ-4 Roof Arrangement](OBJ.html#OBJ-4)
 

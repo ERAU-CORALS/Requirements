@@ -51,7 +51,7 @@ The control software shall receive telecommand packets from DARTS over Bluetooth
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
-| Verification | Automated Test |
+| Verification | Demonstration |
 
 
 ### CORALS Telecommand Protocol Adherence <small>SSLR_2.1.12</small> {#SSLR_2.1.12 }
@@ -79,7 +79,7 @@ DARTS shall transmit telemetry request packets to the testbed over Bluetooth.
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
-| Verification | Automated Test |
+| Verification | Demonstration |
 
 
 ### DARTS Telemetry Request Protocol <small>SSLR_2.1.17</small> {#SSLR_2.1.17 }
@@ -105,7 +105,7 @@ The control software shall receive telecommand packets from DARTS over Bluetooth
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
-| Verification | Automated Test |
+| Verification | Demonstration |
 
 
 ### CORALS Telemetry Request Protocol Adherence <small>SSLR_2.1.19</small> {#SSLR_2.1.19 }

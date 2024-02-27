@@ -1,6 +1,6 @@
 ## Telecommand Reception <small>SLR_2.1</small> {#SLR_2.1 }
 
-CORALS shall receive attitude control telecommands from a host computer.
+The testbed shall receive attitude control telecommands from a host computer.
 
 *Parent links:* [OBJ-2 Wireless Telemetry](OBJ.html#OBJ-2)
 
@@ -15,7 +15,7 @@ CORALS shall receive attitude control telecommands from a host computer.
 
 ## Telemetry Transmission <small>SLR_2.2</small> {#SLR_2.2 }
 
-CORALS shall transmit current attitude telemetry data to a host computer.
+The testbed shall transmit current attitude telemetry data to a host computer.
 
 *Parent links:* [OBJ-2 Wireless Telemetry](OBJ.html#OBJ-2)
 
@@ -30,7 +30,7 @@ CORALS shall transmit current attitude telemetry data to a host computer.
 
 ## Telemetry Storage <small>SLR_2.3</small> {#SLR_2.3 }
 
-CORALS shall store attitude telemetry data on the host computer.
+The testbed shall store attitude telemetry data on the host computer.
 
 *Parent links:* [OBJ-2 Wireless Telemetry](OBJ.html#OBJ-2)
 

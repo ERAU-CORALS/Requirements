@@ -12,7 +12,7 @@ DARTS shall receive telemetry response packets from the testbed over Bluetooth.
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
-| Verification | Automated Test |
+| Verification | Demonstration |
 
 
 ### DARTS Telemetry Structure <small>SSLR_2.2.9</small> {#SSLR_2.2.9 }
@@ -38,7 +38,7 @@ The control software shall transmit telemetry response packets from DARTS over B
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
-| Verification | Automated Test |
+| Verification | Demonstration |
 
 
 ### CORALS Telemetry Structure <small>SSLR_2.2.11</small> {#SSLR_2.2.11 }
@@ -58,7 +58,7 @@ The control software shall transmit telemetry response packets to DARTS using a 
 
 ### Attitude Telemetry Packet Structure <small>SSLR_2.2.13</small> {#SSLR_2.2.13 }
 
-The control software shall periodically transmit attitude state telemetry response packets from the testbed to DARTS as described in the CORALS Software Interface Design Document.
+The control software shall periodically transmit attitude state telemetry response packets from the testbed to DARTS.
 
 *Parent links:* [SLR_2.2 Telemetry Transmission](SLR_2.html#SLR_2.2)
 
@@ -71,7 +71,7 @@ The control software shall periodically transmit attitude state telemetry respon
 
 ### Testbed Telemetry Packet Structure <small>SSLR_2.2.14</small> {#SSLR_2.2.14 }
 
-The control software shall periodically transmit testbed state telemetry response packets from the testbed to DARTS as described in the CORALS Software Interface Design Document.
+The control software shall periodically transmit testbed state telemetry response packets from the testbed to DARTS.
 
 *Parent links:* [SLR_2.2 Telemetry Transmission](SLR_2.html#SLR_2.2)
 
