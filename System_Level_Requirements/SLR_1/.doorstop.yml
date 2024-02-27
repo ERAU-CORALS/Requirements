@@ -1,0 +1,21 @@
+settings:
+  digits: '1'
+  parent: OBJ
+  prefix: SLR_1
+  sep: .
+attributes:
+  defaults:
+    Req?: true
+    Metric: TBD
+    Range: TBD
+    Verification: |
+      Demonstration, Inspection, Manual Test, or Automated Test
+  reviewed:
+  - Req?
+  - Metric
+  - Range
+  - Verification
+  publish:
+  - Metric
+  - Range
+  - Verification

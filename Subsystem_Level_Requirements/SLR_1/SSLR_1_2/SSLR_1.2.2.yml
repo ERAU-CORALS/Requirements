@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Verification: Inspection
+active: false
+derived: false
+header: |
+  Minimum Energy Control
+level: 1.1
+links:
+- SLR_1.2: null
+normative: true
+ref: ''
+reviewed: MfWrgPRUcehpCUqSdcA_3-nVD2R99u27rDZbs4u5NlM=
+text: |
+  The CORALS simulation SHALL determine CMG position and rate for the calculated torque using the Minimum Energy Solution.

@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Verification: Inspection
+active: false
+derived: false
+header: |
+  Simulated External Torques
+level: 1.6
+links:
+- SLR_1.1: null
+normative: true
+ref: ''
+reviewed: DTj-5Cdibq5qYaqbSCDZ8mqks-Xh1GswxbpV8MIkEjY=
+text: |
+  The CORALS simulation **SHALL** account for torques caused by external perturbations once they have been identified and defined.

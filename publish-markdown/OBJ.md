@@ -1,3 +1,9 @@
+# Wireless Telemetry <small>OBJ-2</small> {#OBJ-2 }
+
+CORALS should continuously stream telemetry data wirelessly throughout its operation.
+
+*Child links:* [SLR_2.1 Telecommand Reception](SLR_2.html#SLR_2.1), [SLR_2.2 Telemetry Transmission](SLR_2.html#SLR_2.2), [SLR_2.3 Telemetry Storage](SLR_2.html#SLR_2.3)
+
 # Range of Motion <small>OBJ-3</small> {#OBJ-3 }
 
 CORALS should be capable of controlled movement in roll and yaw to ±180°, and in pitch to ±30°.

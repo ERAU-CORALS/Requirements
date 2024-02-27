@@ -1,0 +1,16 @@
+Metric: Simulated Pitch
+Range: '[-30°, 30°]'
+Req?: true
+Verification: Demonstration
+active: false
+derived: false
+header: |
+  Simulated Array Pitch
+level: 1.4
+links:
+- SLR_1.1: null
+normative: true
+ref: ''
+reviewed: I3rzpucezWtUW3v-Up5SQ95KBDg5LD9nRYEbys6T4uI=
+text: |
+  The CORALS simulation **SHALL** verify the CMG array parameters are capable of controlled pitch to ±30°.

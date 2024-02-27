@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Verification: Inspection
+active: false
+derived: false
+header: |
+  Simulated IMU
+level: 1.7
+links:
+- SLR_1.1: null
+normative: true
+ref: ''
+reviewed: nV4gQuOl_XUysAHWw_5I8L8tyE8qjxJN30_XY95HIF0=
+text: |
+  The CORALS simulation **SHALL** digitally model an IMU to identify expected results from physical testing the CORALS testbed with IMU installed.
