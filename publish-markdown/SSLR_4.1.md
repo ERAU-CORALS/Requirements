@@ -52,3 +52,14 @@ CORALS Software shall track the position of an even, dynamic number of CMG gimba
 | Verification | Manual Test |
 
 
+## CMG Mounting <small>SSLR_4.1.6</small> {#SSLR_4.1.6 }
+
+The structural subsystem shall feature a 3D printed truss capable of supporting four CMGs in a roof configuration.
+
+| Attribute | Value |
+| --------- | ----- |
+| Metric | Boolean |
+| Range | True |
+| Verification | Inspection |
+
+

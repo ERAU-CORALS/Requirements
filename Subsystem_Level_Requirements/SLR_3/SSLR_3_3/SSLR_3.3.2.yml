@@ -11,6 +11,6 @@ links:
 - SLR_3.3: oY_oH8r1qtJsd5khNgOqXFvL-9gMY6754L-DxnT6AiI=
 normative: true
 ref: ''
-reviewed: zQ-7qqGliDbsJOTbmmFsBL5N5SclxppMQ_4l4Bgi9hs=
+reviewed: imNgHcuXNNkzqoQQjINyaXrizNG_aMpzOnvsMxPlR9U=
 text: |
   If current testbed pitch exceeds ±27°, CORALS Software shall transmit Pitch Warning telemetry messages.

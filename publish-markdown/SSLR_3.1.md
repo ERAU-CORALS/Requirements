@@ -1,19 +1,5 @@
 # Electrical Subsystem {#SSLR_3.1.1 }
 
-## Electrical Power System <small>SSLR_3.1.2</small> {#SSLR_3.1.2 }
-
-CORALS shall have an Electrical Power System (EPS).
-
-*Parent links:* [SLR_3.1 Onboard Control System](SLR_3.html#SLR_3.1)
-
-| Attribute | Value |
-| --------- | ----- |
-| Metric | Boolean |
-| Range | True |
-| Verification | Demonstration, Inspection, Manual Test, or Automated Test
- |
-
-
 ## Battery Capacity <small>SSLR_3.1.3</small> {#SSLR_3.1.3 }
 
 The EPS battery shall have a capacity of at least 2000mAh.
@@ -23,7 +9,7 @@ The EPS battery shall have a capacity of at least 2000mAh.
 | Attribute | Value |
 | --------- | ----- |
 | Metric | Capacity |
-| Range | [2000, inf) |
+| Range | [2000, inf) mAh |
 | Verification | Manual Test |
 
 

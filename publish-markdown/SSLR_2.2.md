@@ -84,19 +84,6 @@ The control software shall periodically transmit testbed state telemetry respons
 
 # Electrical Subsystem {#SSLR_2.2.17 }
 
-## Inertial Measurement Unit (IMU) <small>SSLR_2.2.18</small> {#SSLR_2.2.18 }
-
-CORALS shall have an Inertial Measurement Unit (IMU).
-
-*Parent links:* [SLR_2.2 Telemetry Transmission](SLR_2.html#SLR_2.2)
-
-| Attribute | Value |
-| --------- | ----- |
-| Metric | Boolean |
-| Range | True |
-| Verification | Inspection |
-
-
 ## IMU Roll <small>SSLR_2.2.19</small> {#SSLR_2.2.19 }
 
 The IMU shall measure current testbed roll.

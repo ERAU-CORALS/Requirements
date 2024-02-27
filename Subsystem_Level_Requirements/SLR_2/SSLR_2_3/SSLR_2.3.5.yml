@@ -11,6 +11,6 @@ links:
 - SLR_2.3: NvVV4GCSjipclswXp3A6E3ZFd1Jnrk2j2ZbXlbgCBcs=
 normative: true
 ref: ''
-reviewed: YKPUqn7VdugEqakmDcZ7xxueFgry5aKDtDlDlQgy-2s=
+reviewed: e-gi0qhTOs_WWTaP7E_c6tZSjcovH97nuCe8zI0MMZ0=
 text: |
   DARTS shall write all received testbed attitude telemetry data to a formatted session data file.

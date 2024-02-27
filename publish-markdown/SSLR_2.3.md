@@ -30,7 +30,7 @@ DARTS shall initialize a telemetry/telecommand log file on session startup.
 
 ### Telemetry Logging <small>SSLR_2.3.5</small> {#SSLR_2.3.5 }
 
-DARTS shall write all received CORALS attitude telemetry data to a formatted session data file.
+DARTS shall write all received testbed attitude telemetry data to a formatted session data file.
 
 *Parent links:* [SLR_2.3 Telemetry Storage](SLR_2.html#SLR_2.3)
 
@@ -53,7 +53,7 @@ DARTS shall write all transmitted telecommands and telemetry requests to a sessi
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
-| Verification | Inspection |
+| Verification | Manual Test |
 
 
 ### DARTS Telemetry Logging <small>SSLR_2.3.9</small> {#SSLR_2.3.9 }
@@ -66,6 +66,6 @@ DARTS shall write all received telemetry responses to a session telemetry/teleco
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
-| Verification | Inspection |
+| Verification | Manual Test |
 
 

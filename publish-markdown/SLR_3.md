@@ -4,7 +4,7 @@ CORALS shall have a common onboard control system.
 
 *Parent links:* [OBJ-3 Range of Motion](OBJ.html#OBJ-3)
 
-*Child links:* [SSLR_3.1.2 Electrical Power System](SSLR_3.1.html#SSLR_3.1.2), [SSLR_3.1.3 Battery Capacity](SSLR_3.1.html#SSLR_3.1.3), [SSLR_3.1.4](SSLR_3.1.html#SSLR_3.1.4), [SSLR_3.1.5 Primary Rail](SSLR_3.1.html#SSLR_3.1.5), [SSLR_3.1.6 Secondary Rail](SSLR_3.1.html#SSLR_3.1.6), [SSLR_3.1.8 Primary Rail Voltage](SSLR_3.1.html#SSLR_3.1.8), [SSLR_3.1.9 Primary Rail Startup Current](SSLR_3.1.html#SSLR_3.1.9), [SSLR_3.1.10 Primary Rail Typical Current](SSLR_3.1.html#SSLR_3.1.10), [SSLR_3.1.12 Secondary Rail Voltage](SSLR_3.1.html#SSLR_3.1.12), [SSLR_3.1.13 Secondary Rail Current](SSLR_3.1.html#SSLR_3.1.13)
+*Child links:* SSLR_3.1.2, [SSLR_3.1.3 Battery Capacity](SSLR_3.1.html#SSLR_3.1.3), [SSLR_3.1.4](SSLR_3.1.html#SSLR_3.1.4), [SSLR_3.1.5 Primary Rail](SSLR_3.1.html#SSLR_3.1.5), [SSLR_3.1.6 Secondary Rail](SSLR_3.1.html#SSLR_3.1.6), [SSLR_3.1.8 Primary Rail Voltage](SSLR_3.1.html#SSLR_3.1.8), [SSLR_3.1.9 Primary Rail Startup Current](SSLR_3.1.html#SSLR_3.1.9), [SSLR_3.1.10 Primary Rail Typical Current](SSLR_3.1.html#SSLR_3.1.10), [SSLR_3.1.12 Secondary Rail Voltage](SSLR_3.1.html#SSLR_3.1.12), [SSLR_3.1.13 Secondary Rail Current](SSLR_3.1.html#SSLR_3.1.13)
 
 | Attribute | Value |
 | --------- | ----- |
@@ -75,7 +75,7 @@ CORALS shall operate with an imbalance torque less than 10E-6 Nm.
 
 *Parent links:* [OBJ-3 Range of Motion](OBJ.html#OBJ-3)
 
-*Child links:* [SSLR_3.6.2 Balancing System](SSLR_3.6.html#SSLR_3.6.2), [SSLR_3.6.3 Balancing Masses](SSLR_3.6.html#SSLR_3.6.3), [SSLR_3.6.4 Mass Balance Adjustment](SSLR_3.6.html#SSLR_3.6.4)
+*Child links:* SSLR_3.6.2, [SSLR_3.6.3 Balancing Masses](SSLR_3.6.html#SSLR_3.6.3), [SSLR_3.6.4 Mass Balance Adjustment](SSLR_3.6.html#SSLR_3.6.4)
 
 | Attribute | Value |
 | --------- | ----- |
