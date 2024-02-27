@@ -15,8 +15,6 @@ The Data Acquisition and Remote Telecommand Script (DARTS) shall be used to comm
 
 ## DARTS-CORALS Telecommands {#SSLR_2.1.6 }
 
-## DARTS-CORALS Telemetry Requests {#SSLR_2.1.20 }
-
 ### DARTS Bluetooth Telecommand Tx <small>SSLR_2.1.7</small> {#SSLR_2.1.7 }
 
 DARTS shall transmit telecommand packets to the testbed over Bluetooth.
@@ -68,6 +66,8 @@ The control software shall process telecommands from DARTS if the packet structu
 | Range | True |
 | Verification | Automated Test |
 
+
+## DARTS-CORALS Telemetry Requests {#SSLR_2.1.20 }
 
 ### DARTS Bluetooth Telemetry Request Tx <small>SSLR_2.1.16</small> {#SSLR_2.1.16 }
 
