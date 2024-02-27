@@ -1,12 +1,13 @@
 active: true
 derived: false
-header: ''
+header: |
+  SIDD Introduction
 level: 1.0
 links: []
 normative: false
 ref: ''
-reviewed: PQR4jhg4zb9E3KnmtfNQlQ_nfSVxt0-B4yuzu1A9iYk=
+reviewed: AJ-kzxecNoehjQRL5agwVQWcX4nXcBW7r9Qyk5iTf74=
 text: |
   Introduction
 
-  The CORALS Software Interface Design document was developed by Team CORALS as a design standard and reference for the Software Communication Protocols used on the CORALS Testbed. It is meant to replace the need for requirements specifying the format and breadth of command/data transmission to and from the CORALS Testbed with the client, as the requirements were not derivable from the customer objectives; the customer did not stipulate a standard. This document will serve as a source of design truth for the CORALS Software Communication interfaces.
+  The CORALS Software Interface Design document was developed by CORALS as a design standard and reference for the Software Communication Protocols used on the testbed. It is meant to replace the need for requirements specifying the format and breadth of command/data transmission to and from the testbed with the client, as the requirements were not derivable from the customer objectives; the customer did not stipulate a standard. This document will serve as a source of design truth for the CORALS Software Communication interfaces.

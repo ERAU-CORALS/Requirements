@@ -2,7 +2,7 @@
 
 ## Data Acquisition and Remote Telecommand Script <small>SSLR_2.1.2</small> {#SSLR_2.1.2 }
 
-CORALS shall use the Data Acquisition and Remote Telecommand Script (DARTS) to communicate with the testbed.
+The Data Acquisition and Remote Telecommand Script (DARTS) shall be used to communicate with the testbed.
 
 *Parent links:* [SLR_2.1 Telecommand Reception](SLR_2.html#SLR_2.1)
 
@@ -17,7 +17,7 @@ CORALS shall use the Data Acquisition and Remote Telecommand Script (DARTS) to c
 
 ### DARTS Bluetooth Telecommand Tx <small>SSLR_2.1.7</small> {#SSLR_2.1.7 }
 
-DARTS shall transmit telecommand packets to the CORALS Testbed over Bluetooth.
+DARTS shall transmit telecommand packets to the testbed over Bluetooth.
 
 *Parent links:* [SLR_2.1 Telecommand Reception](SLR_2.html#SLR_2.1)
 
@@ -28,9 +28,9 @@ DARTS shall transmit telecommand packets to the CORALS Testbed over Bluetooth.
 | Verification | Demonstration |
 
 
-### DARTS Telecommand Structure <small>SSLR_2.1.8</small> {#SSLR_2.1.8 }
+### DARTS Telecommand Protocol <small>SSLR_2.1.8</small> {#SSLR_2.1.8 }
 
-DARTS shall transmit telecommand packets to the CORALS Testbed as described in the CORALS Software Interface Design Document.
+DARTS shall transmit telecommand packets to the testbed using a standard communication protocol.
 
 *Parent links:* [SLR_2.1 Telecommand Reception](SLR_2.html#SLR_2.1)
 
@@ -43,7 +43,7 @@ DARTS shall transmit telecommand packets to the CORALS Testbed as described in t
 
 ### CORALS Bluetooth Telecommand Rx <small>SSLR_2.1.11</small> {#SSLR_2.1.11 }
 
-CORALS shall receive telecommand packets from DARTS over Bluetooth.
+The control software shall receive telecommand packets from DARTS over Bluetooth.
 
 *Parent links:* [SLR_2.1 Telecommand Reception](SLR_2.html#SLR_2.1)
 
@@ -54,9 +54,9 @@ CORALS shall receive telecommand packets from DARTS over Bluetooth.
 | Verification | Automated Test |
 
 
-### CORALS Telecommand Structure <small>SSLR_2.1.12</small> {#SSLR_2.1.12 }
+### CORALS Telecommand Protocol Adherence <small>SSLR_2.1.12</small> {#SSLR_2.1.12 }
 
-CORALS shall process telecommands from DARTS if the packet structure and content is valid as described in the CORALS Software Interface Design Document.
+The control software shall process telecommands from DARTS if the packet structure and content is valid according to a standard communication protocol.
 
 *Parent links:* [SLR_2.1 Telecommand Reception](SLR_2.html#SLR_2.1)
 
@@ -71,7 +71,7 @@ CORALS shall process telecommands from DARTS if the packet structure and content
 
 ### DARTS Bluetooth Telemetry Request Tx <small>SSLR_2.1.13</small> {#SSLR_2.1.13 }
 
-DARTS shall transmit telemetry request packets to the CORALS Testbed over Bluetooth.
+DARTS shall transmit telemetry request packets to the testbed over Bluetooth.
 
 *Parent links:* [SLR_2.1 Telecommand Reception](SLR_2.html#SLR_2.1)
 
@@ -82,9 +82,9 @@ DARTS shall transmit telemetry request packets to the CORALS Testbed over Blueto
 | Verification | Automated Test |
 
 
-### DARTS Telemetry Request Structure <small>SSLR_2.1.14</small> {#SSLR_2.1.14 }
+### DARTS Telemetry Request Protocol <small>SSLR_2.1.14</small> {#SSLR_2.1.14 }
 
-DARTS shall transmit telemetry request packets to the CORALS Testbed as described in the CORALS Software Interface Design Document.
+DARTS shall transmit telemetry request packets to the testbed using a standard communication protocol.
 
 *Parent links:* [SLR_2.1 Telecommand Reception](SLR_2.html#SLR_2.1)
 
@@ -97,7 +97,7 @@ DARTS shall transmit telemetry request packets to the CORALS Testbed as describe
 
 ### CORALS Bluetooth Telemetry Request Rx <small>SSLR_2.1.15</small> {#SSLR_2.1.15 }
 
-CORALS shall receive telecommand packets from DARTS over Bluetooth.
+The control software shall receive telecommand packets from DARTS over Bluetooth.
 
 *Parent links:* [SLR_2.1 Telecommand Reception](SLR_2.html#SLR_2.1)
 
@@ -108,9 +108,9 @@ CORALS shall receive telecommand packets from DARTS over Bluetooth.
 | Verification | Automated Test |
 
 
-### CORALS Telemetry Request Structure <small>SSLR_2.1.16</small> {#SSLR_2.1.16 }
+### CORALS Telemetry Request Protocol Adherence <small>SSLR_2.1.16</small> {#SSLR_2.1.16 }
 
-CORALS shall process telemetry requests from DARTS if the packet structure and content is valid as described in the CORALS Software Interface Design Document.
+The control software shall process telemetry requests from DARTS if the packet structure and content is valid according to a standard communication protocol.
 
 *Parent links:* [SLR_2.1 Telecommand Reception](SLR_2.html#SLR_2.1)
 

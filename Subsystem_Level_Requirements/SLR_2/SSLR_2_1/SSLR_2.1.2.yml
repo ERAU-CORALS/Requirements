@@ -8,9 +8,9 @@ header: |
   Data Acquisition and Remote Telecommand Script
 level: 1.1
 links:
-- SLR_2.1: vA-iPVwwhLiSiZJoMtM3U5r3U16JPC99vOLpD0DhxCE=
+- SLR_2.1: OA7ThpboKH1mVw-idiVS5NxzZAffvgAFt_nl34vyN70=
 normative: true
 ref: ''
-reviewed: yBzShWBSf5O4aKkv1OUR0Xz5FXcohSDzfNAxAQclx6M=
+reviewed: xz9ATJYQu-0CawtV1LKM0-KphJMNcQxfOgeKU3Weo1Q=
 text: |
-  CORALS shall use the Data Acquisition and Remote Telecommand Script (DARTS) to communicate with the testbed.
+  The Data Acquisition and Remote Telecommand Script (DARTS) shall be used to communicate with the testbed.

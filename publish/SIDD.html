@@ -93,23 +93,23 @@
       </div>
       <div class="col-lg-8" id="main">
         <h1 id="SIDD-001">Introduction</h1>
-<p>The CORALS Software Interface Design document was developed by Team CORALS as a design standard and reference for the Software Communication Protocols used on the CORALS Testbed. It is meant to replace the need for requirements specifying the format and breadth of command/data transmission to and from the CORALS Testbed with the client, as the requirements were not derivable from the customer objectives; the customer did not stipulate a standard. This document will serve as a source of design truth for the CORALS Software Communication interfaces.</p>
+<p>The CORALS Software Interface Design document was developed by CORALS as a design standard and reference for the Software Communication Protocols used on the testbed. It is meant to replace the need for requirements specifying the format and breadth of command/data transmission to and from the testbed with the client, as the requirements were not derivable from the customer objectives; the customer did not stipulate a standard. This document will serve as a source of design truth for the CORALS Software Communication interfaces.</p>
 <h2 id="SIDD-006">Scope <small>SIDD-006</small></h2>
-<p>This document contains the software interface design decisions for the CORALS Testbed Control Software and the Host Data Acquisition and Routing Script. This includes decisions on message format, parameters, keywords, valid ranges, and transmission rates.</p>
+<p>This document contains the software interface design decisions for the testbed control software and the Data Acquisition and Remote Telecommand Script (DARTS). This includes decisions on message format, parameters, keywords, valid ranges, and transmission rates.</p>
 <h2 id="SIDD-007">Background <small>SIDD-007</small></h2>
 <p>TBC</p>
 <h1 id="SIDD-002">Related Documents</h1>
 <p>This document is related to the CORALS System Requirements Specification, and links will be made as necessary to the relevant System Level Requirements and Subsystem Level Requirements.</p>
 <h1 id="SIDD-003">General Command Structure</h1>
-<p>The CORALS Software and the Data Acquisition and Remote Telecommand Script (DARTS) will follow a common defined protocol for serial data transmission.</p>
+<p>The testbed software and DARTS will follow a common defined protocol for serial data transmission.</p>
 <h2 id="SIDD-008">Bluetooth Communication Protocol</h2>
-<p>DARTS and the CORALS Testbed communicate using a Bluetooth Serial connection. This means that loss is possible, and data could be corrupted in transmission. To detect and prevent this, the CORALS Testbed and HDARS will use a restricted, keyword-based communication protocol to minimize error passthrough.</p>
+<p>DARTS and the testbed communicate using a Bluetooth serial connection. This means that loss is possible, and data could be corrupted in transmission. To detect and prevent this, the testbed and DARTS will use a restricted, keyword-based communication protocol to minimize error passthrough.</p>
 <h3 id="SIDD-009">Message Format <small>SIDD-009</small></h3>
-<p>The Bluetooth Serial Bus shall use the following communication format:</p>
+<p>The Bluetooth serial connection shall use the following communication format:</p>
 <pre><code>TARGET . LEN PACKET_TYPE, KEY VALUE, KEY VALUE ..., KEY VALUE . CRC32 0xABCDEF01
 </code></pre>
 <h3 id="SIDD-010">Valid Targets (TARGET) <small>SIDD-010</small></h3>
-<p>The Bluetooth Communication bus shall support two targets:</p>
+<p>The Bluetooth serial connection shall support two endpoints (TARGETs):</p>
 <table>
 <thead>
 <tr>
@@ -126,7 +126,7 @@
 </tbody>
 </table>
 <h3 id="SIDD-011">Valid Length (LEN) <small>SIDD-011</small></h3>
-<p>LEN shall be an unsigned integer decimal numeric value which accounts for the entire message length.</p>
+<p>LEN shall be an unsigned integer decimal numeric value which accounts for the entire message length, including the preamble and checksum.</p>
 <h3 id="SIDD-012">CRC32 Checksum <small>SIDD-012</small></h3>
 <p>The message shall be proofed by the CRC32 Checksum attached to the end of the message. The checksum will be unique for all messages less than 2^32 characters in length.</p>
 <p>The checksum shall be run on all characters before the CRC32 Keyword.</p>
@@ -521,7 +521,7 @@
 <p>The ECHO Telecommand does not support any keywords. The ECHO Telecommand always prompts an ECHO_REPLY Telemetry Response to confirm reception of the ECHO Telecommand. This Telecommand is intended for connection confirmation purposes.</p>
 <h3 id="SIDD-022">TARGET_ADD Telecommand <small>SIDD-022</small></h3>
 <p>The TARGET_ADD Telecommand supports use of the Quaternion Telecommand keywords. It requires the Q1, Q2, and Q3 keywords. It also requires the Q0 keyword if the QUAT_FORMAT is Q0; otherwise, it also requires the Q4 keyword. If QUAT_FORMAT is unknown to the user, the user may elect to include the QUAT_FORMAT of the message. If QUAT_FORMAT is included, the TARGET_ADD Telecommand always prompts a REGISTER Telemetry response to confirm the updated register values. If the QUAT_FORMAT is not included, and if the registered QUAT_FORMAT disagrees with the arguments supplied, then the command is invalid, prompting an ERROR_STATE Telemetry Response with ARGUMENT_ERROR and QUAT_DISAGREE_ERROR set 'ON' and included. Otherwise, the TARGET_ADD Telecommand always prompts a CURRENT_TARGET Telemetry Response to confirm the current target.</p>
-<p><em>Note: The CORALS Testbed supports multiple stacked targets. Therefore, the TARGET_ADD CURRENT_TARGET Telemetry Response may not represent the commanded data if there are queued targets. It will always include the current target data.</em></p>
+<p><em>Note: The testbed supports multiple stacked targets. Therefore, the TARGET_ADD CURRENT_TARGET Telemetry Response may not represent the commanded data if there are queued targets. It will always include the current target data.</em></p>
 <h3 id="SIDD-023">HALT Telecommand <small>SIDD-023</small></h3>
 <p>The HALT Telecommand does not support any keywords. The HALT Telecommand always prompts a HALT_STATE Telemetry Response to confirm the halt. The HALT Telecommand always causes motor master power off. Therefore, the HALT Telecommand prompts a POWER_STATE Telemetry Response including GM_MASTER_POWER and SM_MASTER_POWER to confirm CMG power discontinuity.</p>
 <h3 id="SIDD-024">SET_POWER Telecommand <small>SIDD-024</small></h3>
@@ -577,7 +577,7 @@
 <h3 id="SIDD-049">SINGULARITY_STATE Telemetry Response <small>SIDD-049</small></h3>
 <p>The SINGULARITY_STATE Telemetry Response is always sent in response to the GET_SINGULARITY Telemetry Request. The SINGULARITY_STATE Telemetry Response is sent in response to the SET_SINGULARITY Telecommand if the SET_SINGULARITY does not prompt an error or if the telecommand includes the SINGULARITY_THOLD keyword. If prompted by the GET_SINGULARITY Telemetry Request, the SINGULARITY_STATE Telemetry Response includes all Singularity Control keywords. If prompted by the SET_SINGULARITY Telecommand, the SINGULARITY_STATE Telemetry Response includes all keywords specified in the SET_SINGULARITY Telecommand, excepting the ENABLE_OVERRIDE keyword.</p>
 <h3 id="SIDD-050">CORALS_STATE Telemetry Response <small>SIDD-050</small></h3>
-<p>The CORALS_STATE Telemetry Response is sent in response to the GET_STATE Telemetry Response. The CORALS_STATE Telmetry Response is sent automatically on a 5 second period. The CORALS_STATE Telemetry Response includes all Testbed State keywords.</p>
+<p>The CORALS_STATE Telemetry Response is sent in response to the GET_STATE Telemetry Response. The CORALS_STATE Telmetry Response is sent automatically on a 5 second period. The CORALS_STATE Telemetry Response includes all testbed State keywords.</p>
 <h3 id="SIDD-051">ATTITUDE Telemetry Repsonse <small>SIDD-051</small></h3>
 <p>The ATTITUDE Telemetry Response is sent in response to the GET_ATTITUDE Telemetry Response. The ATTITUDE Telmetry Response is sent automatically on a 5 second period. It always contains the Q1, Q2, and Q3 keywords. If the QUAT_FORMAT is currently 'Q0', then it also contains Q0. Otherwise, it also contains Q4.</p>
       </div>

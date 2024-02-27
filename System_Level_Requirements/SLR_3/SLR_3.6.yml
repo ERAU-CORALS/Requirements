@@ -5,7 +5,7 @@ Verification: Manual Test
 active: true
 derived: false
 header: |
-  Testbed Balance
+  testbed Balance
 level: 3.6
 links:
 - OBJ-3: 89aMOY1I8lTVEtVYaEePrmKX8UUlxl5Xp-stD3c2Rro=

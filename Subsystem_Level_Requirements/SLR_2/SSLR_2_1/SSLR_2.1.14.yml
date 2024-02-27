@@ -5,12 +5,12 @@ Verification: Automated Test
 active: true
 derived: false
 header: |
-  DARTS Telemetry Request Structure
+  DARTS Telemetry Request Protocol
 level: 1.3.2
 links:
-- SLR_2.1: vA-iPVwwhLiSiZJoMtM3U5r3U16JPC99vOLpD0DhxCE=
+- SLR_2.1: OA7ThpboKH1mVw-idiVS5NxzZAffvgAFt_nl34vyN70=
 normative: true
 ref: ''
-reviewed: QXYbRHtH4TnAIx_Q95dYQaMmMuKR7WBuRYu1FA7POwk=
+reviewed: 6R_7iHM2j6IqQ4rXOeAR_TIPwSCpBZRmRsg1NHYN8Qk=
 text: |
-  DARTS shall transmit telemetry request packets to the CORALS Testbed as described in the CORALS Software Interface Design Document.
+  DARTS shall transmit telemetry request packets to the testbed using a standard communication protocol.

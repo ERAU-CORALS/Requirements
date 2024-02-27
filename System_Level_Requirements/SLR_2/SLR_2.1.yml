@@ -1,16 +1,16 @@
 Metric: Boolean
 Range: 'True'
 Req?: true
-Verification: Demonstration
+Verification: Automated Test
 active: true
 derived: false
 header: |
   Telecommand Reception
 level: 2.1
 links:
-- OBJ-2: N6kAiMFLFYERywVBprvZnihWBjTEGRnTku5D6C59odc=
+- OBJ-2: null
 normative: true
 ref: ''
-reviewed: lESEibIQRpb_pb1oavJWhJlSFIC_6v6WkIar7EryV3Y=
+reviewed: 8ta40SgaDUAQbIyhiA_Eovg__576FACZ8BhpfOD_F9Q=
 text: |
   CORALS shall receive attitude control telecommands from a host computer.

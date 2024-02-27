@@ -6,9 +6,9 @@ level: 3.1.2
 links: []
 normative: true
 ref: ''
-reviewed: awfPQUIgOavpO_zZJlIrf2H-bk2SdLNuSjeZWebtU1Y=
+reviewed: dEqMcnHVx0WMIjN8FYI9Ad36HwmrJLPpTZU2NpuE8ds=
 text: |
-  The Bluetooth Communication bus shall support two targets:
+  The Bluetooth serial connection shall support two endpoints (TARGETs):
 
   | Valid Targets |
   | ------------- |

@@ -5,12 +5,12 @@ Verification: Automated Test
 active: true
 derived: false
 header: |
-  DARTS Telecommand Structure
+  DARTS Telecommand Protocol
 level: 1.2.2
 links:
-- SLR_2.1: vA-iPVwwhLiSiZJoMtM3U5r3U16JPC99vOLpD0DhxCE=
+- SLR_2.1: OA7ThpboKH1mVw-idiVS5NxzZAffvgAFt_nl34vyN70=
 normative: true
 ref: ''
-reviewed: TAyBh2NiCUd7WYhAwc358gYYm0_uFmx9hcxC3vDxyVs=
+reviewed: bH9lmf605HfdeWeS9md4zvxtEsETRlugV3WR1H5N0iY=
 text: |
-  DARTS shall transmit telecommand packets to the CORALS Testbed as described in the CORALS Software Interface Design Document.
+  DARTS shall transmit telecommand packets to the testbed using a standard communication protocol.

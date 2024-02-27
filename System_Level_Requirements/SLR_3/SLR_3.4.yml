@@ -1,7 +1,7 @@
 Metric: Hardware Yaw
 Range: '[-180°, 180°]'
 Req?: true
-Verification: Inspection
+Verification: Automated Testing
 active: true
 derived: false
 header: |
@@ -11,6 +11,6 @@ links:
 - OBJ-3: 89aMOY1I8lTVEtVYaEePrmKX8UUlxl5Xp-stD3c2Rro=
 normative: true
 ref: ''
-reviewed: 7f2Wjt-gp49R7-wTYZXeFedN6PsrmFWqeKn1P3pZ_7s=
+reviewed: Q9vCK00XFwTT5DhduX48at853zDfnfHDm_oPo7LQnhA=
 text: |
   CORALS shall be capable of yaw to ±180°.

@@ -6,6 +6,6 @@ level: 1.1
 links: []
 normative: true
 ref: ''
-reviewed: 2HyKMd4T2cym1w1J4lDo0Y09iPmHqC3VdqM7i4vEL6E=
+reviewed: R7cOpndvqRxOShyZoOxpAapggY9mF4BW7c0aA6o44ck=
 text: |
-  This document contains the software interface design decisions for the CORALS Testbed Control Software and the Host Data Acquisition and Routing Script. This includes decisions on message format, parameters, keywords, valid ranges, and transmission rates.
+  This document contains the software interface design decisions for the testbed control software and the Data Acquisition and Remote Telecommand Script (DARTS). This includes decisions on message format, parameters, keywords, valid ranges, and transmission rates.

@@ -1,8 +1,7 @@
-Metric: TBD
-Range: TBD
-Req?: true
-Verification: |
-  Demonstration, Inspection, Manual Test, or Automated Test
+Metric: ''
+Range: ''
+Req?: false
+Verification: ''
 active: true
 derived: false
 header: ''
@@ -10,6 +9,6 @@ level: 1.3.0
 links: []
 normative: false
 ref: ''
-reviewed: k01XjG62YC90GkZ4KU7hLz9rvZPhje0O-B8hxMLNGn8=
+reviewed: 4g8E8AHQaGMe9Io63OB8FJUMHdgG2SpZYtH4-tDR40E=
 text: |
   DARTS-CORALS Telemetry Requests

@@ -6,9 +6,9 @@ level: 3.1.1
 links: []
 normative: true
 ref: ''
-reviewed: sAK39G7u9hPys0kJluQfeFFMr-2BVnpd_DB4uLcZpdE=
+reviewed: b-EypSW0DfyYLkFnPKmxlgJalUkqRTD3LGB9QPOW0pA=
 text: |
-  The Bluetooth Serial Bus shall use the following communication format:
+  The Bluetooth serial connection shall use the following communication format:
 
   ```
   TARGET . LEN PACKET_TYPE, KEY VALUE, KEY VALUE ..., KEY VALUE . CRC32 0xABCDEF01

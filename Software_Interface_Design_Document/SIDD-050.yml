@@ -6,6 +6,6 @@ level: 5.4.10
 links: []
 normative: true
 ref: ''
-reviewed: g8pwBx6l1I7sQhfDNoBgQRiMK664ILGBzXB_m2PEJVs=
+reviewed: 2jsrzFzgEA9g0pu1S38aCNDsCKH5tuF5-FiYPDmvwdY=
 text: |
-  The CORALS_STATE Telemetry Response is sent in response to the GET_STATE Telemetry Response. The CORALS_STATE Telmetry Response is sent automatically on a 5 second period. The CORALS_STATE Telemetry Response includes all Testbed State keywords.
+  The CORALS_STATE Telemetry Response is sent in response to the GET_STATE Telemetry Response. The CORALS_STATE Telmetry Response is sent automatically on a 5 second period. The CORALS_STATE Telemetry Response includes all testbed State keywords.

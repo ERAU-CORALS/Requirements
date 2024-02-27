@@ -4,7 +4,7 @@
 
 ### DARTS Bluetooth Rx <small>SSLR_2.2.8</small> {#SSLR_2.2.8 }
 
-DARTS shall receive telemetry response packets from the CORALS Testbed over Bluetooth.
+DARTS shall receive telemetry response packets from the testbed over Bluetooth.
 
 *Parent links:* [SLR_2.2 Telemetry Transmission](SLR_2.html#SLR_2.2)
 
@@ -17,7 +17,7 @@ DARTS shall receive telemetry response packets from the CORALS Testbed over Blue
 
 ### DARTS Telemetry Structure <small>SSLR_2.2.9</small> {#SSLR_2.2.9 }
 
-DARTS shall process telemetry response packets from the CORALS Testbed if the packet structure and content is valid as described in the CORALS Software Interface Design Document.
+DARTS shall process telemetry response packets from the testbed if the packet structure and content is valid according to a standard communication protocol.
 
 *Parent links:* [SLR_2.2 Telemetry Transmission](SLR_2.html#SLR_2.2)
 
@@ -30,7 +30,7 @@ DARTS shall process telemetry response packets from the CORALS Testbed if the pa
 
 ### CORALS Telemetry Tx <small>SSLR_2.2.10</small> {#SSLR_2.2.10 }
 
-CORALS shall transmit telemetry response packets from DARTS over Bluetooth.
+The control software shall transmit telemetry response packets from DARTS over Bluetooth.
 
 *Parent links:* [SLR_2.2 Telemetry Transmission](SLR_2.html#SLR_2.2)
 
@@ -43,7 +43,7 @@ CORALS shall transmit telemetry response packets from DARTS over Bluetooth.
 
 ### CORALS Telemetry Structure <small>SSLR_2.2.11</small> {#SSLR_2.2.11 }
 
-CORALS shall transmit telemetry response packets to DARTS as described in the CORALS Software Interface Design Document.
+The control software shall transmit telemetry response packets to DARTS using a standard communication protocol.
 
 *Parent links:* [SLR_2.2 Telemetry Transmission](SLR_2.html#SLR_2.2)
 
@@ -58,7 +58,7 @@ CORALS shall transmit telemetry response packets to DARTS as described in the CO
 
 ### Attitude Telemetry Packet Structure <small>SSLR_2.2.13</small> {#SSLR_2.2.13 }
 
-CORALS Software shall periodically transmit attitude state telemetry response packets from the CORALS Testbed to DARTS as described in the CORALS Software Interface Design Document.
+The control software shall periodically transmit attitude state telemetry response packets from the testbed to DARTS as described in the CORALS Software Interface Design Document.
 
 *Parent links:* [SLR_2.2 Telemetry Transmission](SLR_2.html#SLR_2.2)
 
@@ -71,7 +71,7 @@ CORALS Software shall periodically transmit attitude state telemetry response pa
 
 ### Testbed Telemetry Packet Structure <small>SSLR_2.2.14</small> {#SSLR_2.2.14 }
 
-CORALS Software SHALL periodically transmit Testbed state telemetry response packets from the CORALS Testbed to DARTS as described in the CORALS Software Interface Design Document.
+The control software shall periodically transmit testbed state telemetry response packets from the testbed to DARTS as described in the CORALS Software Interface Design Document.
 
 *Parent links:* [SLR_2.2 Telemetry Transmission](SLR_2.html#SLR_2.2)
 

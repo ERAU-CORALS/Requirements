@@ -4,7 +4,7 @@
 
 CORALS shall have a Mass Balancing System.
 
-*Parent links:* [SLR_3.6 Testbed Balance](SLR_3.html#SLR_3.6)
+*Parent links:* [SLR_3.6 testbed Balance](SLR_3.html#SLR_3.6)
 
 | Attribute | Value |
 | --------- | ----- |
@@ -17,7 +17,7 @@ CORALS shall have a Mass Balancing System.
 
 The Mass Balancing System shall have 3 counterweights.
 
-*Parent links:* [SLR_3.6 Testbed Balance](SLR_3.html#SLR_3.6)
+*Parent links:* [SLR_3.6 testbed Balance](SLR_3.html#SLR_3.6)
 
 | Attribute | Value |
 | --------- | ----- |
@@ -30,7 +30,7 @@ The Mass Balancing System shall have 3 counterweights.
 
 Each of the counterweights on CORALS shall have an adjustable position along an axis.
 
-*Parent links:* [SLR_3.6 Testbed Balance](SLR_3.html#SLR_3.6)
+*Parent links:* [SLR_3.6 testbed Balance](SLR_3.html#SLR_3.6)
 
 | Attribute | Value |
 | --------- | ----- |

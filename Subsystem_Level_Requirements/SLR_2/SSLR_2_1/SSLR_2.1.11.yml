@@ -8,9 +8,9 @@ header: |
   CORALS Bluetooth Telecommand Rx
 level: 1.2.3
 links:
-- SLR_2.1: vA-iPVwwhLiSiZJoMtM3U5r3U16JPC99vOLpD0DhxCE=
+- SLR_2.1: OA7ThpboKH1mVw-idiVS5NxzZAffvgAFt_nl34vyN70=
 normative: true
 ref: ''
-reviewed: dzwbk2DHJbVphC-DcOqkqJ8GeKFHmrYSoNl-ZGaaTMk=
+reviewed: bid9wBhE1-vbcFEaciMuEa3Sot1zcBG63FvpdjrXZpQ=
 text: |
-  CORALS shall receive telecommand packets from DARTS over Bluetooth.
+  The control software shall receive telecommand packets from DARTS over Bluetooth.

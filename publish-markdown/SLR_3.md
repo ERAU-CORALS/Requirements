@@ -23,7 +23,7 @@ CORALS shall be capable of roll to ±180°.
 | --------- | ----- |
 | Metric | Hardware Roll |
 | Range | [-180°, 180°] |
-| Verification | Inspection |
+| Verification | Automated Testing |
 
 
 ## Testbed Pitch <small>SLR_3.3</small> {#SLR_3.3 }
@@ -38,7 +38,7 @@ CORALS shall be capable of pitch to ±30°.
 | --------- | ----- |
 | Metric | Hardware Pitch |
 | Range | [-30°, 30°] |
-| Verification | Inspection |
+| Verification | Automated Testing |
 
 
 ## Testbed Yaw <small>SLR_3.4</small> {#SLR_3.4 }
@@ -51,7 +51,7 @@ CORALS shall be capable of yaw to ±180°.
 | --------- | ----- |
 | Metric | Hardware Yaw |
 | Range | [-180°, 180°] |
-| Verification | Inspection |
+| Verification | Automated Testing |
 
 
 ## Attitude Accuracy <small>SLR_3.5</small> {#SLR_3.5 }
@@ -69,7 +69,7 @@ CORALS shall be capable of attitude control within ±1.8°.
 | Verification | Automated Test |
 
 
-## Testbed Balance <small>SLR_3.6</small> {#SLR_3.6 }
+## testbed Balance <small>SLR_3.6</small> {#SLR_3.6 }
 
 CORALS shall operate with an imbalance torque less than 10E-6 Nm.
 

@@ -3,11 +3,11 @@ derived: false
 header: ''
 level: 3.0
 links:
-- SSLR_2.1.2: ysDx7__cTjOKstBNZ6ME8kWblIwEt2G9A1cgyUsTLPM=
+- SSLR_2.1.2: J2PnVeEMovsSpudN-E1tWr-HPLrgk62j5lYPoMC2AoY=
 normative: false
 ref: ''
-reviewed: n2_yPMQoDReR_c0g_cdEr1ssKjur_xgEWBJ4gj06YpA=
+reviewed: vwepM-OVG9eGYtcLQb_zAJzN5V-Xh2GtwkaZhzWM5x0=
 text: |
   General Command Structure
 
-  The CORALS Software and the Data Acquisition and Remote Telecommand Script (DARTS) will follow a common defined protocol for serial data transmission.
+  The testbed software and DARTS will follow a common defined protocol for serial data transmission.

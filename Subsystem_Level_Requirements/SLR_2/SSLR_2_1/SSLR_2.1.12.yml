@@ -5,12 +5,12 @@ Verification: Automated Test
 active: true
 derived: false
 header: |
-  CORALS Telecommand Structure
+  CORALS Telecommand Protocol Adherence
 level: 1.2.4
 links:
-- SLR_2.1: vA-iPVwwhLiSiZJoMtM3U5r3U16JPC99vOLpD0DhxCE=
+- SLR_2.1: OA7ThpboKH1mVw-idiVS5NxzZAffvgAFt_nl34vyN70=
 normative: true
 ref: ''
-reviewed: UujkMXlz0Rhrv1yx4PPFVZuo2b1hH3hYUnFcDKuqlcc=
+reviewed: nroiojjTfPtBVOVL1aPlQgiF3SAoW2Lanv8DC5pfrvM=
 text: |
-  CORALS shall process telecommands from DARTS if the packet structure and content is valid as described in the CORALS Software Interface Design Document.
+  The control software shall process telecommands from DARTS if the packet structure and content is valid according to a standard communication protocol.

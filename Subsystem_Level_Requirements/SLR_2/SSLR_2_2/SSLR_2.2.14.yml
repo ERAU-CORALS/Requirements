@@ -8,9 +8,9 @@ header: |
   Testbed Telemetry Packet Structure
 level: 1.2.2
 links:
-- SLR_2.2: UaztSpFN1uCzw30To7kDiB3WFbdNDCntTPYoqJWxDY4=
+- SLR_2.2: GwBO7jDlL0knoMU4Z-yXjhx4VHYhtITl_QMML-86P5M=
 normative: true
 ref: ''
-reviewed: 2EWPtLG_sWVH9e6Lfczuh7btLo6G6HMYhCvsb4-Jnao=
+reviewed: Upo2RylIQ9iZDLrVj4QMXKZ6aum1ToHQReZw30DstyU=
 text: |
-  CORALS Software SHALL periodically transmit Testbed state telemetry response packets from the CORALS Testbed to DARTS as described in the CORALS Software Interface Design Document.
+  The control software shall periodically transmit testbed state telemetry response packets from the testbed to DARTS as described in the CORALS Software Interface Design Document.

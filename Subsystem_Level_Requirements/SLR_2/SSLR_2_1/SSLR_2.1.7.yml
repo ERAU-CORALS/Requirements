@@ -8,9 +8,9 @@ header: |
   DARTS Bluetooth Telecommand Tx
 level: 1.2.1
 links:
-- SLR_2.1: vA-iPVwwhLiSiZJoMtM3U5r3U16JPC99vOLpD0DhxCE=
+- SLR_2.1: OA7ThpboKH1mVw-idiVS5NxzZAffvgAFt_nl34vyN70=
 normative: true
 ref: ''
-reviewed: u6qhaRcQ9EgjrhGYToPqmACmK69cI_daXP5EKtLlf98=
+reviewed: WrzrY_lMJ-87O3rkqh1tNO0fe2us69Gn6taSG7CBCOE=
 text: |
-  DARTS shall transmit telecommand packets to the CORALS Testbed over Bluetooth.
+  DARTS shall transmit telecommand packets to the testbed over Bluetooth.

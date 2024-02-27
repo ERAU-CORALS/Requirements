@@ -5,8 +5,8 @@ level: 3.1.0
 links: []
 normative: false
 ref: ''
-reviewed: KqtaSQaubqe1bvMuO2F5b4REaHvaaE2eZq2el2GOsfs=
+reviewed: oNog2O0NRJJhF8zM_jI2nNaELU2ObsXH2u573rKHekw=
 text: |
   Bluetooth Communication Protocol
 
-  DARTS and the CORALS Testbed communicate using a Bluetooth Serial connection. This means that loss is possible, and data could be corrupted in transmission. To detect and prevent this, the CORALS Testbed and HDARS will use a restricted, keyword-based communication protocol to minimize error passthrough.
+  DARTS and the testbed communicate using a Bluetooth serial connection. This means that loss is possible, and data could be corrupted in transmission. To detect and prevent this, the testbed and DARTS will use a restricted, keyword-based communication protocol to minimize error passthrough.

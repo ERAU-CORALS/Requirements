@@ -2,7 +2,7 @@ all: review integrity publish
 
 publish: FORCE
 	doorstop publish --no-levels all all publish
-	doorstop publish --markdown --no-levels all all publish
+	doorstop publish --markdown --no-levels all all publish-markdown
 
 .PHONY: FORCE
 
@@ -15,3 +15,6 @@ pathfix:
 review:
 	doorstop clear all
 	doorstop review all
+
+excel:
+	doorstop export -x all excel

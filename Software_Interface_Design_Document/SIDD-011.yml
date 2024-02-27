@@ -6,6 +6,6 @@ level: 3.1.3
 links: []
 normative: true
 ref: ''
-reviewed: Jl7KYTCD9Y4FxTUU0TH2Wy3znY9PtYVoq_deQJ3iqYk=
+reviewed: K_597GYO6EENR9PlLkf186vpW3IUCcKxscW2sP0Ggws=
 text: |
-  LEN shall be an unsigned integer decimal numeric value which accounts for the entire message length.
+  LEN shall be an unsigned integer decimal numeric value which accounts for the entire message length, including the preamble and checksum.

@@ -1,10 +1,10 @@
 # Introduction {#SIDD-001 }
 
-The CORALS Software Interface Design document was developed by Team CORALS as a design standard and reference for the Software Communication Protocols used on the CORALS Testbed. It is meant to replace the need for requirements specifying the format and breadth of command/data transmission to and from the CORALS Testbed with the client, as the requirements were not derivable from the customer objectives; the customer did not stipulate a standard. This document will serve as a source of design truth for the CORALS Software Communication interfaces.
+The CORALS Software Interface Design document was developed by CORALS as a design standard and reference for the Software Communication Protocols used on the testbed. It is meant to replace the need for requirements specifying the format and breadth of command/data transmission to and from the testbed with the client, as the requirements were not derivable from the customer objectives; the customer did not stipulate a standard. This document will serve as a source of design truth for the CORALS Software Communication interfaces.
 
 ## Scope <small>SIDD-006</small> {#SIDD-006 }
 
-This document contains the software interface design decisions for the CORALS Testbed Control Software and the Host Data Acquisition and Routing Script. This includes decisions on message format, parameters, keywords, valid ranges, and transmission rates.
+This document contains the software interface design decisions for the testbed control software and the Data Acquisition and Remote Telecommand Script (DARTS). This includes decisions on message format, parameters, keywords, valid ranges, and transmission rates.
 
 ## Background <small>SIDD-007</small> {#SIDD-007 }
 
@@ -16,15 +16,15 @@ This document is related to the CORALS System Requirements Specification, and li
 
 # General Command Structure {#SIDD-003 }
 
-The CORALS Software and the Data Acquisition and Remote Telecommand Script (DARTS) will follow a common defined protocol for serial data transmission.
+The testbed software and DARTS will follow a common defined protocol for serial data transmission.
 
 ## Bluetooth Communication Protocol {#SIDD-008 }
 
-DARTS and the CORALS Testbed communicate using a Bluetooth Serial connection. This means that loss is possible, and data could be corrupted in transmission. To detect and prevent this, the CORALS Testbed and HDARS will use a restricted, keyword-based communication protocol to minimize error passthrough.
+DARTS and the testbed communicate using a Bluetooth serial connection. This means that loss is possible, and data could be corrupted in transmission. To detect and prevent this, the testbed and DARTS will use a restricted, keyword-based communication protocol to minimize error passthrough.
 
 ### Message Format <small>SIDD-009</small> {#SIDD-009 }
 
-The Bluetooth Serial Bus shall use the following communication format:
+The Bluetooth serial connection shall use the following communication format:
 
 ```
 TARGET . LEN PACKET_TYPE, KEY VALUE, KEY VALUE ..., KEY VALUE . CRC32 0xABCDEF01
@@ -32,7 +32,7 @@ TARGET . LEN PACKET_TYPE, KEY VALUE, KEY VALUE ..., KEY VALUE . CRC32 0xABCDEF01
 
 ### Valid Targets (TARGET) <small>SIDD-010</small> {#SIDD-010 }
 
-The Bluetooth Communication bus shall support two targets:
+The Bluetooth serial connection shall support two endpoints (TARGETs):
 
 | Valid Targets |
 | ------------- |
@@ -41,7 +41,7 @@ The Bluetooth Communication bus shall support two targets:
 
 ### Valid Length (LEN) <small>SIDD-011</small> {#SIDD-011 }
 
-LEN shall be an unsigned integer decimal numeric value which accounts for the entire message length.
+LEN shall be an unsigned integer decimal numeric value which accounts for the entire message length, including the preamble and checksum.
 
 ### CRC32 Checksum <small>SIDD-012</small> {#SIDD-012 }
 
@@ -213,7 +213,7 @@ The ECHO Telecommand does not support any keywords. The ECHO Telecommand always 
 
 The TARGET_ADD Telecommand supports use of the Quaternion Telecommand keywords. It requires the Q1, Q2, and Q3 keywords. It also requires the Q0 keyword if the QUAT_FORMAT is Q0; otherwise, it also requires the Q4 keyword. If QUAT_FORMAT is unknown to the user, the user may elect to include the QUAT_FORMAT of the message. If QUAT_FORMAT is included, the TARGET_ADD Telecommand always prompts a REGISTER Telemetry response to confirm the updated register values. If the QUAT_FORMAT is not included, and if the registered QUAT_FORMAT disagrees with the arguments supplied, then the command is invalid, prompting an ERROR_STATE Telemetry Response with ARGUMENT_ERROR and QUAT_DISAGREE_ERROR set 'ON' and included. Otherwise, the TARGET_ADD Telecommand always prompts a CURRENT_TARGET Telemetry Response to confirm the current target.
 
-*Note: The CORALS Testbed supports multiple stacked targets. Therefore, the TARGET_ADD CURRENT_TARGET Telemetry Response may not represent the commanded data if there are queued targets. It will always include the current target data.*
+*Note: The testbed supports multiple stacked targets. Therefore, the TARGET_ADD CURRENT_TARGET Telemetry Response may not represent the commanded data if there are queued targets. It will always include the current target data.*
 
 ### HALT Telecommand <small>SIDD-023</small> {#SIDD-023 }
 
@@ -325,7 +325,7 @@ The SINGULARITY_STATE Telemetry Response is always sent in response to the GET_S
 
 ### CORALS_STATE Telemetry Response <small>SIDD-050</small> {#SIDD-050 }
 
-The CORALS_STATE Telemetry Response is sent in response to the GET_STATE Telemetry Response. The CORALS_STATE Telmetry Response is sent automatically on a 5 second period. The CORALS_STATE Telemetry Response includes all Testbed State keywords.
+The CORALS_STATE Telemetry Response is sent in response to the GET_STATE Telemetry Response. The CORALS_STATE Telmetry Response is sent automatically on a 5 second period. The CORALS_STATE Telemetry Response includes all testbed State keywords.
 
 ### ATTITUDE Telemetry Repsonse <small>SIDD-051</small> {#SIDD-051 }
 

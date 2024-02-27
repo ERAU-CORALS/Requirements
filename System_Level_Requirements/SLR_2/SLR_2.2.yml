@@ -1,16 +1,16 @@
 Metric: Boolean
 Range: 'True'
 Req?: true
-Verification: Demonstration
+Verification: Automated Test
 active: true
 derived: false
 header: |
   Telemetry Transmission
 level: 2.2
 links:
-- OBJ-2: N6kAiMFLFYERywVBprvZnihWBjTEGRnTku5D6C59odc=
+- OBJ-2: null
 normative: true
 ref: ''
-reviewed: oI0huQUHBt1HbChBbuaaB3iGo4cUrHvMFH3qhRd2GAE=
+reviewed: CddIBKT1a0efwwiwAE7CZ64hBTQ_zZjX6SzksmGbSys=
 text: |
   CORALS shall transmit current attitude telemetry data to a host computer.
