@@ -65,3 +65,15 @@ Each CMG gimbal motor shall rotate at up to ±3 rad/s.
 | Verification | Demonstration |
 
 
+## Vibration Isolation <small>SSLR_3.5.7</small> {#SSLR_3.5.7 }
+
+The structural subsystem shall vibrationally isolate each of the CMGs from the rest of the testbed
+
+| Attribute | Value |
+| --------- | ----- |
+| Metric | Additional noise read by IMU |
+| Range | 0-20 (degrees/hr)/sqrt(Hz) |
+| Verification | Compare IMU noise when CMGs are spinning to when there are not spinning
+ |
+
+
