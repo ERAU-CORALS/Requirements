@@ -5,12 +5,12 @@ Verification: Automated Test
 active: false
 derived: false
 header: |
-  CORALS Telemetry Response Rx
-level: 1.3.7
+  HDARS IP Rx
+level: 1.2.1
 links:
 - SLR_2.1: OA7ThpboKH1mVw-idiVS5NxzZAffvgAFt_nl34vyN70=
 normative: true
 ref: ''
-reviewed: pmXYg-abo8dCnbHwHOX7lhthqKyZF-LwQN0wUx0xQEk=
+reviewed: LVHV2k1Yphk1kMKk8x2zAg0PUSgKb4ljGMXHKqBQ9Ew=
 text: |
-  CORALS **SHALL** receive telemetry response packets from HDARS over Bluetooth.
+  HDARS **SHALL** receive commands from the SIMULINK simulation on IP:Port 127.0.0.1:3920.

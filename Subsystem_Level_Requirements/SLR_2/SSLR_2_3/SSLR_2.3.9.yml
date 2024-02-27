@@ -6,7 +6,7 @@ active: true
 derived: false
 header: |
   DARTS Telemetry Logging
-level: 1.4.2
+level: 1.4.3
 links:
 - SLR_2.3: NvVV4GCSjipclswXp3A6E3ZFd1Jnrk2j2ZbXlbgCBcs=
 normative: true

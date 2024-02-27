@@ -6,7 +6,7 @@ active: true
 derived: false
 header: |
   DARTS Bluetooth Rx
-level: 1.1.1
+level: 1.4.1
 links:
 - SLR_2.2: GwBO7jDlL0knoMU4Z-yXjhx4VHYhtITl_QMML-86P5M=
 normative: true

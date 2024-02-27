@@ -4,7 +4,7 @@ CORALS shall receive attitude control telecommands from a host computer.
 
 *Parent links:* [OBJ-2 Wireless Telemetry](OBJ.html#OBJ-2)
 
-*Child links:* [SSLR_2.1.2 Data Acquisition and Remote Telecommand Script](SSLR_2.1.html#SSLR_2.1.2), [SSLR_2.1.7 DARTS Bluetooth Telecommand Tx](SSLR_2.1.html#SSLR_2.1.7), [SSLR_2.1.8 DARTS Telecommand Protocol](SSLR_2.1.html#SSLR_2.1.8), [SSLR_2.1.11 CORALS Bluetooth Telecommand Rx](SSLR_2.1.html#SSLR_2.1.11), [SSLR_2.1.12 CORALS Telecommand Protocol Adherence](SSLR_2.1.html#SSLR_2.1.12), [SSLR_2.1.13 DARTS Bluetooth Telemetry Request Tx](SSLR_2.1.html#SSLR_2.1.13), [SSLR_2.1.14 DARTS Telemetry Request Protocol](SSLR_2.1.html#SSLR_2.1.14), [SSLR_2.1.15 CORALS Bluetooth Telemetry Request Rx](SSLR_2.1.html#SSLR_2.1.15), [SSLR_2.1.16 CORALS Telemetry Request Protocol Adherence](SSLR_2.1.html#SSLR_2.1.16)
+*Child links:* SSLR_2.1.4, SSLR_2.1.5, SSLR_2.1.9, SSLR_2.1.10, [SSLR_2.1.11 CORALS Bluetooth Telecommand Rx](SSLR_2.1.html#SSLR_2.1.11), [SSLR_2.1.12 CORALS Telecommand Protocol Adherence](SSLR_2.1.html#SSLR_2.1.12), SSLR_2.1.13, SSLR_2.1.14, SSLR_2.1.15, [SSLR_2.1.2 Data Acquisition and Remote Telecommand Script](SSLR_2.1.html#SSLR_2.1.2), [SSLR_2.1.7 DARTS Bluetooth Telecommand Tx](SSLR_2.1.html#SSLR_2.1.7), [SSLR_2.1.8 DARTS Telecommand Protocol](SSLR_2.1.html#SSLR_2.1.8), [SSLR_2.1.16 DARTS Bluetooth Telemetry Request Tx](SSLR_2.1.html#SSLR_2.1.16), [SSLR_2.1.17 DARTS Telemetry Request Protocol](SSLR_2.1.html#SSLR_2.1.17), [SSLR_2.1.18 CORALS Bluetooth Telemetry Request Rx](SSLR_2.1.html#SSLR_2.1.18), [SSLR_2.1.19 CORALS Telemetry Request Protocol Adherence](SSLR_2.1.html#SSLR_2.1.19)
 
 | Attribute | Value |
 | --------- | ----- |
@@ -34,7 +34,7 @@ CORALS shall store attitude telemetry data on the host computer.
 
 *Parent links:* [OBJ-2 Wireless Telemetry](OBJ.html#OBJ-2)
 
-*Child links:* [SSLR_2.3.2 Data Log File](SSLR_2.3.html#SSLR_2.3.2), [SSLR_2.3.3 Telemetry Log File](SSLR_2.3.html#SSLR_2.3.3), [SSLR_2.3.5 Telemetry Logging](SSLR_2.3.html#SSLR_2.3.5), [SSLR_2.3.7 DARTS Telecommand Logging](SSLR_2.3.html#SSLR_2.3.7), [SSLR_2.3.9 DARTS Telemetry Logging](SSLR_2.3.html#SSLR_2.3.9)
+*Child links:* SSLR_2.3.10, [SSLR_2.3.2 Data Log File](SSLR_2.3.html#SSLR_2.3.2), [SSLR_2.3.3 Telemetry Log File](SSLR_2.3.html#SSLR_2.3.3), [SSLR_2.3.5 Telemetry Logging](SSLR_2.3.html#SSLR_2.3.5), [SSLR_2.3.7 DARTS Telecommand Logging](SSLR_2.3.html#SSLR_2.3.7), SSLR_2.3.8, [SSLR_2.3.9 DARTS Telemetry Logging](SSLR_2.3.html#SSLR_2.3.9)
 
 | Attribute | Value |
 | --------- | ----- |

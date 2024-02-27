@@ -5,12 +5,12 @@ Verification: Automated Test
 active: false
 derived: false
 header: |
-  CORALS Telemetry Response Rx
-level: 1.3.7
+  HDARS Telemetry Response Tx
+level: 1.3.3
 links:
 - SLR_2.1: OA7ThpboKH1mVw-idiVS5NxzZAffvgAFt_nl34vyN70=
 normative: true
 ref: ''
-reviewed: pmXYg-abo8dCnbHwHOX7lhthqKyZF-LwQN0wUx0xQEk=
+reviewed: 0LHOPoOFkAyh50uk5RurrzPzgC24hGQ-316aiL56WN0=
 text: |
-  CORALS **SHALL** receive telemetry response packets from HDARS over Bluetooth.
+  HDARS **SHALL** transmit telecommand response telemetry packets to the CORALS Testbed over Bluetooth.

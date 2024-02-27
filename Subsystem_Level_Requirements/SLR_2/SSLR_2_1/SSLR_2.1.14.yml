@@ -2,15 +2,15 @@ Metric: Boolean
 Range: 'True'
 Req?: true
 Verification: Automated Test
-active: true
+active: false
 derived: false
 header: |
-  DARTS Telemetry Request Protocol
-level: 1.3.2
+  CORALS Telemetry Response Structure
+level: 1.3.8
 links:
 - SLR_2.1: OA7ThpboKH1mVw-idiVS5NxzZAffvgAFt_nl34vyN70=
 normative: true
 ref: ''
-reviewed: 6R_7iHM2j6IqQ4rXOeAR_TIPwSCpBZRmRsg1NHYN8Qk=
+reviewed: BSNrFQI1QmEWF5P8ayKxhb6GGmmvSUvIfFrA9uOWM0A=
 text: |
-  DARTS shall transmit telemetry request packets to the testbed using a standard communication protocol.
+  CORALS **SHALL** process telemetry response packets from HDARS if the command structure and content is valid as described in the CORALS Software Interface Design Document.

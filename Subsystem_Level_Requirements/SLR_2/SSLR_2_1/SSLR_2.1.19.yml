@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Verification: Automated Test
+active: true
+derived: false
+header: |
+  CORALS Telemetry Request Protocol Adherence
+level: 1.5.4
+links:
+- SLR_2.1: OA7ThpboKH1mVw-idiVS5NxzZAffvgAFt_nl34vyN70=
+normative: true
+ref: ''
+reviewed: KIfy2BMY5b97P4rJAPPoNtsS_NUkCK5toa8M_vjimmA=
+text: |
+  The control software shall process telemetry requests from DARTS if the packet structure and content is valid according to a standard communication protocol.

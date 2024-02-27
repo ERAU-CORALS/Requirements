@@ -2,13 +2,13 @@ Metric: ''
 Range: ''
 Req?: false
 Verification: ''
-active: true
+active: false
 derived: false
 header: ''
-level: 1.5.0
+level: 1.3.0
 links: []
 normative: false
 ref: ''
-reviewed: L6kgzv_Ri5HnB9Al_nGjwn09J-Mes4DM7_kO2N-KjEY=
+reviewed: rhF5mv8dCsDaSW5ZFucruonveddnlfZGikeuL5ATxTM=
 text: |
-  CORALS Reported Telemetry
+  HDARS-Simulink Communication

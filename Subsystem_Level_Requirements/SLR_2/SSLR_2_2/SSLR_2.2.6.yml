@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Verification: Automated Test
+active: false
+derived: false
+header: |
+  HDARS Data Structure
+level: 1.3.2
+links:
+- SLR_2.2: ZMGBYmH7yI_6C9zofc6nS_bo_t_yroaNwBIgSUZW54Y=
+normative: true
+ref: ''
+reviewed: r-hNsTbwm7Gbb8oj-CRICYh18s1vlWMiCnDmtYJvqsw=
+text: |
+  HDARS **SHALL** transmit telemetry data to the SIMULINK simulation as described in the CORALS Software Interface Design Document.

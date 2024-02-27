@@ -6,7 +6,7 @@ active: true
 derived: false
 header: |
   DARTS Telecommand Protocol
-level: 1.2.2
+level: 1.3.2
 links:
 - SLR_2.1: OA7ThpboKH1mVw-idiVS5NxzZAffvgAFt_nl34vyN70=
 normative: true
