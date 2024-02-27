@@ -1,5 +1,5 @@
 Metric: Capacity
-Range: '[2000, inf)'
+Range: '[2000, inf) mAh'
 Req?: true
 Verification: Manual Test
 active: true

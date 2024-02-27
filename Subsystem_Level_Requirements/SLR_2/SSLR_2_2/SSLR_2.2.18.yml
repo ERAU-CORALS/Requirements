@@ -2,7 +2,7 @@ Metric: Boolean
 Range: 'True'
 Req?: true
 Verification: Inspection
-active: true
+active: false
 derived: false
 header: |
   Inertial Measurement Unit (IMU)

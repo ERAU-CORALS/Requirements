@@ -3,7 +3,7 @@ Range: 'True'
 Req?: true
 Verification: |
   Demonstration, Inspection, Manual Test, or Automated Test
-active: true
+active: false
 derived: false
 header: |
   Electrical Power System

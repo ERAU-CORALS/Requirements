@@ -1,7 +1,7 @@
 Metric: Boolean
 Range: 'True'
 Req?: true
-Verification: Inspection
+Verification: Manual Test
 active: true
 derived: false
 header: |

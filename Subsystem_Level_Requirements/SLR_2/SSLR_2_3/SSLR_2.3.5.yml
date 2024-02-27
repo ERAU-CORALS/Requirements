@@ -13,4 +13,4 @@ normative: true
 ref: ''
 reviewed: YKPUqn7VdugEqakmDcZ7xxueFgry5aKDtDlDlQgy-2s=
 text: |
-  DARTS shall write all received CORALS attitude telemetry data to a formatted session data file.
+  DARTS shall write all received testbed attitude telemetry data to a formatted session data file.

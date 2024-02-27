@@ -13,4 +13,4 @@ normative: true
 ref: ''
 reviewed: zQ-7qqGliDbsJOTbmmFsBL5N5SclxppMQ_4l4Bgi9hs=
 text: |
-  If current testbed pitch exceeds ±27°, CORALS Software shall transmit Pitch Warning telemetry messages as described in the CORALS Software Interface Design Document.
+  If current testbed pitch exceeds ±27°, CORALS Software shall transmit Pitch Warning telemetry messages.
