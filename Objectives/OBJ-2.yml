@@ -6,6 +6,6 @@ level: 2.0
 links: []
 normative: true
 ref: ''
-reviewed: N6kAiMFLFYERywVBprvZnihWBjTEGRnTku5D6C59odc=
+reviewed: i1RtgABnpftbXky_0dV34kbjpWLrFBLyO_p-OqVSmjM=
 text: |
-  CORALS should continuously stream telemetry data wirelessly throughout its operation.
+  The testbed should continuously stream telemetry data wirelessly throughout its operation.

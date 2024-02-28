@@ -6,6 +6,6 @@ level: 4.0
 links: []
 normative: true
 ref: ''
-reviewed: fVJnmrjdya5j1hc3T8F2F6OgMMdH-HUXJ-VCijrma_0=
+reviewed: 0fdIxmqazUo2TMoC5Sz4nrrUN9v9eQHrLHJBNkaZEE4=
 text: |
-  CORALS should use a Control Moment Gyroscope array that can escape gimbal lock.
+  The testbed should use a Control Moment Gyroscope array that can escape gimbal lock.

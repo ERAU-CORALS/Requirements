@@ -6,6 +6,6 @@ level: 3.0
 links: []
 normative: true
 ref: ''
-reviewed: 89aMOY1I8lTVEtVYaEePrmKX8UUlxl5Xp-stD3c2Rro=
+reviewed: VLPNbK30efBORw2MupCWWAmUMSwcEEC_bHFNTgMddNA=
 text: |
-  CORALS should be capable of controlled movement in roll and yaw to ±180°, and in pitch to ±30°.
+  The testbed should be capable of controlled movement in roll and yaw to ±180°, and in pitch to ±30°.
