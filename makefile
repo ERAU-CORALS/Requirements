@@ -16,5 +16,5 @@ review:
 	doorstop clear all
 	doorstop review all
 
-excel:
+excel: FORCE
 	doorstop export -x all excel
