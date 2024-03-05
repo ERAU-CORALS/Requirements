@@ -97,7 +97,7 @@ DARTS shall transmit telemetry request packets to the testbed using a standard c
 
 ### CORALS Bluetooth Telemetry Request Rx <small>SSLR_2.1.18</small> {#SSLR_2.1.18 }
 
-The control software shall receive telecommand packets from DARTS over Bluetooth.
+The control software shall receive telemetry request packets from DARTS over Bluetooth.
 
 *Parent links:* [SLR_2.1 Telecommand Reception](SLR_2.html#SLR_2.1)
 

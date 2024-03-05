@@ -11,6 +11,6 @@ links:
 - SLR_2.1: sTDf3ux7Fg8WwS1vEp6ZzNtoAYmQOMEGvDQx2mxGujg=
 normative: true
 ref: ''
-reviewed: yxKH0iiEEIZ-vURgvnUXQwRvIH5my-UZOgHmzsgCUDM=
+reviewed: bpVC8ehjJDoJK52vaFLN-p0_CLFS1EeQWP4rkX6KPww=
 text: |
-  The control software shall receive telecommand packets from DARTS over Bluetooth.
+  The control software shall receive telemetry request packets from DARTS over Bluetooth.
