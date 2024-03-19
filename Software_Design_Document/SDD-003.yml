@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  FreeRTOS Wrapper Description
+level: 1.1.1
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  The FreeRTOS Wrapper Module will be thread-centric. It will make use of threads (a wrapper of tasks from FreeRTOS). It will constrain the usable FreeRTOS functions to easier-to-understand methods.

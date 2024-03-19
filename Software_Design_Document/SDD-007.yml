@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  Function Does Not Exist
+level: 1.1.2.3
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  If the thread loop function does not exist, then the ConfigureThread method **SHALL** return an error.

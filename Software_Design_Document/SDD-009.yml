@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  Stack Size Invalid
+level: 1.1.2.5
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  If the thread stack size is zero, then the ConfigureThread method **SHALL** return an error.

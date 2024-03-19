@@ -1,7 +1,7 @@
-Metric: Boolean
-Range: 'True'
-Req?: true
-Verification: Inspection
+Metric: ''
+Range: ''
+Req?: false
+Verification: ''
 active: true
 derived: false
 header: ''

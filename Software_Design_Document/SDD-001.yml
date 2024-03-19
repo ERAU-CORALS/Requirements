@@ -1,0 +1,16 @@
+active: true
+derived: false
+header: ''
+level: 1.0
+links: []
+normative: false
+ref: ''
+reviewed: null
+text: |
+  Testbed Operating System
+
+  The testbed will have an operating system made up of nested libraries. It will be built off  of FreeRTOS, wrapping it into more useable methods specific to Arduino AVR applications. This will then again be wrapped by a C++ Class-Based Operating System.
+
+  FreeRTOS will be wrapped by the FreeRTOS Wrapper Module.
+
+  The FreeRTOS Wrapper Module will be wrapped by the AVRduinOS Module.

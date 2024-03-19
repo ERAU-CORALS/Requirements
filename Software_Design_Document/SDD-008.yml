@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  Priority Invalid
+level: 1.1.2.4
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  If the thread priority is not LOW, MED, or HIGH, then the ConfigureThread method **SHALL** return an error.

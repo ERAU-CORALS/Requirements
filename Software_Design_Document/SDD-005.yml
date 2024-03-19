@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  Name Does Not Exist
+level: 1.1.2.1
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  If the thread name does not exist, then the ConfigureThread method **SHALL** return an error.
