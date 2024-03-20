@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  Thread Function Components
+level: 1.1.2.7
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  If the thread name is valid, and if the thread loop function exists, and if the thread priority is valid, and if the thread stack size is valid, then the ConfigureThread method **SHALL** return a valid thread function object containing the cooresponding name, function pointer, priority, and stack size.

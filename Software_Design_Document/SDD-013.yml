@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  NULL Handle Pointer
+level: 1.1.3.1
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  If the thread handle pointer is NULL, then the ConfigureThread method **SHALL** return an error.
