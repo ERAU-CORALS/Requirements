@@ -8,9 +8,9 @@ header: |
   Attitude Accuracy
 level: 3.5
 links:
-- OBJ-3: VLPNbK30efBORw2MupCWWAmUMSwcEEC_bHFNTgMddNA=
+- OBJ-3: -2BYWfjd_S5jx9ZytovdyZhaqYYxcifkXT8CA8gHh8k=
 normative: true
 ref: ''
-reviewed: RMiPashi4sAS_NtTxVzTzz7lt2BftuDe2M1m8SNNKFA=
+reviewed: t5qs4i85fVJwMOHJp1JoXwc7fmC6CvrT3YKVb9u1ztc=
 text: |
-  The testbed shall be capable of attitude control within ±1.8°.
+  CORALS **SHALL** be capable of attitude control within ±5°.
