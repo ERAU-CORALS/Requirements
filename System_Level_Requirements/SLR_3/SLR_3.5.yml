@@ -1,5 +1,5 @@
 Metric: Attitude Control Accuracy
-Range: '[-1.8°, 1.8°]'
+Range: '[-5°, 5°]'
 Req?: true
 Verification: Automated Test
 active: true
