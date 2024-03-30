@@ -6,6 +6,6 @@ level: 1.1.2.1
 links: []
 normative: true
 ref: ''
-reviewed: null
+reviewed: hMz7IRtHjozSC7OBWRVmj7O_S01_Ew4LusTLg8SuwLI=
 text: |
   If the thread name does not exist, then the ConfigureThread method **SHALL** return an error.

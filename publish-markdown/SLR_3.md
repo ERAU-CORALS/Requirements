@@ -56,7 +56,7 @@ The testbed shall be capable of yaw to ±180°.
 
 ## Attitude Accuracy <small>SLR_3.5</small> {#SLR_3.5 }
 
-The testbed shall be capable of attitude control within ±1.8°.
+CORALS **SHALL** be capable of attitude control within ±5°.
 
 *Parent links:* [OBJ-3 Range of Motion](OBJ.html#OBJ-3)
 
@@ -65,7 +65,7 @@ The testbed shall be capable of attitude control within ±1.8°.
 | Attribute | Value |
 | --------- | ----- |
 | Metric | Attitude Control Accuracy |
-| Range | [-1.8°, 1.8°] |
+| Range | [-5°, 5°] |
 | Verification | Automated Test |
 
 

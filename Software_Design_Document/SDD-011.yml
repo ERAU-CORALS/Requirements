@@ -6,6 +6,6 @@ level: 1.1.2.7
 links: []
 normative: true
 ref: ''
-reviewed: null
+reviewed: oorv72Wfsv9a34H9PFIJCkL2PCKpAr6hWWvBTpu_I_c=
 text: |
   If the thread name is valid, and if the thread loop function exists, and if the thread priority is valid, and if the thread stack size is valid, then the ConfigureThread method **SHALL** return a valid thread function object containing the cooresponding name, function pointer, priority, and stack size.

@@ -6,6 +6,6 @@ level: 1.1.3.4
 links: []
 normative: true
 ref: ''
-reviewed: null
+reviewed: BCdxw5tNAl_vVZyS6j3ZzruP5H7ZFS9YFDzucoycs_w=
 text: |
   If the thread task fails to initialize, then the ConfigureThread method **SHALL** return an error.

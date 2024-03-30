@@ -8,9 +8,9 @@ header: |
   Attitude Accuracy
 level: 3.5
 links:
-- OBJ-3: -2BYWfjd_S5jx9ZytovdyZhaqYYxcifkXT8CA8gHh8k=
+- OBJ-3: VLPNbK30efBORw2MupCWWAmUMSwcEEC_bHFNTgMddNA=
 normative: true
 ref: ''
-reviewed: t5qs4i85fVJwMOHJp1JoXwc7fmC6CvrT3YKVb9u1ztc=
+reviewed: XMQg95ihSstlKwnyNxJnfABG1drcKzBJ25SMDlk8lms=
 text: |
   CORALS **SHALL** be capable of attitude control within ±5°.

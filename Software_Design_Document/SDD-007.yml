@@ -6,6 +6,6 @@ level: 1.1.2.3
 links: []
 normative: true
 ref: ''
-reviewed: null
+reviewed: -wGiMaPamDc9SinTIKZ0FLJzJYMcfFNdeRoxeI8kGs8=
 text: |
   If the thread loop function does not exist, then the ConfigureThread method **SHALL** return an error.
