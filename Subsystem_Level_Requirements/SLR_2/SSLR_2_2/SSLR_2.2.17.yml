@@ -5,10 +5,10 @@ Verification: ''
 active: true
 derived: false
 header: ''
-level: 2.0
+level: 1.6.0
 links: []
 normative: false
 ref: ''
-reviewed: Om_X-bR6_Iq5dVwEYmZRRmYUqWHw5NgQnnXy-o3w7Ak=
+reviewed: wdASvQKTIoxfV1Xf1dZmR-54B3104Su4OhQElCA4nIE=
 text: |
-  Electrical Subsystem
+  Inertial Measurement Unit

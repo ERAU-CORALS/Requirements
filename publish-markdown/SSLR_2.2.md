@@ -82,9 +82,9 @@ The control software shall periodically transmit testbed state telemetry respons
 | Verification | Automated Test |
 
 
-# Electrical Subsystem {#SSLR_2.2.17 }
+## Inertial Measurement Unit {#SSLR_2.2.17 }
 
-## IMU Roll <small>SSLR_2.2.19</small> {#SSLR_2.2.19 }
+### IMU Roll <small>SSLR_2.2.19</small> {#SSLR_2.2.19 }
 
 The IMU shall measure current testbed roll.
 
@@ -97,7 +97,7 @@ The IMU shall measure current testbed roll.
 | Verification | Automated Test |
 
 
-## IMU Pitch <small>SSLR_2.2.20</small> {#SSLR_2.2.20 }
+### IMU Pitch <small>SSLR_2.2.20</small> {#SSLR_2.2.20 }
 
 The IMU shall measure current testbed pitch.
 
@@ -110,7 +110,7 @@ The IMU shall measure current testbed pitch.
 | Verification | Automated Test |
 
 
-## IMU Yaw <small>SSLR_2.2.21</small> {#SSLR_2.2.21 }
+### IMU Yaw <small>SSLR_2.2.21</small> {#SSLR_2.2.21 }
 
 The IMU shall measure current testbed yaw.
 
@@ -123,7 +123,7 @@ The IMU shall measure current testbed yaw.
 | Verification | Automated Test |
 
 
-## IMU Angular Rate <small>SSLR_2.2.22</small> {#SSLR_2.2.22 }
+### IMU Angular Rate <small>SSLR_2.2.22</small> {#SSLR_2.2.22 }
 
 The IMU shall measure current testbed angular rate.
 
@@ -136,7 +136,7 @@ The IMU shall measure current testbed angular rate.
 | Verification | Automated Test |
 
 
-## IMU Angular Acceleration <small>SSLR_2.2.23</small> {#SSLR_2.2.23 }
+### IMU Angular Acceleration <small>SSLR_2.2.23</small> {#SSLR_2.2.23 }
 
 The IMU shall measure testbed angular acceleration.
 
