@@ -1,4 +1,4 @@
-# Software Subsystem {#SSLR_4.1.1 }
+# Communication and Control Subsystem {#SSLR_4.1.1 }
 
 ## CMG Software Support <small>SSLR_4.1.2</small> {#SSLR_4.1.2 }
 

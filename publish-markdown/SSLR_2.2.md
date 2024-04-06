@@ -1,4 +1,4 @@
-# Software Subsystem {#SSLR_2.2.1 }
+# Communication and Control Subsystem {#SSLR_2.2.1 }
 
 ## CORALS-DARTS Telemetry Responses {#SSLR_2.2.7 }
 

@@ -1,4 +1,4 @@
-# Software Subsystem {#SSLR_3.3.1 }
+# Communication and Control Subsystem {#SSLR_3.3.1 }
 
 ## Software Pitch Monitoring <small>SSLR_3.3.2</small> {#SSLR_3.3.2 }
 
