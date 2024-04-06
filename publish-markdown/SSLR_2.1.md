@@ -1,4 +1,4 @@
-# Software Subsystem {#SSLR_2.1.1 }
+# Communication and Control Subsystem {#SSLR_2.1.1 }
 
 ## Data Acquisition and Remote Telecommand Script <small>SSLR_2.1.2</small> {#SSLR_2.1.2 }
 

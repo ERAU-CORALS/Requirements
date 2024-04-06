@@ -1,4 +1,4 @@
-# Software Subsystem {#SSLR_2.3.1 }
+# Communication and Control Subsystem {#SSLR_2.3.1 }
 
 ## Data Log File <small>SSLR_2.3.2</small> {#SSLR_2.3.2 }
 
