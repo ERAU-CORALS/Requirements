@@ -69,7 +69,7 @@ CORALS **SHALL** be capable of attitude control within ±5°.
 | Verification | Automated Test |
 
 
-## testbed Balance <small>SLR_3.6</small> {#SLR_3.6 }
+## Testbed Balance <small>SLR_3.6</small> {#SLR_3.6 }
 
 The testbed shall operate with an imbalance torque less than 10E-6 Nm.
 
