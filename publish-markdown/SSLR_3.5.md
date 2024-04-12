@@ -2,7 +2,7 @@
 
 ## Minimum Control Moment Gyroscopes <small>SSLR_3.5.2</small> {#SSLR_3.5.2 }
 
-CORALS shall have at least four Control Moment Gyroscopes (CMGs) for attitude control.
+CORALS shall have at least four CMGs for attitude control.
 
 *Parent links:* [SLR_3.5 Attitude Accuracy](SLR_3.html#SLR_3.5)
 

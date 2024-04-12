@@ -28,7 +28,7 @@ The control software shall support power toggle of a dynamic number of CMG spin 
 
 ## CMG Gimbal Motor Control <small>SSLR_4.1.4</small> {#SSLR_4.1.4 }
 
-The control software shall support PWM control of a dynamic number of CMG gimbal motors.
+The control software shall support SPI control of a dynamic number of CMG gimbal motors.
 
 *Parent links:* [SLR_4.1 Roof Configuration](SLR_4.html#SLR_4.1)
 
