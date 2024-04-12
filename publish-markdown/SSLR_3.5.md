@@ -67,7 +67,7 @@ Each CMG gimbal motor shall rotate at up to ±3 rad/s.
 
 ## Vibration Isolation <small>SSLR_3.5.7</small> {#SSLR_3.5.7 }
 
-The structural subsystem shall vibrationally isolate each of the CMGs from the rest of the testbed
+The structural subsystem shall vibrationally isolate each of the CMGs from the rest of the testbed.
 
 | Attribute | Value |
 | --------- | ----- |
