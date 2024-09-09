@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Command and Control
+Verification: Demonstration
+active: true
+derived: false
+header: |
+  CORALS Bluetooth Telemetry Request Rx
+level: 1.1.8
+links: []
+normative: true
+ref: ''
+reviewed: OZO4-45WdfGsKQoUic1Npl6GgwMRJcEluTgiaaCw4m0=
+text: |
+  The control software shall receive telemetry request packets from DARTS over Bluetooth.

@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Electrical
+Verification: Inspection
+active: true
+derived: false
+header: |
+  CMG Gimbal Motor
+level: 2.5.4
+links: []
+normative: true
+ref: ''
+reviewed: Lln17KzBvQQyAmg3QDZGBsPc2WARx7pMpztrZm2dWZo=
+text: |
+  Each CMG shall have a gimbal motor.

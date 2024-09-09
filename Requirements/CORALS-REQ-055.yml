@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Structures
+Verification: Inspection
+active: true
+derived: false
+header: |
+  Balancing Masses
+level: 2.6.1
+links: []
+normative: true
+ref: ''
+reviewed: i70J0jLVxSXDPWIdJu8MBZOQpnsOnaqvpEqhmecHLYY=
+text: |
+  The Mass Balancing System shall have 3 counterweights.

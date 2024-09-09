@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Electrical
+Verification: Manual Test
+active: true
+derived: false
+header: |
+  IMU Angular Acceleration
+level: 1.2.11
+links: []
+normative: true
+ref: ''
+reviewed: OhLxWQu6DMIqQT2qzhHnSValAH1PWBRGo7ndaM1KbPI=
+text: |
+  The IMU shall measure testbed angular acceleration.

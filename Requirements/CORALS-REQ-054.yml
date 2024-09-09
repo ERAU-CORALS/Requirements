@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Structures
+Verification: Demonstration
+active: true
+derived: false
+header: |
+  Vibration Isolation
+level: 2.5.6
+links: []
+normative: true
+ref: ''
+reviewed: vC3yhn-FHNU9L428r2RDtNATGZ6Bc7KBHcTGMDoAPJo=
+text: |
+  The structural subsystem shall vibrationally isolate each of the CMGs from the rest of the testbed.

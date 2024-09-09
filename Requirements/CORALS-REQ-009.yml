@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Command and Control
+Verification: Demonstration
+active: true
+derived: false
+header: |
+  Data Acquisition and Remote Telecommand Script
+level: 1.1.1
+links: []
+normative: true
+ref: ''
+reviewed: 9GgArMjl4vr4X7TyCC7eeqZR-KQPjWkN7pvpuTWLMJY=
+text: |
+  The Data Acquisition and Remote Telecommand Script (DARTS) shall be used to communicate with the testbed.

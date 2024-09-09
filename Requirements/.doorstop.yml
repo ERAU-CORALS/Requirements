@@ -1,0 +1,24 @@
+settings:
+  digits: '3'
+  parent: SIDD
+  prefix: CORALS-REQ
+  sep: '-'
+attributes:
+  defaults:
+    Req?: true
+    Metric: TBD
+    Range: TBD
+    Verification: |
+      Demonstration, Inspection, Manual Test, or Automated Test
+    Subsystem: |
+      Structures, Command and Control, or Electrical
+  reviewed:
+  - Req?
+  - Metric
+  - Range
+  - Subsystem
+  - Verification
+  publish:
+  - Metric
+  - Range
+  - Verification

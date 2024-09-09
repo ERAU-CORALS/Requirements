@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Command and Control
+Verification: Demonstration
+active: true
+derived: false
+header: |
+  CORALS Bluetooth Telecommand Rx
+level: 1.1.4
+links: []
+normative: true
+ref: ''
+reviewed: FPx3JDqdBcJMAOQg_9BRAXaxmK1OgLVgzwzlWaYqQvs=
+text: |
+  The control software shall receive telecommand packets from DARTS over Bluetooth.

@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Electrical
+Verification: Manual Test
+active: true
+derived: false
+header: |
+  IMU Pitch
+level: 1.2.8
+links: []
+normative: true
+ref: ''
+reviewed: lPMe_ri3nssTRlNO0k9eAGsUfAurs5B4yVIrvsNbVKU=
+text: |
+  The IMU shall measure current testbed pitch.

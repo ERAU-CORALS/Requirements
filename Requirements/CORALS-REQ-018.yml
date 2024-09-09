@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Command and Control
+Verification: Demonstration
+active: true
+derived: false
+header: |
+  DARTS Bluetooth Rx
+level: 1.2.1
+links: []
+normative: true
+ref: ''
+reviewed: Hs63l4jTitCOaPWKZY24jORLzBPuby2F_XwBZgHcnag=
+text: |
+  DARTS shall receive telemetry response packets from the testbed over Bluetooth.

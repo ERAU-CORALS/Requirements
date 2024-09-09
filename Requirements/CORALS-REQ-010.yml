@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Command and Control
+Verification: Demonstration
+active: true
+derived: false
+header: |
+  DARTS Bluetooth Telecommand Tx
+level: 1.1.2
+links: []
+normative: true
+ref: ''
+reviewed: f7yKzovUdFS_3ENsDNbGpJzOgQtQgwm2sKx0Up5MS8c=
+text: |
+  DARTS shall transmit telecommand packets to the testbed over Bluetooth.

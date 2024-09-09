@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Electrical
+Verification: Manual Test
+active: true
+derived: false
+header: |
+  IMU Roll
+level: 1.2.7
+links: []
+normative: true
+ref: ''
+reviewed: d6hNqHIOy8BaUDQN2cjPgK4gPELu66MTimY8EOHuC10=
+text: |
+  The IMU shall measure current testbed roll.

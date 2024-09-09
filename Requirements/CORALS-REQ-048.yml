@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Command and Control
+Verification: Automated Test
+active: true
+derived: false
+header: |
+  Software Pitch Monitoring
+level: 2.3.1
+links: []
+normative: true
+ref: ''
+reviewed: bTo5S65glejyKa83zwy9Kwi3q75JHmGuMZr9OKCVPL4=
+text: |
+  If current testbed pitch exceeds ±27°, CORALS Software shall transmit Pitch Warning telemetry messages.

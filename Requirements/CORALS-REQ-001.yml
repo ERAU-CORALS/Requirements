@@ -1,0 +1,15 @@
+Metric: ''
+Range: ''
+Req?: false
+Verification: ''
+active: true
+derived: false
+header: |
+  Telemetry Data Stream
+level: 1.0
+links: []
+normative: true
+ref: ''
+reviewed: wfeHnPwxj0HpiJammHCx2XtZBAItV6uEUa6C1Cuq8SM=
+text: |
+  The testbed should continuously stream telemetry data wirelessly throughout its operation.

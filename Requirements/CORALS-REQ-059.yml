@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Command and Control
+Verification: Demonstration
+active: true
+derived: false
+header: |
+  Singularity Halt
+level: 3.3
+links: []
+normative: true
+ref: ''
+reviewed: VbOQnFuvuNacWmtk9PxTD2X7dra2Jmm1VJGaMcH6_o8=
+text: |
+  If a singularity state is detected, the testbed shall halt.

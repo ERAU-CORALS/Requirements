@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Command and Control
+Verification: Automated Test
+active: true
+derived: false
+header: |
+  CORALS Telemetry Structure
+level: 1.2.4
+links: []
+normative: true
+ref: ''
+reviewed: Gsqu3dlK071Me-UPREzXdpgp4_EdSEKDt-vnHFFxu0k=
+text: |
+  The control software shall transmit telemetry response packets to DARTS using a well-defined communication protocol.

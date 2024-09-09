@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Command and Control
+Verification: Demonstration
+active: true
+derived: false
+header: |
+  DARTS Bluetooth Telemetry Request Tx
+level: 1.1.6
+links: []
+normative: true
+ref: ''
+reviewed: D3ou4d_s5zqaNGDwfcj-2Tziwc3YL5fQkHAf1Zox-X4=
+text: |
+  DARTS shall transmit telemetry request packets to the testbed over Bluetooth.

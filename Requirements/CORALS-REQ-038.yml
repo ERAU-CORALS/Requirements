@@ -1,0 +1,16 @@
+Metric: Euler Angle Error
+Range: '[-5°, 5°]'
+Req?: true
+Subsystem: ''
+Verification: Automated Test
+active: true
+derived: false
+header: |
+  Attitude Accuracy
+level: 2.5.0
+links: []
+normative: true
+ref: ''
+reviewed: -x_ACe8PMyQeWbj8SKaW88oPgr4ZXmpKk-zNTc66Xz8=
+text: |
+  The testbed shall be capable of attitude control within ±5°.

@@ -1,0 +1,16 @@
+Metric: Pitch Range
+Range: '[-30°, 30°]'
+Req?: true
+Subsystem: ''
+Verification: ''
+active: true
+derived: false
+header: |
+  Testbed Pitch
+level: 2.3.0
+links: []
+normative: true
+ref: ''
+reviewed: 7ULrEf7cS4Z3AvHECZQhQMFko_qQkWQQsmwUk9JPgcA=
+text: |
+  The testbed shall be capable of pitch to ±30°.

@@ -1,0 +1,16 @@
+Metric: TBD
+Range: TBD
+Req?: true
+Subsystem: Command and Control
+Verification: Automated Test
+active: true
+derived: false
+header: |
+  Testbed Telemetry Packet Structure
+level: 1.2.6
+links: []
+normative: true
+ref: ''
+reviewed: OxXWzgxf34sxf6QVqWU3UTXcLkPEVfhakGlmlqQvD_E=
+text: |
+  The control software shall periodically transmit testbed state telemetry response packets from the testbed to DARTS.

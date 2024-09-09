@@ -1,0 +1,16 @@
+Metric: Primary Rail Voltage
+Range: '[5.9, 6.1] V'
+Req?: true
+Subsystem: Electrical
+Verification: Automated Test
+active: true
+derived: false
+header: |
+  Primary Rail Voltage
+level: 2.1.3
+links: []
+normative: true
+ref: ''
+reviewed: vwJDru6Q3dgOkhlBxSlrFX6zWNVIdkUiufgmLf6LTHA=
+text: |
+  The EPS Primary Rail shall provide 6.0 V ± 0.1 V.

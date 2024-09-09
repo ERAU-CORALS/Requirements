@@ -1,0 +1,16 @@
+Metric: Primary Rail Current
+Range: '[0, 500] mA'
+Req?: true
+Subsystem: Electrical
+Verification: Automated Test
+active: true
+derived: false
+header: |
+  Primary Rail Typical Current
+level: 2.1.5
+links: []
+normative: true
+ref: ''
+reviewed: -X6ThPd3FHJvE36Fc8OOxPyw-ScLbHb-0aZkt-7D92M=
+text: |
+  The EPS Primary Rail shall provide at most 500 mA during normal operation.

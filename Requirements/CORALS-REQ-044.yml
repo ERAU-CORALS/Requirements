@@ -1,0 +1,16 @@
+Metric: Primary Rail Current
+Range: '[2500, inf) mA'
+Req?: true
+Subsystem: Electrical
+Verification: Automated Test
+active: true
+derived: false
+header: |
+  Primary Rail Startup Current
+level: 2.1.4
+links: []
+normative: true
+ref: ''
+reviewed: nJQPr3vr6YMRuuZt2Ok-OvImEVbX_2wsAevlsXqxtsU=
+text: |
+  The EPS Primary Rail shall provide at least 2500 mA during CMG startup.

@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Structures
+Verification: Demonstration
+active: true
+derived: false
+header: |
+  Mass Balance Adjustment
+level: 2.6.2
+links: []
+normative: true
+ref: ''
+reviewed: QZj7V-9lXGB3XDPMkdSCFdBtZTehT9AeBUhLYpP42Vw=
+text: |
+  Each of the counterweights on CORALS shall have an adjustable position along an axis.

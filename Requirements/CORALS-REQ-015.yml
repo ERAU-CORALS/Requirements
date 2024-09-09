@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Command and Control
+Verification: Inspection
+active: true
+derived: false
+header: |
+  DARTS Telemetry Request Protocol
+level: 1.1.7
+links: []
+normative: true
+ref: ''
+reviewed: wVJakyCf_dmp3HXdxlWKV0wo92IFkNqng1lpV7cAfHA=
+text: |
+  DARTS shall transmit telemetry request packets to the testbed using a well-defined communication protocol.

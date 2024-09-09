@@ -1,0 +1,16 @@
+Metric: Yaw Range
+Range: '[-180°, 180°]'
+Req?: true
+Subsystem: ''
+Verification: ''
+active: true
+derived: false
+header: |
+  Testbed Yaw
+level: 2.4
+links: []
+normative: true
+ref: ''
+reviewed: b2VQPF5GX8xY_8doihnkqOC-oOsbwjlj6ANC2QIaIBI=
+text: |
+  The testbed shall be capable of yaw to ±180°.

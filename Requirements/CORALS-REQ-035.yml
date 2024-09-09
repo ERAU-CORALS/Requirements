@@ -1,0 +1,16 @@
+Metric: Roll Range
+Range: '[-180°, 180°]'
+Req?: true
+Subsystem: ''
+Verification: Automated Test
+active: true
+derived: false
+header: |
+  Testbed Roll
+level: 2.2
+links: []
+normative: true
+ref: ''
+reviewed: srsay6fWm9rL6ApO6WsYj9nifjs__aLu_a9548z3mE8=
+text: |
+  The testbed shall be capable of roll to ±180°.

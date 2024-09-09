@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Command and Control
+Verification: Inspection
+active: true
+derived: false
+header: |
+  CMG Software Support
+level: 3.1.1
+links: []
+normative: true
+ref: ''
+reviewed: QrnD9KOicezJkPIVW7aHJklSdTrlxt6nhWTkvuc0lyw=
+text: |
+  The control software shall support a dynamic number of CMGs.

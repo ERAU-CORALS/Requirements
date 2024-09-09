@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Command and Control
+Verification: Demonstration
+active: true
+derived: false
+header: |
+  Data Log File
+level: 1.3.1
+links: []
+normative: true
+ref: ''
+reviewed: 1lExTjbZJk6lny23QaQki9rp5iTVCoh95bJ7nxi9FSM=
+text: |
+  DARTS shall initialize a new formatted attitude data file on session startup.

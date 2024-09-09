@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Command and Control
+Verification: Demonstration
+active: true
+derived: false
+header: |
+  CORALS Telemetry Tx
+level: 1.2.3
+links: []
+normative: true
+ref: ''
+reviewed: lttJ7gl-LcWfz3lMuBjrxUTxdBiIdjTX4ki8_06UimI=
+text: |
+  The control software shall transmit telemetry response packets from DARTS over Bluetooth.

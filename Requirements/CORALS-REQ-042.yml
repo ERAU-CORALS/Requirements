@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Electrical
+Verification: Inspection
+active: true
+derived: false
+header: |
+  Secondary Rail
+level: 2.1.6
+links: []
+normative: true
+ref: ''
+reviewed: a8tFMw5mL4GUusPGANv7m13t6DAmsvEBVLMk_8Q6HjI=
+text: |
+  The EPS shall have a secondary (low current) rail.

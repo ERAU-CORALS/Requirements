@@ -1,0 +1,16 @@
+Metric: ''
+Range: ''
+Req?: false
+Subsystem: ''
+Verification: ''
+active: true
+derived: false
+header: |
+  Onboard Control System
+level: 2.1.0
+links: []
+normative: true
+ref: ''
+reviewed: lTzB2zL2JujOz8z2iYquktqJ5re8J20kh00jq3Z5BAw=
+text: |
+  The testbed shall have a common onboard control system.

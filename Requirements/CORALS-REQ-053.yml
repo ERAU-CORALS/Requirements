@@ -1,0 +1,16 @@
+Metric: Gimbal Rate
+Range: '[-3, 3] rad/s'
+Req?: true
+Subsystem: Electrical
+Verification: Manual Test
+active: true
+derived: false
+header: |
+  Gimbal Motor Max Rate
+level: 2.5.5
+links: []
+normative: true
+ref: ''
+reviewed: g1NrEBNscI3_Ie_TnkeSVCBTkAGC9RJ_87Y4GE92gmk=
+text: |
+  Each CMG gimbal motor shall rotate at up to ±3 rad/s.

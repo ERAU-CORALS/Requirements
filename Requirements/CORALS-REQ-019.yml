@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Command and Control
+Verification: Automated Test
+active: true
+derived: false
+header: |
+  DARTS Telemetry Structure
+level: 1.2.2
+links: []
+normative: true
+ref: ''
+reviewed: MnBUisnSLlFwVZG8VQZWSGmWqfrbQkzE_KE4h4hwaHI=
+text: |
+  DARTS shall process telemetry response packets from the testbed if the packet structure and content is valid according to a well-defined communication protocol.

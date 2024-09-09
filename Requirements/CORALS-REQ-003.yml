@@ -1,0 +1,15 @@
+Metric: ''
+Range: ''
+Req?: false
+Verification: ''
+active: true
+derived: false
+header: |
+  CMG Array
+level: 3.0
+links: []
+normative: true
+ref: ''
+reviewed: 2DM-vb71oCTcqJVs1Sa4ACZJUyefy4sHSAqcb4E2xhs=
+text: |
+  The testbed should use a Control Moment Gyroscope array that can escape gimbal lock.

@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Electrical
+Verification: Manual Test
+active: true
+derived: false
+header: |
+  IMU Angular Rate
+level: 1.2.10
+links: []
+normative: true
+ref: ''
+reviewed: h5iKFnewJq22EaRFDndq8WtPrpadoRwrnjpiABnwyeY=
+text: |
+  The IMU shall measure current testbed angular rate.

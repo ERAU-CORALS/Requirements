@@ -1,0 +1,15 @@
+Metric: ''
+Range: ''
+Req?: false
+Verification: ''
+active: true
+derived: false
+header: |
+  Telecommands
+level: 1.1.0
+links: []
+normative: true
+ref: ''
+reviewed: LxjlHUaviu8BlB5_WEk-Nmk_hF7eSr6f5wU7UtZwp1I=
+text: |
+  The testbed shall store attitude telemetry data on the host computer.

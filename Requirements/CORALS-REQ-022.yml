@@ -1,0 +1,16 @@
+Metric: TBD
+Range: TBD
+Req?: true
+Subsystem: Command and Control
+Verification: Automated Test
+active: true
+derived: false
+header: |
+  Attitude Telemetry Packet Structure
+level: 1.2.5
+links: []
+normative: true
+ref: ''
+reviewed: NBZPPKPbBjniPGDloH0Gf3X5v4hC4rwLxa5d6gy-r18=
+text: |
+  The control software shall periodically transmit attitude state telemetry response packets from the testbed to DARTS.

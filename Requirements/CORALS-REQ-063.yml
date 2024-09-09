@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Command and Control
+Verification: Inspection
+active: true
+derived: false
+header: |
+  CMG Gimbal Position Tracking
+level: 3.1.4
+links: []
+normative: true
+ref: ''
+reviewed: FKsjfl1xEOL1GTOufJCR2gD1F_L4U2ceHsk1zJqvv84=
+text: |
+  The control software shall track the position of a dynamic number of CMG gimbal motors.

@@ -1,0 +1,16 @@
+Metric: CMG Mount Points
+Range: '[4, inf)'
+Req?: true
+Subsystem: Structures
+Verification: Inspection
+active: true
+derived: false
+header: |
+  CMG Mounting
+level: 3.1.5
+links: []
+normative: true
+ref: ''
+reviewed: d4NH5gwfnBj5HCZ10bGp7coZAdhwNCcEr2Hst1Fmx84=
+text: |
+  The structural subsystem shall feature a structure capable of supporting at least four CMGs in a roof configuration.

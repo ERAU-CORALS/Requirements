@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Command and Control
+Verification: Inspection
+active: true
+derived: false
+header: |
+  DARTS Telecommand Logging
+level: 1.3.4
+links: []
+normative: true
+ref: ''
+reviewed: CoItgXgOgkIV8Zzw2xXVLLDyVhyRLAaLTnzdA_MNy0g=
+text: |
+  DARTS shall write all transmitted telecommands and telemetry requests to a session telemetry/telecommand log file.

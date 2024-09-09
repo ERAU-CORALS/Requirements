@@ -1,0 +1,16 @@
+Metric: Gyroscope Count
+Range: Boolean
+Req?: true
+Subsystem: Structures
+Verification: Inspection
+active: true
+derived: false
+header: |
+  Minimum Control Moment Gyroscopes
+level: 2.5.1
+links: []
+normative: true
+ref: ''
+reviewed: KBNiWadfbR9c7IocI6HCb9vW31zPXy8GD1HG3rAfZqE=
+text: |
+  CORALS shall have at least four CMGs for attitude control.

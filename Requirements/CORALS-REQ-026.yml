@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Electrical
+Verification: Manual Test
+active: true
+derived: false
+header: |
+  IMU Yaw
+level: 1.2.9
+links: []
+normative: true
+ref: ''
+reviewed: 4hqTtXcZlCpJybLn2KVpSahvt6LjjjzVcsRsiLwHHUQ=
+text: |
+  The IMU shall measure current testbed yaw.

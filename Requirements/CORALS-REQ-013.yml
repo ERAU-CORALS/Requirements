@@ -1,0 +1,16 @@
+Metric: Boolean
+Range: 'True'
+Req?: true
+Subsystem: Command and Control
+Verification: Automated Test
+active: true
+derived: false
+header: |
+  CORALS Telecommand Protocol Adherence
+level: 1.1.5
+links: []
+normative: true
+ref: ''
+reviewed: VTqAjfJ0jS-duYpjYcfX4ulBN2UBfeU8xatNBF5Y3sM=
+text: |
+  The control software shall process telecommands from DARTS if the packet structure and content is valid according to a well-defined communication protocol.
