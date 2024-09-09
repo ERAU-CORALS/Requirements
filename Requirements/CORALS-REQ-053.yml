@@ -1,6 +1,6 @@
 Metric: Gimbal Rate
 Range: '[-3, 3] rad/s'
-Req?: true
+Fully Decomposed: false
 Subsystem: Electrical
 Verification: Manual Test
 active: true

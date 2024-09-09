@@ -1,6 +1,6 @@
 Metric: Secondary Rail Voltage
 Range: '[7, 10] V'
-Req?: true
+Fully Decomposed: false
 Subsystem: Electrical
 Verification: Automated Test
 active: true

@@ -1,6 +1,6 @@
 Metric: Gyroscope Count
 Range: Boolean
-Req?: true
+Fully Decomposed: false
 Subsystem: Structures
 Verification: Inspection
 active: true

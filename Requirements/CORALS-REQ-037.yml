@@ -1,6 +1,6 @@
 Metric: Yaw Range
 Range: '[-180°, 180°]'
-Req?: true
+Fully Decomposed: false
 Subsystem: ''
 Verification: ''
 active: true

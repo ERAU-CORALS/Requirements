@@ -1,6 +1,6 @@
 Metric: Battery Capacity
 Range: '[2000, inf) mAh'
-Req?: true
+Fully Decomposed: false
 Subsystem: Electrical
 Verification: Manual Test
 active: true

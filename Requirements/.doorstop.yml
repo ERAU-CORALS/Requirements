@@ -5,7 +5,7 @@ settings:
   sep: '-'
 attributes:
   defaults:
-    Req?: true
+    Fully Decomposed: false
     Metric: TBD
     Range: TBD
     Verification: |
@@ -13,7 +13,7 @@ attributes:
     Subsystem: |
       Structures, Command and Control, or Electrical
   reviewed:
-  - Req?
+  - Fully Decomposed
   - Metric
   - Range
   - Subsystem
@@ -21,4 +21,5 @@ attributes:
   publish:
   - Metric
   - Range
+  - Subsystem
   - Verification

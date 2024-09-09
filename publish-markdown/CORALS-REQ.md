@@ -16,6 +16,7 @@ The Data Acquisition and Remote Telecommand Script (DARTS) shall be used to comm
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Demonstration |
 
 
@@ -27,6 +28,7 @@ DARTS shall transmit telecommand packets to the testbed over Bluetooth.
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Demonstration |
 
 
@@ -38,6 +40,7 @@ DARTS shall transmit telecommand packets to the testbed using a well-defined com
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Inspection |
 
 
@@ -49,6 +52,7 @@ The control software shall receive telecommand packets from DARTS over Bluetooth
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Demonstration |
 
 
@@ -60,6 +64,7 @@ The control software shall process telecommands from DARTS if the packet structu
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Automated Test |
 
 
@@ -71,6 +76,7 @@ DARTS shall transmit telemetry request packets to the testbed over Bluetooth.
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Demonstration |
 
 
@@ -82,6 +88,7 @@ DARTS shall transmit telemetry request packets to the testbed using a well-defin
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Inspection |
 
 
@@ -93,6 +100,7 @@ The control software shall receive telemetry request packets from DARTS over Blu
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Demonstration |
 
 
@@ -104,6 +112,7 @@ The control software shall process telemetry requests from DARTS if the packet s
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Automated Test |
 
 
@@ -118,6 +127,7 @@ DARTS shall receive telemetry response packets from the testbed over Bluetooth.
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Demonstration |
 
 
@@ -129,6 +139,7 @@ DARTS shall process telemetry response packets from the testbed if the packet st
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Automated Test |
 
 
@@ -140,6 +151,7 @@ The control software shall transmit telemetry response packets from DARTS over B
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Demonstration |
 
 
@@ -151,6 +163,7 @@ The control software shall transmit telemetry response packets to DARTS using a 
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Automated Test |
 
 
@@ -162,6 +175,7 @@ The control software shall periodically transmit attitude state telemetry respon
 | --------- | ----- |
 | Metric | TBD |
 | Range | TBD |
+| Subsystem | Command and Control |
 | Verification | Automated Test |
 
 
@@ -173,6 +187,7 @@ The control software shall periodically transmit testbed state telemetry respons
 | --------- | ----- |
 | Metric | TBD |
 | Range | TBD |
+| Subsystem | Command and Control |
 | Verification | Automated Test |
 
 
@@ -184,6 +199,7 @@ The IMU shall measure current testbed roll.
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Electrical |
 | Verification | Manual Test |
 
 
@@ -195,6 +211,7 @@ The IMU shall measure current testbed pitch.
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Electrical |
 | Verification | Manual Test |
 
 
@@ -206,6 +223,7 @@ The IMU shall measure current testbed yaw.
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Electrical |
 | Verification | Manual Test |
 
 
@@ -217,6 +235,7 @@ The IMU shall measure current testbed angular rate.
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Electrical |
 | Verification | Manual Test |
 
 
@@ -228,6 +247,7 @@ The IMU shall measure testbed angular acceleration.
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Electrical |
 | Verification | Manual Test |
 
 
@@ -242,6 +262,7 @@ DARTS shall initialize a new formatted attitude data file on session startup.
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Demonstration |
 
 
@@ -253,6 +274,7 @@ DARTS shall initialize a telemetry/telecommand log file on session startup.
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Demonstration |
 
 
@@ -264,6 +286,7 @@ DARTS shall write all received testbed attitude telemetry data to a formatted se
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Inspection |
 
 
@@ -275,6 +298,7 @@ DARTS shall write all transmitted telecommands and telemetry requests to a sessi
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Inspection |
 
 
@@ -286,6 +310,7 @@ DARTS shall write all received telemetry responses to a session telemetry/teleco
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Inspection |
 
 
@@ -307,6 +332,7 @@ The EPS battery shall have a capacity of at least 2000mAh.
 | --------- | ----- |
 | Metric | Battery Capacity |
 | Range | [2000, inf) mAh |
+| Subsystem | Electrical |
 | Verification | Manual Test |
 
 
@@ -318,6 +344,7 @@ The EPS shall have a primary (high current) rail.
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Electrical |
 | Verification | Inspection |
 
 
@@ -329,6 +356,7 @@ The EPS Primary Rail shall provide 6.0 V ± 0.1 V.
 | --------- | ----- |
 | Metric | Primary Rail Voltage |
 | Range | [5.9, 6.1] V |
+| Subsystem | Electrical |
 | Verification | Automated Test |
 
 
@@ -340,6 +368,7 @@ The EPS Primary Rail shall provide at least 2500 mA during CMG startup.
 | --------- | ----- |
 | Metric | Primary Rail Current |
 | Range | [2500, inf) mA |
+| Subsystem | Electrical |
 | Verification | Automated Test |
 
 
@@ -351,6 +380,7 @@ The EPS Primary Rail shall provide at most 500 mA during normal operation.
 | --------- | ----- |
 | Metric | Primary Rail Current |
 | Range | [0, 500] mA |
+| Subsystem | Electrical |
 | Verification | Automated Test |
 
 
@@ -362,6 +392,7 @@ The EPS shall have a secondary (low current) rail.
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Electrical |
 | Verification | Inspection |
 
 
@@ -373,6 +404,7 @@ The EPS Secondary Rail shall provide 8.5 V ± 1.5 V.
 | --------- | ----- |
 | Metric | Secondary Rail Voltage |
 | Range | [7, 10] V |
+| Subsystem | Electrical |
 | Verification | Automated Test |
 
 
@@ -384,6 +416,7 @@ The EPS Secondary Rail shall provide at most 750 mA during normal operation.
 | --------- | ----- |
 | Metric | Secondary Rail Current |
 | Range | [0, 750] mA |
+| Subsystem | Electrical |
 | Verification | Automated Test |
 
 
@@ -416,6 +449,7 @@ If current testbed pitch exceeds ±27°, CORALS Software shall transmit Pitch Wa
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Automated Test |
 
 
@@ -448,6 +482,7 @@ CORALS shall have at least four CMGs for attitude control.
 | --------- | ----- |
 | Metric | Gyroscope Count |
 | Range | Boolean |
+| Subsystem | Structures |
 | Verification | Inspection |
 
 
@@ -459,6 +494,7 @@ CORALS shall have an even number of CMGs for attitude control.
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Electrical |
 | Verification | Inspection |
 
 
@@ -470,6 +506,7 @@ Each CMG shall have a spin motor.
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Electrical |
 | Verification | Inspection |
 
 
@@ -481,6 +518,7 @@ Each CMG shall have a gimbal motor.
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Electrical |
 | Verification | Inspection |
 
 
@@ -492,6 +530,7 @@ Each CMG gimbal motor shall rotate at up to ±3 rad/s.
 | --------- | ----- |
 | Metric | Gimbal Rate |
 | Range | [-3, 3] rad/s |
+| Subsystem | Electrical |
 | Verification | Manual Test |
 
 
@@ -503,6 +542,7 @@ The structural subsystem shall vibrationally isolate each of the CMGs from the r
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Structures |
 | Verification | Demonstration |
 
 
@@ -514,6 +554,7 @@ The testbed shall operate with an imbalance torque less than 10E-3 Nm.
 | --------- | ----- |
 | Metric | Imbalance Torque |
 | Range | [0, 10e-3] Nm |
+| Subsystem | Structures |
 | Verification | Manual Test |
 
 
@@ -525,6 +566,7 @@ The Mass Balancing System shall have 3 counterweights.
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Structures |
 | Verification | Inspection |
 
 
@@ -536,6 +578,7 @@ Each of the counterweights on CORALS shall have an adjustable position along an 
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Structures |
 | Verification | Demonstration |
 
 
@@ -557,6 +600,7 @@ The control software shall support a dynamic number of CMGs.
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Inspection |
 
 
@@ -568,6 +612,7 @@ The control software shall support power toggle of a dynamic number of CMG spin 
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Inspection |
 
 
@@ -579,6 +624,7 @@ The control software shall support SPI control of a dynamic number of CMG gimbal
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Inspection |
 
 
@@ -590,6 +636,7 @@ The control software shall track the position of a dynamic number of CMG gimbal 
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Inspection |
 
 
@@ -601,6 +648,7 @@ The structural subsystem shall feature a structure capable of supporting at leas
 | --------- | ----- |
 | Metric | CMG Mount Points |
 | Range | [4, inf) |
+| Subsystem | Structures |
 | Verification | Inspection |
 
 
@@ -612,6 +660,7 @@ The testbed shall be capable of detecting a singular state.
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Inspection |
 
 
@@ -623,6 +672,7 @@ If a singularity state is detected, the testbed shall halt.
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Command and Control |
 | Verification | Demonstration |
 
 
@@ -639,6 +689,7 @@ The testbed shall use a spherical air bearing for controlled pivoting.
 | --------- | ----- |
 | Metric | Boolean |
 | Range | True |
+| Subsystem | Structures |
 | Verification | Inspection |
 
 

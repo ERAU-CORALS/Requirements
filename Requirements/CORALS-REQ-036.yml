@@ -1,6 +1,6 @@
 Metric: Pitch Range
 Range: '[-30°, 30°]'
-Req?: true
+Fully Decomposed: false
 Subsystem: ''
 Verification: ''
 active: true

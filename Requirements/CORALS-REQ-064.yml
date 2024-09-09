@@ -1,6 +1,6 @@
 Metric: CMG Mount Points
 Range: '[4, inf)'
-Req?: true
+Fully Decomposed: false
 Subsystem: Structures
 Verification: Inspection
 active: true

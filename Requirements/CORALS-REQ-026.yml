@@ -1,6 +1,6 @@
 Metric: Boolean
 Range: 'True'
-Req?: true
+Fully Decomposed: false
 Subsystem: Electrical
 Verification: Manual Test
 active: true

@@ -1,6 +1,6 @@
 Metric: TBD
 Range: TBD
-Req?: true
+Fully Decomposed: false
 Subsystem: Command and Control
 Verification: Automated Test
 active: true

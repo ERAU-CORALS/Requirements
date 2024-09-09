@@ -1,6 +1,6 @@
 Metric: Imbalance Torque
 Range: '[0, 10e-3] Nm'
-Req?: true
+Fully Decomposed: false
 Subsystem: Structures
 Verification: Manual Test
 active: true

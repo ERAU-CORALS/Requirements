@@ -1,6 +1,6 @@
 Metric: Euler Angle Error
 Range: '[-5°, 5°]'
-Req?: true
+Fully Decomposed: false
 Subsystem: ''
 Verification: Automated Test
 active: true

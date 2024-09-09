@@ -1,6 +1,6 @@
 Metric: Primary Rail Current
 Range: '[0, 500] mA'
-Req?: true
+Fully Decomposed: false
 Subsystem: Electrical
 Verification: Automated Test
 active: true

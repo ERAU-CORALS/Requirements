@@ -1,6 +1,6 @@
 Metric: TBD
 Range: TBD
-Req?: true
+Fully Decomposed: false
 Verification: |
   Demonstration, Inspection, Manual Test, or Automated Test
 active: false
