@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Command and Control
 Verification: Automated Test
 active: true
@@ -11,6 +11,6 @@ level: 2.3.1
 links: []
 normative: true
 ref: ''
-reviewed: bTo5S65glejyKa83zwy9Kwi3q75JHmGuMZr9OKCVPL4=
+reviewed: uRp0M610z6wHMJm9LwfQcYFXBevdpvoal4TwPST09Xg=
 text: |
   If current testbed pitch exceeds ±27°, CORALS Software shall transmit Pitch Warning telemetry messages.

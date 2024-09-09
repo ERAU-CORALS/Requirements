@@ -1,6 +1,6 @@
+Fully Decomposed: true
 Metric: ''
 Range: ''
-Fully Decomposed: true
 Verification: ''
 active: true
 derived: false
@@ -10,6 +10,6 @@ level: 4.0
 links: []
 normative: true
 ref: ''
-reviewed: wq1ASL9zJWVfxLHBpjUyokZ1l_F1v37B3Cz7EEYDE-o=
+reviewed: eAgbYbCC2P8kvBZs6KNRM4XVvJUAZRcvcaFDz-gar1s=
 text: |
   The testbed should use a pivot point that is durable enough to operate the testbed for at least 1 hour before needing to be serviced or replaced.

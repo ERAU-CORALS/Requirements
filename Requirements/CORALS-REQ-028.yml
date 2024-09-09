@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Electrical
 Verification: Manual Test
 active: true
@@ -11,6 +11,6 @@ level: 1.2.11
 links: []
 normative: true
 ref: ''
-reviewed: OhLxWQu6DMIqQT2qzhHnSValAH1PWBRGo7ndaM1KbPI=
+reviewed: wZ8FWl4j8HkHn8_TPAalW66-bInkTMRWo-7cbqE3m_w=
 text: |
   The IMU shall measure testbed angular acceleration.

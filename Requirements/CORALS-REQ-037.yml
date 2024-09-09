@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Yaw Range
 Range: '[-180°, 180°]'
-Fully Decomposed: false
 Subsystem: ''
 Verification: ''
 active: true
@@ -11,6 +11,6 @@ level: 2.4
 links: []
 normative: true
 ref: ''
-reviewed: b2VQPF5GX8xY_8doihnkqOC-oOsbwjlj6ANC2QIaIBI=
+reviewed: GpAS2_NILDEDrvyavbSVQNju0MMX2fOZTHalsc-s6BI=
 text: |
   The testbed shall be capable of yaw to ±180°.

@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Structures
 Verification: Inspection
 active: true
@@ -11,6 +11,6 @@ level: 2.6.1
 links: []
 normative: true
 ref: ''
-reviewed: i70J0jLVxSXDPWIdJu8MBZOQpnsOnaqvpEqhmecHLYY=
+reviewed: HoqRmZ-bPUiEd5VlOjMuwlqoNnR5mxkvUC-i5LTi5dM=
 text: |
   The Mass Balancing System shall have 3 counterweights.

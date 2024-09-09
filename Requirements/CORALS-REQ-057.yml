@@ -1,6 +1,6 @@
+Fully Decomposed: true
 Metric: ''
 Range: ''
-Fully Decomposed: true
 Subsystem: ''
 Verification: ''
 active: true
@@ -11,6 +11,6 @@ level: 3.1.0
 links: []
 normative: true
 ref: ''
-reviewed: Rv9rN7YyDvit83wuaLfTgPsSFJGZnVheXs5mt7hBhmQ=
+reviewed: zxIApETpOavTL6W31BISrE_8zGHcCXjv4im4_aabWxU=
 text: |
   The testbed shall use a roof configuration CMG array.

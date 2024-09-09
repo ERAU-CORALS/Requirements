@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Roll Range
 Range: '[-180°, 180°]'
-Fully Decomposed: false
 Subsystem: ''
 Verification: Automated Test
 active: true
@@ -11,6 +11,6 @@ level: 2.2
 links: []
 normative: true
 ref: ''
-reviewed: srsay6fWm9rL6ApO6WsYj9nifjs__aLu_a9548z3mE8=
+reviewed: SvnD_BSjZayD2HfjXzG30S-98M0wPvCOGvDyhwFtSGQ=
 text: |
   The testbed shall be capable of roll to ±180°.

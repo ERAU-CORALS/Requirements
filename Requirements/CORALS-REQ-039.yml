@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Imbalance Torque
 Range: '[0, 10e-3] Nm'
-Fully Decomposed: false
 Subsystem: Structures
 Verification: Manual Test
 active: true
@@ -11,6 +11,6 @@ level: 2.6.0
 links: []
 normative: true
 ref: ''
-reviewed: eHTtXn1QeXzdao06vBDwrJj_0-98QzW-Yhmb6HflKxM=
+reviewed: ocNHUJvmnMZIIgLTWReQAMEO0sZdnVMQ8OICXSWkBjg=
 text: |
   The testbed shall operate with an imbalance torque less than 10E-3 Nm.

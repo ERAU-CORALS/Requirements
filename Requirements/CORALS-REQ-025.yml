@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Electrical
 Verification: Manual Test
 active: true
@@ -11,6 +11,6 @@ level: 1.2.8
 links: []
 normative: true
 ref: ''
-reviewed: lPMe_ri3nssTRlNO0k9eAGsUfAurs5B4yVIrvsNbVKU=
+reviewed: xmdadYMC_64yyCM_C4zY5S0nhCs0BvtE-KTurUVwN-8=
 text: |
   The IMU shall measure current testbed pitch.

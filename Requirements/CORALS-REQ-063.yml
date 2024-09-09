@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Command and Control
 Verification: Inspection
 active: true
@@ -11,6 +11,6 @@ level: 3.1.4
 links: []
 normative: true
 ref: ''
-reviewed: FKsjfl1xEOL1GTOufJCR2gD1F_L4U2ceHsk1zJqvv84=
+reviewed: 38ZIfG4bVLvjqcDLCrEa2QTLdH2qPZrVKbqPMZI5ixk=
 text: |
   The control software shall track the position of a dynamic number of CMG gimbal motors.

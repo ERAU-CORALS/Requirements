@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Command and Control
 Verification: Demonstration
 active: true
@@ -11,6 +11,6 @@ level: 1.3.2
 links: []
 normative: true
 ref: ''
-reviewed: AAX8SwiwI5oxHc_0vaXbCXtPhGfHtR6KRD2RRvfLDpw=
+reviewed: SLqI58_MqLvK7reOe1YKhFaN-mPzcWGY3kjqWYprDE8=
 text: |
   DARTS shall initialize a telemetry/telecommand log file on session startup.

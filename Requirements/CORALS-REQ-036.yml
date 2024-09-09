@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Pitch Range
 Range: '[-30°, 30°]'
-Fully Decomposed: false
 Subsystem: ''
 Verification: ''
 active: true
@@ -11,6 +11,6 @@ level: 2.3.0
 links: []
 normative: true
 ref: ''
-reviewed: 7ULrEf7cS4Z3AvHECZQhQMFko_qQkWQQsmwUk9JPgcA=
+reviewed: lC-l1KPM8K0Omel8x0rDdq8OY5ae0qA5fQZpVdg0GTE=
 text: |
   The testbed shall be capable of pitch to ±30°.

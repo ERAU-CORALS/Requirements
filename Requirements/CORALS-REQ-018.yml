@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Command and Control
 Verification: Demonstration
 active: true
@@ -11,6 +11,6 @@ level: 1.2.1
 links: []
 normative: true
 ref: ''
-reviewed: Hs63l4jTitCOaPWKZY24jORLzBPuby2F_XwBZgHcnag=
+reviewed: rzKcgBHr8O8i6tG75c3LauQSzbVzIcx3C2zisT9NAY4=
 text: |
   DARTS shall receive telemetry response packets from the testbed over Bluetooth.

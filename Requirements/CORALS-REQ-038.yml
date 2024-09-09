@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Euler Angle Error
 Range: '[-5°, 5°]'
-Fully Decomposed: false
 Subsystem: ''
 Verification: Automated Test
 active: true
@@ -11,6 +11,6 @@ level: 2.5.0
 links: []
 normative: true
 ref: ''
-reviewed: -x_ACe8PMyQeWbj8SKaW88oPgr4ZXmpKk-zNTc66Xz8=
+reviewed: f_lTC2T5le4mLhwbJMqyNn4KF7uEIRui6uza6e3jxco=
 text: |
   The testbed shall be capable of attitude control within ±5°.

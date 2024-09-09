@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Command and Control
 Verification: Automated Test
 active: true
@@ -11,6 +11,6 @@ level: 1.1.9
 links: []
 normative: true
 ref: ''
-reviewed: fNolWJJf3PwhVGnmuh0BC_we_7QiFfKU1eFQLRi2JGM=
+reviewed: CGOpkd8vY8OfaTH6Oc-o1_k15WLGg_EaGrMMOW8hw4k=
 text: |
   The control software shall process telemetry requests from DARTS if the packet structure and content is valid according to a well-defined communication protocol.

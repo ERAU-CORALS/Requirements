@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Battery Capacity
 Range: '[2000, inf) mAh'
-Fully Decomposed: false
 Subsystem: Electrical
 Verification: Manual Test
 active: true
@@ -11,6 +11,6 @@ level: 2.1.1
 links: []
 normative: true
 ref: ''
-reviewed: SBY7bGM8dIHLJH0JZ3iJJw_pesuZoyc8pFn3MDg6HW8=
+reviewed: SCsoSKihJsDs3pQXu4HFeD74C0QZyjArfpga8k5vnXU=
 text: |
   The EPS battery shall have a capacity of at least 2000mAh.

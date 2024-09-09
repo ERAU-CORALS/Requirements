@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Command and Control
 Verification: Inspection
 active: true
@@ -11,6 +11,6 @@ level: 1.3.4
 links: []
 normative: true
 ref: ''
-reviewed: CoItgXgOgkIV8Zzw2xXVLLDyVhyRLAaLTnzdA_MNy0g=
+reviewed: pI_wHUG6OGDViCVUN6FGrJxAZtbmhR-tx9Wpfo_V60o=
 text: |
   DARTS shall write all transmitted telecommands and telemetry requests to a session telemetry/telecommand log file.

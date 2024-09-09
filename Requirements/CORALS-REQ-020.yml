@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Command and Control
 Verification: Demonstration
 active: true
@@ -11,6 +11,6 @@ level: 1.2.3
 links: []
 normative: true
 ref: ''
-reviewed: lttJ7gl-LcWfz3lMuBjrxUTxdBiIdjTX4ki8_06UimI=
+reviewed: CBr-s-ioN7dMgVKMV3N6qI2pQNMhgN4-dHpbP5WoYaU=
 text: |
   The control software shall transmit telemetry response packets from DARTS over Bluetooth.

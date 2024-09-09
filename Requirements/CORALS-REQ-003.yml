@@ -1,6 +1,6 @@
+Fully Decomposed: true
 Metric: ''
 Range: ''
-Fully Decomposed: true
 Verification: ''
 active: true
 derived: false
@@ -10,6 +10,6 @@ level: 3.0
 links: []
 normative: true
 ref: ''
-reviewed: 2DM-vb71oCTcqJVs1Sa4ACZJUyefy4sHSAqcb4E2xhs=
+reviewed: A7PQCNC1Z7OGE5MTBDYNtueuM0Rd98KSa3jMDVGnuNQ=
 text: |
   The testbed should use a Control Moment Gyroscope array that can escape gimbal lock.

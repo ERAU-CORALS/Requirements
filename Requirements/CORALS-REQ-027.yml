@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Electrical
 Verification: Manual Test
 active: true
@@ -11,6 +11,6 @@ level: 1.2.10
 links: []
 normative: true
 ref: ''
-reviewed: h5iKFnewJq22EaRFDndq8WtPrpadoRwrnjpiABnwyeY=
+reviewed: rFIlQgsRiH1qvuDhxQYFf-B4VqShto78myvjn6OQIps=
 text: |
   The IMU shall measure current testbed angular rate.

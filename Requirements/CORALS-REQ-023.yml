@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: TBD
 Range: TBD
-Fully Decomposed: false
 Subsystem: Command and Control
 Verification: Automated Test
 active: true
@@ -11,6 +11,6 @@ level: 1.2.6
 links: []
 normative: true
 ref: ''
-reviewed: OxXWzgxf34sxf6QVqWU3UTXcLkPEVfhakGlmlqQvD_E=
+reviewed: GqIoCJSo_iZKYrwP80kvAzJBGgPo8hjyPCN-H5Rff5s=
 text: |
   The control software shall periodically transmit testbed state telemetry response packets from the testbed to DARTS.

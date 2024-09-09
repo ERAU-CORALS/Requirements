@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Primary Rail Current
 Range: '[0, 500] mA'
-Fully Decomposed: false
 Subsystem: Electrical
 Verification: Automated Test
 active: true
@@ -11,6 +11,6 @@ level: 2.1.5
 links: []
 normative: true
 ref: ''
-reviewed: -X6ThPd3FHJvE36Fc8OOxPyw-ScLbHb-0aZkt-7D92M=
+reviewed: E3Gg85IvCiRT96uB7hogm4wBssklHqhpv1SmeHI4VKE=
 text: |
   The EPS Primary Rail shall provide at most 500 mA during normal operation.

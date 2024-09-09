@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Electrical
 Verification: Inspection
 active: true
@@ -11,6 +11,6 @@ level: 2.1.6
 links: []
 normative: true
 ref: ''
-reviewed: a8tFMw5mL4GUusPGANv7m13t6DAmsvEBVLMk_8Q6HjI=
+reviewed: dWRPQB9fKnsqp_nSR7W0RZFqfktcOShav3FQ197-Wro=
 text: |
   The EPS shall have a secondary (low current) rail.

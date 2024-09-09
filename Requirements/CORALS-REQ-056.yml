@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Structures
 Verification: Demonstration
 active: true
@@ -11,6 +11,6 @@ level: 2.6.2
 links: []
 normative: true
 ref: ''
-reviewed: QZj7V-9lXGB3XDPMkdSCFdBtZTehT9AeBUhLYpP42Vw=
+reviewed: uWROmc5wGw_GDuhsO5BKy3QxXEejltOPD8UtNnEW3XE=
 text: |
   Each of the counterweights on CORALS shall have an adjustable position along an axis.

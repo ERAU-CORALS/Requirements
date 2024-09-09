@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Command and Control
 Verification: Inspection
 active: true
@@ -11,6 +11,6 @@ level: 3.2
 links: []
 normative: true
 ref: ''
-reviewed: P-OQKgQ49m_9ILT4oSig3wAtTORYeilNMMww3C-YeOw=
+reviewed: ktITROlF7TFuiq-77APCGDJOMpn1sWo9aOFaVIxXXKI=
 text: |
   The testbed shall be capable of detecting a singular state.

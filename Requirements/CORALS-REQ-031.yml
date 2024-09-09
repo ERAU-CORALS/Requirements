@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Command and Control
 Verification: Inspection
 active: true
@@ -11,6 +11,6 @@ level: 1.3.3
 links: []
 normative: true
 ref: ''
-reviewed: VXDMzcqaf8oht7yCinRNGkKsii0PMw2EFyFNzjRpe-E=
+reviewed: BERoLqkc5gb9cGMUHBJE53lMKkh3aazQ_rovN_LSwM4=
 text: |
   DARTS shall write all received testbed attitude telemetry data to a formatted session data file.

@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Gimbal Rate
 Range: '[-3, 3] rad/s'
-Fully Decomposed: false
 Subsystem: Electrical
 Verification: Manual Test
 active: true
@@ -11,6 +11,6 @@ level: 2.5.5
 links: []
 normative: true
 ref: ''
-reviewed: g1NrEBNscI3_Ie_TnkeSVCBTkAGC9RJ_87Y4GE92gmk=
+reviewed: YN0NK_1px7tk2ZzEUwY-S110STteCmcBZDGOhn9LkE0=
 text: |
   Each CMG gimbal motor shall rotate at up to ±3 rad/s.

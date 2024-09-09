@@ -1,6 +1,6 @@
+Fully Decomposed: true
 Metric: ''
 Range: ''
-Fully Decomposed: true
 Verification: ''
 active: true
 derived: false
@@ -10,6 +10,6 @@ level: 1.0
 links: []
 normative: true
 ref: ''
-reviewed: wfeHnPwxj0HpiJammHCx2XtZBAItV6uEUa6C1Cuq8SM=
+reviewed: RCM0X00DsVo7qdNJ-yvZKzGzv_nGRXHAt9A83WDxmuU=
 text: |
   The testbed should continuously stream telemetry data wirelessly throughout its operation.

@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Electrical
 Verification: Manual Test
 active: true
@@ -11,6 +11,6 @@ level: 1.2.7
 links: []
 normative: true
 ref: ''
-reviewed: d6hNqHIOy8BaUDQN2cjPgK4gPELu66MTimY8EOHuC10=
+reviewed: CydxNC7J4OPdNbEeDivzfzgCgj32W0u4B3mJ6_TxPsI=
 text: |
   The IMU shall measure current testbed roll.

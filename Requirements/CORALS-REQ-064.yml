@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: CMG Mount Points
 Range: '[4, inf)'
-Fully Decomposed: false
 Subsystem: Structures
 Verification: Inspection
 active: true
@@ -11,6 +11,6 @@ level: 3.1.5
 links: []
 normative: true
 ref: ''
-reviewed: d4NH5gwfnBj5HCZ10bGp7coZAdhwNCcEr2Hst1Fmx84=
+reviewed: sKS5-gslAB2iMstL5Q2wo51hmmBCJvDUtCUZSBOxBv4=
 text: |
   The structural subsystem shall feature a structure capable of supporting at least four CMGs in a roof configuration.

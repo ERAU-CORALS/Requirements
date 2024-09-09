@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Command and Control
 Verification: Demonstration
 active: true
@@ -11,6 +11,6 @@ level: 3.3
 links: []
 normative: true
 ref: ''
-reviewed: VbOQnFuvuNacWmtk9PxTD2X7dra2Jmm1VJGaMcH6_o8=
+reviewed: 4CRfAhaDrKon1wqYu4e03iLtL6A2F4aCkTmsGUJ1CiU=
 text: |
   If a singularity state is detected, the testbed shall halt.

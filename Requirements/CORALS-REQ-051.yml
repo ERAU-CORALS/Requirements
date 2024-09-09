@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Electrical
 Verification: Inspection
 active: true
@@ -11,6 +11,6 @@ level: 2.5.3
 links: []
 normative: true
 ref: ''
-reviewed: xvo-wb1JGTb8juey9KtOWrZMyxG242x53UVslqQhk4c=
+reviewed: uEetxIdpoCgYyZdnqVLmCecpC09rw0VxpGNg6Z_7Syo=
 text: |
   Each CMG shall have a spin motor.

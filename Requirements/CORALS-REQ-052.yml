@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Electrical
 Verification: Inspection
 active: true
@@ -11,6 +11,6 @@ level: 2.5.4
 links: []
 normative: true
 ref: ''
-reviewed: Lln17KzBvQQyAmg3QDZGBsPc2WARx7pMpztrZm2dWZo=
+reviewed: oEqPfyj-cA67nxB8wUsFCA1oN2RRDc4LlB4wSr9lmB4=
 text: |
   Each CMG shall have a gimbal motor.

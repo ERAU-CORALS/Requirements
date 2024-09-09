@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Primary Rail Current
 Range: '[2500, inf) mA'
-Fully Decomposed: false
 Subsystem: Electrical
 Verification: Automated Test
 active: true
@@ -11,6 +11,6 @@ level: 2.1.4
 links: []
 normative: true
 ref: ''
-reviewed: nJQPr3vr6YMRuuZt2Ok-OvImEVbX_2wsAevlsXqxtsU=
+reviewed: FUg4SnJBDy5BGPq0ikIVyadxBMRTlJXE8oC_2hyr0L0=
 text: |
   The EPS Primary Rail shall provide at least 2500 mA during CMG startup.

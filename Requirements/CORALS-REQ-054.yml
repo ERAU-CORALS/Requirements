@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Structures
 Verification: Demonstration
 active: true
@@ -11,6 +11,6 @@ level: 2.5.6
 links: []
 normative: true
 ref: ''
-reviewed: vC3yhn-FHNU9L428r2RDtNATGZ6Bc7KBHcTGMDoAPJo=
+reviewed: ZYO2lMONrOFQ2_JnRad6ZbjuzzxWwF3h83rAH_BqjTE=
 text: |
   The structural subsystem shall vibrationally isolate each of the CMGs from the rest of the testbed.

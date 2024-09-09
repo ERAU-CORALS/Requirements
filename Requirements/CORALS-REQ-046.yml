@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Secondary Rail Voltage
 Range: '[7, 10] V'
-Fully Decomposed: false
 Subsystem: Electrical
 Verification: Automated Test
 active: true
@@ -11,6 +11,6 @@ level: 2.1.7
 links: []
 normative: true
 ref: ''
-reviewed: a9ZUydf9r9Cel4NVMzqlmTWn0CQ9G2b_Jh-777draQA=
+reviewed: K326BN_KvVk6rs7dFNuOoWz553GGTgxwgh5j033Ac2I=
 text: |
   The EPS Secondary Rail shall provide 8.5 V ± 1.5 V.

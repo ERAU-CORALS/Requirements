@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Secondary Rail Current
 Range: '[0, 750] mA'
-Fully Decomposed: false
 Subsystem: Electrical
 Verification: Automated Test
 active: true
@@ -11,6 +11,6 @@ level: 2.1.8
 links: []
 normative: true
 ref: ''
-reviewed: ToRAIEihfPQEiy_I1tQjnuHWaOknNNs33uLzg6eWc7s=
+reviewed: EMW4Sd1C0YBbler-R274l9Y1eA8Gqkc6qGxyVmfcZsE=
 text: |
   The EPS Secondary Rail shall provide at most 750 mA during normal operation.

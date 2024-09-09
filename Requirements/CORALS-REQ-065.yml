@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Structures
 Verification: Inspection
 active: true
@@ -11,6 +11,6 @@ level: 4.1
 links: []
 normative: true
 ref: ''
-reviewed: Q21bLWBD6oQ7sJlQqUkByXo4wcN6PgeiERV2FRz6agQ=
+reviewed: RK_Q0ZjhZ7yX-o09DWK4LIvzQ5fiF3-fiYUMTNsiymI=
 text: |
   The testbed shall use a spherical air bearing for controlled pivoting.

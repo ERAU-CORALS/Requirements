@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Command and Control
 Verification: Automated Test
 active: true
@@ -11,6 +11,6 @@ level: 1.2.4
 links: []
 normative: true
 ref: ''
-reviewed: Gsqu3dlK071Me-UPREzXdpgp4_EdSEKDt-vnHFFxu0k=
+reviewed: An1cojnBYgLsBzDoaB4Cp5lp0V9NqQSwSF82WY-TLdw=
 text: |
   The control software shall transmit telemetry response packets to DARTS using a well-defined communication protocol.

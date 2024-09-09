@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: TBD
 Range: TBD
-Fully Decomposed: false
 Subsystem: Command and Control
 Verification: Automated Test
 active: true
@@ -11,6 +11,6 @@ level: 1.2.5
 links: []
 normative: true
 ref: ''
-reviewed: NBZPPKPbBjniPGDloH0Gf3X5v4hC4rwLxa5d6gy-r18=
+reviewed: ulFwRI8v5BrPhazXqrPxYPf-BcEN9LN5W-KPpS9lnGY=
 text: |
   The control software shall periodically transmit attitude state telemetry response packets from the testbed to DARTS.

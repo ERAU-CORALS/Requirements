@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Command and Control
 Verification: Automated Test
 active: true
@@ -11,6 +11,6 @@ level: 1.1.5
 links: []
 normative: true
 ref: ''
-reviewed: VTqAjfJ0jS-duYpjYcfX4ulBN2UBfeU8xatNBF5Y3sM=
+reviewed: imx94s7k6VLveEDcY8QLsi0OA5t5TYHXXezAfduy9ag=
 text: |
   The control software shall process telecommands from DARTS if the packet structure and content is valid according to a well-defined communication protocol.

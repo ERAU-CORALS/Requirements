@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Electrical
 Verification: Manual Test
 active: true
@@ -11,6 +11,6 @@ level: 1.2.9
 links: []
 normative: true
 ref: ''
-reviewed: 4hqTtXcZlCpJybLn2KVpSahvt6LjjjzVcsRsiLwHHUQ=
+reviewed: D_8hInOE25aJ0zeP-hadfBv4XwXsFRc-TFwUMr0D3Es=
 text: |
   The IMU shall measure current testbed yaw.

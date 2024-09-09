@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Command and Control
 Verification: Demonstration
 active: true
@@ -11,6 +11,6 @@ level: 1.3.1
 links: []
 normative: true
 ref: ''
-reviewed: 1lExTjbZJk6lny23QaQki9rp5iTVCoh95bJ7nxi9FSM=
+reviewed: Y2Wv3LbmEvH1BJDJMacXgfHSuFWmMFHj4L5kVmrYTRM=
 text: |
   DARTS shall initialize a new formatted attitude data file on session startup.

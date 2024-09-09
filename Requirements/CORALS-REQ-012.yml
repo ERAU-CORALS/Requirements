@@ -1,6 +1,6 @@
+Fully Decomposed: false
 Metric: Boolean
 Range: 'True'
-Fully Decomposed: false
 Subsystem: Command and Control
 Verification: Demonstration
 active: true
@@ -11,6 +11,6 @@ level: 1.1.4
 links: []
 normative: true
 ref: ''
-reviewed: FPx3JDqdBcJMAOQg_9BRAXaxmK1OgLVgzwzlWaYqQvs=
+reviewed: z-5xWDOT5DstoZIPYn-7pc178vnDQffN_2Nbhg_lMbc=
 text: |
   The control software shall receive telecommand packets from DARTS over Bluetooth.
