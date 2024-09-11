@@ -1,8 +1,8 @@
 all: review integrity publish
 
 publish: FORCE
-	doorstop publish --no-levels all all publish
-	doorstop publish --markdown --no-levels all all publish-markdown
+	doorstop publish all publish
+	doorstop publish --markdown all publish-markdown
 
 .PHONY: FORCE
 

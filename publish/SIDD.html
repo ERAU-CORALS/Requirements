@@ -21,69 +21,69 @@
           <nav id="TOC" class="nav nav-stacked fixed sidebar">
               <h3>Table of Contents</h3>
 <ul>
-<li><a href="#SIDD-001">Introduction</a><ul>
-<li><a href="#SIDD-006">Scope</a></li>
-<li><a href="#SIDD-007">Background</a></li>
+<li><a href="#SIDD-001">1.0 Introduction</a><ul>
+<li><a href="#SIDD-006">1.1 Scope</a></li>
+<li><a href="#SIDD-007">1.2 Background</a></li>
 </ul>
 </li>
-<li><a href="#SIDD-002">Related Documents</a></li>
-<li><a href="#SIDD-003">General Command Structure</a><ul>
-<li><a href="#SIDD-008">Bluetooth Communication Protocol</a><ul>
-<li><a href="#SIDD-009">Message Format</a></li>
-<li><a href="#SIDD-010">Valid Targets (TARGET)</a></li>
-<li><a href="#SIDD-011">Valid Length (LEN)</a></li>
-<li><a href="#SIDD-012">CRC32 Checksum</a></li>
-<li><a href="#SIDD-013">Telemetry and Telecommands</a></li>
+<li><a href="#SIDD-002">2.0 Related Documents</a></li>
+<li><a href="#SIDD-003">3.0 General Command Structure</a><ul>
+<li><a href="#SIDD-008">3.1 Bluetooth Communication Protocol</a><ul>
+<li><a href="#SIDD-009">3.1.1 Message Format</a></li>
+<li><a href="#SIDD-010">3.1.2 Valid Targets (TARGET)</a></li>
+<li><a href="#SIDD-011">3.1.3 Valid Length (LEN)</a></li>
+<li><a href="#SIDD-012">3.1.4 CRC32 Checksum</a></li>
+<li><a href="#SIDD-013">3.1.5 Telemetry and Telecommands</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#SIDD-004">Available Commands</a><ul>
-<li><a href="#SIDD-014">DARTS Telecommands</a></li>
-<li><a href="#SIDD-015">DARTS Telemetry Requests</a></li>
-<li><a href="#SIDD-019">CORALS Telemetry Replies</a></li>
+<li><a href="#SIDD-004">4.0 Available Commands</a><ul>
+<li><a href="#SIDD-014">4.1 DARTS Telecommands</a></li>
+<li><a href="#SIDD-015">4.2 DARTS Telemetry Requests</a></li>
+<li><a href="#SIDD-019">4.3 CORALS Telemetry Replies</a></li>
 </ul>
 </li>
-<li><a href="#SIDD-005">Telecommand/Telemetry Details</a><ul>
-<li><a href="#SIDD-016">Telecommand/Telemetry Keywords</a></li>
-<li><a href="#SIDD-017">Telecommand Details</a><ul>
-<li><a href="#SIDD-018">SET Telecommand</a></li>
-<li><a href="#SIDD-021">ECHO Telecommand</a></li>
-<li><a href="#SIDD-022">TARGET_ADD Telecommand</a></li>
-<li><a href="#SIDD-023">HALT Telecommand</a></li>
-<li><a href="#SIDD-024">SET_POWER Telecommand</a></li>
-<li><a href="#SIDD-025">SET_INERTIA Telecommand</a></li>
-<li><a href="#SIDD-026">SET_CONTROL Telecommand</a></li>
-<li><a href="#SIDD-027">SET_SINGULARITY Telecommand</a></li>
-<li><a href="#SIDD-038">SET_ERROR Telecommand</a></li>
-<li><a href="#SIDD-039">CLEAR_ERRORS Telecommand</a></li>
+<li><a href="#SIDD-005">5.0 Telecommand/Telemetry Details</a><ul>
+<li><a href="#SIDD-016">5.1 Telecommand/Telemetry Keywords</a></li>
+<li><a href="#SIDD-017">5.2 Telecommand Details</a><ul>
+<li><a href="#SIDD-018">5.2.1 SET Telecommand</a></li>
+<li><a href="#SIDD-021">5.2.2 ECHO Telecommand</a></li>
+<li><a href="#SIDD-022">5.2.3 TARGET_ADD Telecommand</a></li>
+<li><a href="#SIDD-023">5.2.4 HALT Telecommand</a></li>
+<li><a href="#SIDD-024">5.2.5 SET_POWER Telecommand</a></li>
+<li><a href="#SIDD-025">5.2.6 SET_INERTIA Telecommand</a></li>
+<li><a href="#SIDD-026">5.2.7 SET_CONTROL Telecommand</a></li>
+<li><a href="#SIDD-027">5.2.8 SET_SINGULARITY Telecommand</a></li>
+<li><a href="#SIDD-038">5.2.9 SET_ERROR Telecommand</a></li>
+<li><a href="#SIDD-039">5.2.10 CLEAR_ERRORS Telecommand</a></li>
 </ul>
 </li>
-<li><a href="#SIDD-028">Telemetry Request Details</a><ul>
-<li><a href="#SIDD-020">GET Telemetry Request</a></li>
-<li><a href="#SIDD-029">GET_TARGET Telemetry Request</a></li>
-<li><a href="#SIDD-030">GET_TARGETS Telemetry Request</a></li>
-<li><a href="#SIDD-031">GET_HALT Telemetry Request</a></li>
-<li><a href="#SIDD-032">GET_POWER Telemetry Request</a></li>
-<li><a href="#SIDD-033">GET_INERTIA Telemetry Request</a></li>
-<li><a href="#SIDD-034">GET_CONTROL Telemetry Request</a></li>
-<li><a href="#SIDD-035">GET_SINGULARITY Telemetry Request</a></li>
-<li><a href="#SIDD-036">GET_STATE Telemetry Request</a></li>
-<li><a href="#SIDD-037">GET_ATTITUDE Telemetry Request</a></li>
+<li><a href="#SIDD-028">5.3 Telemetry Request Details</a><ul>
+<li><a href="#SIDD-020">5.3.1 GET Telemetry Request</a></li>
+<li><a href="#SIDD-029">5.3.2 GET_TARGET Telemetry Request</a></li>
+<li><a href="#SIDD-030">5.3.3 GET_TARGETS Telemetry Request</a></li>
+<li><a href="#SIDD-031">5.3.4 GET_HALT Telemetry Request</a></li>
+<li><a href="#SIDD-032">5.3.5 GET_POWER Telemetry Request</a></li>
+<li><a href="#SIDD-033">5.3.6 GET_INERTIA Telemetry Request</a></li>
+<li><a href="#SIDD-034">5.3.7 GET_CONTROL Telemetry Request</a></li>
+<li><a href="#SIDD-035">5.3.8 GET_SINGULARITY Telemetry Request</a></li>
+<li><a href="#SIDD-036">5.3.9 GET_STATE Telemetry Request</a></li>
+<li><a href="#SIDD-037">5.3.10 GET_ATTITUDE Telemetry Request</a></li>
 </ul>
 </li>
-<li><a href="#SIDD-040">Telemetry Response Details</a><ul>
-<li><a href="#SIDD-041">REGISTER Telemetry Response</a></li>
-<li><a href="#SIDD-042">ECHO_REPLY Telemetry Response</a></li>
-<li><a href="#SIDD-043">CURRENT_TARGET Telemetry Response</a></li>
-<li><a href="#SIDD-044">TARGET_LIST Telemetry Response</a></li>
-<li><a href="#SIDD-045">HALT_STATE Telemetry Response</a></li>
-<li><a href="#SIDD-046">POWER_STATE Telemetry Response</a></li>
-<li><a href="#SIDD-047">INERTIA_MATRIX Telemetry Response</a></li>
-<li><a href="#SIDD-048">CONTROL_STATE Telemetry Response</a></li>
-<li><a href="#SIDD-049">SINGULARITY_STATE Telemetry Response</a></li>
-<li><a href="#SIDD-050">CORALS_STATE Telemetry Response</a></li>
-<li><a href="#SIDD-051">ATTITUDE Telemetry Repsonse</a></li>
+<li><a href="#SIDD-040">5.4 Telemetry Response Details</a><ul>
+<li><a href="#SIDD-041">5.4.1 REGISTER Telemetry Response</a></li>
+<li><a href="#SIDD-042">5.4.2 ECHO_REPLY Telemetry Response</a></li>
+<li><a href="#SIDD-043">5.4.3 CURRENT_TARGET Telemetry Response</a></li>
+<li><a href="#SIDD-044">5.4.4 TARGET_LIST Telemetry Response</a></li>
+<li><a href="#SIDD-045">5.4.5 HALT_STATE Telemetry Response</a></li>
+<li><a href="#SIDD-046">5.4.6 POWER_STATE Telemetry Response</a></li>
+<li><a href="#SIDD-047">5.4.7 INERTIA_MATRIX Telemetry Response</a></li>
+<li><a href="#SIDD-048">5.4.8 CONTROL_STATE Telemetry Response</a></li>
+<li><a href="#SIDD-049">5.4.9 SINGULARITY_STATE Telemetry Response</a></li>
+<li><a href="#SIDD-050">5.4.10 CORALS_STATE Telemetry Response</a></li>
+<li><a href="#SIDD-051">5.4.11 ATTITUDE Telemetry Repsonse</a></li>
 </ul>
 </li>
 </ul>
@@ -92,23 +92,23 @@
           </nav>
       </div>
       <div class="col-lg-8" id="main">
-        <h1 id="SIDD-001">Introduction</h1>
+        <h1 id="SIDD-001">1.0 Introduction</h1>
 <p>The CORALS Software Interface Design document was developed by CORALS as a design standard and reference for the Software Communication Protocols used on the testbed. It is meant to replace the need for requirements specifying the format and breadth of command/data transmission to and from the testbed with the client, as the requirements were not derivable from the customer objectives; the customer did not stipulate a standard. This document will serve as a source of design truth for the CORALS Software Communication interfaces.</p>
-<h2 id="SIDD-006">Scope <small>SIDD-006</small></h2>
+<h2 id="SIDD-006">1.1 Scope <small>SIDD-006</small></h2>
 <p>This document contains the software interface design decisions for the testbed control software and the Data Acquisition and Remote Telecommand Script (DARTS). This includes decisions on message format, parameters, keywords, valid ranges, and transmission rates.</p>
-<h2 id="SIDD-007">Background <small>SIDD-007</small></h2>
+<h2 id="SIDD-007">1.2 Background <small>SIDD-007</small></h2>
 <p>TBC</p>
-<h1 id="SIDD-002">Related Documents</h1>
+<h1 id="SIDD-002">2.0 Related Documents</h1>
 <p>This document is related to the CORALS System Requirements Specification, and links will be made as necessary to the relevant System Level Requirements and Subsystem Level Requirements.</p>
-<h1 id="SIDD-003">General Command Structure</h1>
+<h1 id="SIDD-003">3.0 General Command Structure</h1>
 <p>The testbed software and DARTS will follow a common defined protocol for serial data transmission.</p>
-<h2 id="SIDD-008">Bluetooth Communication Protocol</h2>
+<h2 id="SIDD-008">3.1 Bluetooth Communication Protocol</h2>
 <p>DARTS and the testbed communicate using a Bluetooth serial connection. This means that loss is possible, and data could be corrupted in transmission. To detect and prevent this, the testbed and DARTS will use a restricted, keyword-based communication protocol to minimize error passthrough.</p>
-<h3 id="SIDD-009">Message Format <small>SIDD-009</small></h3>
+<h3 id="SIDD-009">3.1.1 Message Format <small>SIDD-009</small></h3>
 <p>The Bluetooth serial connection shall use the following communication format:</p>
 <pre><code>TARGET . LEN PACKET_TYPE, KEY VALUE, KEY VALUE ..., KEY VALUE . CRC32 0xABCDEF01
 </code></pre>
-<h3 id="SIDD-010">Valid Targets (TARGET) <small>SIDD-010</small></h3>
+<h3 id="SIDD-010">3.1.2 Valid Targets (TARGET) <small>SIDD-010</small></h3>
 <p>The Bluetooth serial connection shall support two endpoints (TARGETs):</p>
 <table>
 <thead>
@@ -125,9 +125,9 @@
 </tr>
 </tbody>
 </table>
-<h3 id="SIDD-011">Valid Length (LEN) <small>SIDD-011</small></h3>
+<h3 id="SIDD-011">3.1.3 Valid Length (LEN) <small>SIDD-011</small></h3>
 <p>LEN shall be an unsigned integer decimal numeric value which accounts for the entire message length, including the preamble and checksum.</p>
-<h3 id="SIDD-012">CRC32 Checksum <small>SIDD-012</small></h3>
+<h3 id="SIDD-012">3.1.4 CRC32 Checksum <small>SIDD-012</small></h3>
 <p>The message shall be proofed by the CRC32 Checksum attached to the end of the message. The checksum will be unique for all messages less than 2^32 characters in length.</p>
 <p>The checksum shall be run on all characters before the CRC32 Keyword.</p>
 <p>The checksum shall be computed on both sides using the following algorithm:</p>
@@ -149,11 +149,11 @@
 }
 
 </code></pre>
-<h3 id="SIDD-013">Telemetry and Telecommands <small>SIDD-013</small></h3>
+<h3 id="SIDD-013">3.1.5 Telemetry and Telecommands <small>SIDD-013</small></h3>
 <p>Considering format, there is little difference between Telemetry Requests, Telemetry Responses, and Telecommands. However, Telemetry Responses are always sent to the DARTS target. Telecommands and Telemetry Requests are always set to the CORALS Target. Telemetry Requests do not include values in their key value pairs; they only contain lists of keys for which they request values.</p>
-<h1 id="SIDD-004">Available Commands</h1>
+<h1 id="SIDD-004">4.0 Available Commands</h1>
 <p>There are commands available depending on the target selected. They are enumerated in this section:</p>
-<h2 id="SIDD-014">DARTS Telecommands <small>SIDD-014</small></h2>
+<h2 id="SIDD-014">4.1 DARTS Telecommands <small>SIDD-014</small></h2>
 <p>DARTS shall support the following telecommands:</p>
 <ul>
 <li>SET</li>
@@ -167,7 +167,7 @@
 <li>SET_ERROR</li>
 <li>CLEAR_ERRORS</li>
 </ul>
-<h2 id="SIDD-015">DARTS Telemetry Requests <small>SIDD-015</small></h2>
+<h2 id="SIDD-015">4.2 DARTS Telemetry Requests <small>SIDD-015</small></h2>
 <p>DARTS shall support the following telemetry requests:</p>
 <ul>
 <li>GET</li>
@@ -183,7 +183,7 @@
 <li>GET_ERROR</li>
 <li>GET_ERRORS</li>
 </ul>
-<h2 id="SIDD-019">CORALS Telemetry Replies <small>SIDD-019</small></h2>
+<h2 id="SIDD-019">4.3 CORALS Telemetry Replies <small>SIDD-019</small></h2>
 <p>CORALS shall support the following telemetry replies:</p>
 <ul>
 <li>REGISTER</li>
@@ -199,8 +199,8 @@
 <li>ATTITUDE</li>
 <li>ERROR_STATE</li>
 </ul>
-<h1 id="SIDD-005">Telecommand/Telemetry Details</h1>
-<h2 id="SIDD-016">Telecommand/Telemetry Keywords <small>SIDD-016</small></h2>
+<h1 id="SIDD-005">5.0 Telecommand/Telemetry Details</h1>
+<h2 id="SIDD-016">5.1 Telecommand/Telemetry Keywords <small>SIDD-016</small></h2>
 <p>The valid keywords for CORALS communication are listed below with possible value pairs and packet coorelations.</p>
 <p><em>Note: All Keywords supported by SET, GET, and REGISTER</em></p>
 <table>
@@ -514,71 +514,71 @@
 </tr>
 </tbody>
 </table>
-<h2 id="SIDD-017">Telecommand Details</h2>
-<h3 id="SIDD-018">SET Telecommand <small>SIDD-018</small></h3>
+<h2 id="SIDD-017">5.2 Telecommand Details</h2>
+<h3 id="SIDD-018">5.2.1 SET Telecommand <small>SIDD-018</small></h3>
 <p>The SET Telecommand supports use of ALL keywords. The SET Telecommand requires one or more keywords to be valid. The SET Telecommand always prompts a REGISTER Telemetry Response to confirm the updated register values.</p>
-<h3 id="SIDD-021">ECHO Telecommand <small>SIDD-021</small></h3>
+<h3 id="SIDD-021">5.2.2 ECHO Telecommand <small>SIDD-021</small></h3>
 <p>The ECHO Telecommand does not support any keywords. The ECHO Telecommand always prompts an ECHO_REPLY Telemetry Response to confirm reception of the ECHO Telecommand. This Telecommand is intended for connection confirmation purposes.</p>
-<h3 id="SIDD-022">TARGET_ADD Telecommand <small>SIDD-022</small></h3>
+<h3 id="SIDD-022">5.2.3 TARGET_ADD Telecommand <small>SIDD-022</small></h3>
 <p>The TARGET_ADD Telecommand supports use of the Quaternion Telecommand keywords. It requires the Q1, Q2, and Q3 keywords. It also requires the Q0 keyword if the QUAT_FORMAT is Q0; otherwise, it also requires the Q4 keyword. If QUAT_FORMAT is unknown to the user, the user may elect to include the QUAT_FORMAT of the message. If QUAT_FORMAT is included, the TARGET_ADD Telecommand always prompts a REGISTER Telemetry response to confirm the updated register values. If the QUAT_FORMAT is not included, and if the registered QUAT_FORMAT disagrees with the arguments supplied, then the command is invalid, prompting an ERROR_STATE Telemetry Response with ARGUMENT_ERROR and QUAT_DISAGREE_ERROR set 'ON' and included. Otherwise, the TARGET_ADD Telecommand always prompts a CURRENT_TARGET Telemetry Response to confirm the current target.</p>
 <p><em>Note: The testbed supports multiple stacked targets. Therefore, the TARGET_ADD CURRENT_TARGET Telemetry Response may not represent the commanded data if there are queued targets. It will always include the current target data.</em></p>
-<h3 id="SIDD-023">HALT Telecommand <small>SIDD-023</small></h3>
+<h3 id="SIDD-023">5.2.4 HALT Telecommand <small>SIDD-023</small></h3>
 <p>The HALT Telecommand does not support any keywords. The HALT Telecommand always prompts a HALT_STATE Telemetry Response to confirm the halt. The HALT Telecommand always causes motor master power off. Therefore, the HALT Telecommand prompts a POWER_STATE Telemetry Response including GM_MASTER_POWER and SM_MASTER_POWER to confirm CMG power discontinuity.</p>
-<h3 id="SIDD-024">SET_POWER Telecommand <small>SIDD-024</small></h3>
+<h3 id="SIDD-024">5.2.5 SET_POWER Telecommand <small>SIDD-024</small></h3>
 <p>The SET_POWER Telecommand supports use of the Power Control keywords. It requires inclusion of one or more keywords to be valid. The SET_POWER Telecommand always prompts a POWER_STATE Telemetry Response including the changed keywords.</p>
-<h3 id="SIDD-025">SET_INERTIA Telecommand <small>SIDD-025</small></h3>
+<h3 id="SIDD-025">5.2.6 SET_INERTIA Telecommand <small>SIDD-025</small></h3>
 <p>The SET_INERTIA Telecommand supports use of the Inertia keywords. The SET_INERTIA Telecommand always prompts a INERTIA_MATRIX Telemetry Response including the changed keywords.</p>
-<h3 id="SIDD-026">SET_CONTROL Telecommand <small>SIDD-026</small></h3>
+<h3 id="SIDD-026">5.2.7 SET_CONTROL Telecommand <small>SIDD-026</small></h3>
 <p>The SET_CONTROL Telecommand supports use of the CORALS Control Parameter keywords. It requires including of one or more loop rate keywords or all gain keywords to be valid (if a non-zero number of gain keywords are included, all gain keywords must be included regardless of loop rate keywords). The SET_CONTROL Telecommand always prompts a CONTROL_STATE Telemetry Response including the changed keywords.</p>
-<h3 id="SIDD-027">SET_SINGULARITY Telecommand <small>SIDD-027</small></h3>
+<h3 id="SIDD-027">5.2.8 SET_SINGULARITY Telecommand <small>SIDD-027</small></h3>
 <p>The SET_SINGULARITY Telecommand supports use of the Singularity keywords. It requires one or more keywords to be valid. If the SINGULARITY_HALTING or SINGULARITY_TRIP keywords are included, then the ENABLE_OVERRIDE keyword must be included and 'ON'. If either aforementioned keyword is included, and if ENABLE_OVERRIDE is not included or explicitly 'OFF', then the setting of those particular keywords will be ignored, prompting an ERROR_STATE Telemetry Response with ARGUMENT_ERROR and SINGULARITY_OVERRIDE_ERROR set 'ON' and included. Otherwise, or if other keywords are included, the SET_SINGULARITY prompts a SINGULARITY_STATE Telemetry Response including the changed keywords.</p>
-<h3 id="SIDD-038">SET_ERROR Telecommand <small>SIDD-038</small></h3>
+<h3 id="SIDD-038">5.2.9 SET_ERROR Telecommand <small>SIDD-038</small></h3>
 <p>The SET_ERROR Telecommand supports use of the Error keywords. It requires one or more keywords to be valid. If any errors are set to 'ON', then the ENABLE_OVERRIDE keyword must be included and 'ON'. If an error is set to 'ON', and if ENABLE_OVERRIDE is not included or is explicitly 'OFF', then the setting of those particular keywords will be ignored, prompting an ERROR_STATE Telemetry Response with ARGUMENT_ERROR set 'ON' and included. Otherwise, or if other keywords are included, the SET_ERROR prompts a ERROR_STATE Telemetry Response including the changed keywords.</p>
-<h3 id="SIDD-039">CLEAR_ERRORS Telecommand <small>SIDD-039</small></h3>
+<h3 id="SIDD-039">5.2.10 CLEAR_ERRORS Telecommand <small>SIDD-039</small></h3>
 <p>The CLEAR_ERRORS Telecommand does not support any keywords. The CLEAR_ERRORS Telecommand always prompts an ERROR_STATE Telemetry Response.</p>
-<h2 id="SIDD-028">Telemetry Request Details</h2>
-<h3 id="SIDD-020">GET Telemetry Request <small>SIDD-020</small></h3>
+<h2 id="SIDD-028">5.3 Telemetry Request Details</h2>
+<h3 id="SIDD-020">5.3.1 GET Telemetry Request <small>SIDD-020</small></h3>
 <p>The GET Telemetry Request supports use of ALL keywords. The GET Telemetry Request requires one or more keywords to be valid. The GET Telemetry Request always prompts a REGISTER Telemetry Response containing the requested register values.</p>
-<h3 id="SIDD-029">GET_TARGET Telemetry Request <small>SIDD-029</small></h3>
+<h3 id="SIDD-029">5.3.2 GET_TARGET Telemetry Request <small>SIDD-029</small></h3>
 <p>The GET_TARGET Telemetry Request does not support any keywords. The GET_TARGET Telemetry Request always prompts an CURRENT_TARGET Telemetry Response.</p>
-<h3 id="SIDD-030">GET_TARGETS Telemetry Request <small>SIDD-030</small></h3>
+<h3 id="SIDD-030">5.3.3 GET_TARGETS Telemetry Request <small>SIDD-030</small></h3>
 <p>The GET_TARGETS Telemetry Request does not support any keywords. The GET_TARGETS Telemetry Request always prompts a TARGET_NUM Telemetry Response.</p>
-<h3 id="SIDD-031">GET_HALT Telemetry Request <small>SIDD-031</small></h3>
+<h3 id="SIDD-031">5.3.4 GET_HALT Telemetry Request <small>SIDD-031</small></h3>
 <p>The GET_HALT Telemetry Request does not support any keywords. The GET_HALT Telemetry Request always prompts an HALT_STATE Telemetry Response.</p>
-<h3 id="SIDD-032">GET_POWER Telemetry Request <small>SIDD-032</small></h3>
+<h3 id="SIDD-032">5.3.5 GET_POWER Telemetry Request <small>SIDD-032</small></h3>
 <p>The GET_POWER Telemetry Request supports use of the Power Control keywords. If keywords are included, the GET_POWER Telemetry Request always prompts a POWER_STATE Telemetry Response inncluding the requested data. Otherwise, the GET_POWER Telemetry Request always prompts a POWER_STATE Telemetry Response including all Power Control data.</p>
-<h3 id="SIDD-033">GET_INERTIA Telemetry Request <small>SIDD-033</small></h3>
+<h3 id="SIDD-033">5.3.6 GET_INERTIA Telemetry Request <small>SIDD-033</small></h3>
 <p>The GET_INERTIA Telemetry Request supports use of the Inertial keywords. If keywords are included, the GET_INERTIA Telemetry Request always prompts a INERTIA_MATRIX Telemetry Response including the requested data. Otherwise, the GET_INERTIA Telemetry Request always prompts a INERTIA_MATRIX Telemetry Response including all Inertia data.</p>
-<h3 id="SIDD-034">GET_CONTROL Telemetry Request <small>SIDD-034</small></h3>
+<h3 id="SIDD-034">5.3.7 GET_CONTROL Telemetry Request <small>SIDD-034</small></h3>
 <p>The GET_CONTROL Telemetry Request supports use of the Control keywords. The GET_CONTROL Telemetry Request requires one or more keywords to be valid.  The GET_CONTROL Telemetry Request always prompts a CONTROL_STATE Telemetry Response.</p>
-<h3 id="SIDD-035">GET_SINGULARITY Telemetry Request <small>SIDD-035</small></h3>
+<h3 id="SIDD-035">5.3.8 GET_SINGULARITY Telemetry Request <small>SIDD-035</small></h3>
 <p>The GET_SINGULARITY Telemetry Request does not support any keywords. The GET_SINGULARITY Telemetry Request always prompts an SINGULARITY_STATE Telemetry Response.</p>
-<h3 id="SIDD-036">GET_STATE Telemetry Request <small>SIDD-036</small></h3>
+<h3 id="SIDD-036">5.3.9 GET_STATE Telemetry Request <small>SIDD-036</small></h3>
 <p>The GET_STATE Telemetry Request does not support any keywords. The GET_STATE Telemetry Request always prompts an CORALS_STATE Telemetry Response.</p>
-<h3 id="SIDD-037">GET_ATTITUDE Telemetry Request <small>SIDD-037</small></h3>
+<h3 id="SIDD-037">5.3.10 GET_ATTITUDE Telemetry Request <small>SIDD-037</small></h3>
 <p>The GET_ATTITUDE Telemetry Request does not support any keywords. The GET_ATTITUDE Telemetry Request always prompts an ATTITUDE Telemetry Response.</p>
-<h2 id="SIDD-040">Telemetry Response Details <small>SIDD-040</small></h2>
-<h3 id="SIDD-041">REGISTER Telemetry Response <small>SIDD-041</small></h3>
+<h2 id="SIDD-040">5.4 Telemetry Response Details <small>SIDD-040</small></h2>
+<h3 id="SIDD-041">5.4.1 REGISTER Telemetry Response <small>SIDD-041</small></h3>
 <p>The REGISTER Telemetry response is sent when requested containing any keywords requested.</p>
-<h3 id="SIDD-042">ECHO_REPLY Telemetry Response <small>SIDD-042</small></h3>
+<h3 id="SIDD-042">5.4.2 ECHO_REPLY Telemetry Response <small>SIDD-042</small></h3>
 <p>The ECHO_REPLY is sent in response to the ECHO Telecommand. It does not support any keywords.</p>
-<h3 id="SIDD-043">CURRENT_TARGET Telemetry Response <small>SIDD-043</small></h3>
+<h3 id="SIDD-043">5.4.3 CURRENT_TARGET Telemetry Response <small>SIDD-043</small></h3>
 <p>The CURRENT_TARGET Telemetry Response is sent in response to the TARGET_ADD Telecommand and the GET_TARGET Telemetry Request. It always contains the Q1, Q2, and Q3 keywords. If the QUAT_FORMAT is currently 'Q0', then it also contains Q0. Otherwise, it also contains Q4. If the CURRENT_TARGET Telemetry Response is prompted by a TARGET_ADD Telecommand which specified QUAT_FORMAT, then it also contains the current QUAT_FORMAT.</p>
-<h3 id="SIDD-044">TARGET_LIST Telemetry Response <small>SIDD-044</small></h3>
+<h3 id="SIDD-044">5.4.4 TARGET_LIST Telemetry Response <small>SIDD-044</small></h3>
 <p>The TARGET_LIST Telemetry Response is always sent in response to the GET_TARGETS Telecommand. The TARGET_LIST Telemetry Response always includes the current TARGET_NUM.</p>
-<h3 id="SIDD-045">HALT_STATE Telemetry Response <small>SIDD-045</small></h3>
+<h3 id="SIDD-045">5.4.5 HALT_STATE Telemetry Response <small>SIDD-045</small></h3>
 <p>The HALT_STATE Telemetry Response is always sent in response to the HALT Telecommand and the GET_HALT Telemetry Request. The HALT_STATE Telemetry Response always includes the current HALT_STATUS.</p>
-<h3 id="SIDD-046">POWER_STATE Telemetry Response <small>SIDD-046</small></h3>
+<h3 id="SIDD-046">5.4.6 POWER_STATE Telemetry Response <small>SIDD-046</small></h3>
 <p>The POWER_STATE Telemetry Response is always sent in response to the SET_POWER Telemcommand and the GET_POWER Telemetry Request. The POWER_STATE Telemetry Response always includes the keywords included in the prompting message. If the POWER_STATE Telemetry Response is prompted by the GET_POWER Telemetry Request, and if the GET_POWER Telemetry Request has no attributes, then the POWER_STATE Telemetry Response includes ALL Power State data.</p>
-<h3 id="SIDD-047">INERTIA_MATRIX Telemetry Response <small>SIDD-047</small></h3>
+<h3 id="SIDD-047">5.4.7 INERTIA_MATRIX Telemetry Response <small>SIDD-047</small></h3>
 <p>The INERTIA_MATRIX Telemetry Response is always sent in response to the SET_INERTIA Telemcommand and the GET_INERTIA Telemetry Request. The INERTIA_MATRIX Telemetry Response always includes the keywords included in the prompting message. If the INERTIA_MATRIX Telemetry Response is prompted by the GET_INERTIA Telemetry Request, and if the GET_INERTIA Telemetry Request has no attributes, then the INERTIA_MATRIX Telemetry Response includes ALL Inertia data.</p>
-<h3 id="SIDD-048">CONTROL_STATE Telemetry Response <small>SIDD-048</small></h3>
+<h3 id="SIDD-048">5.4.8 CONTROL_STATE Telemetry Response <small>SIDD-048</small></h3>
 <p>The CONTROL_STATE Telemetry Response is always sent in response to the SET_CONTROL Telemcommand and the GET_CONTROL Telemetry Request. The CONTROL_STATE Telemetry Response always includes the keywords included in the prompting message.</p>
-<h3 id="SIDD-049">SINGULARITY_STATE Telemetry Response <small>SIDD-049</small></h3>
+<h3 id="SIDD-049">5.4.9 SINGULARITY_STATE Telemetry Response <small>SIDD-049</small></h3>
 <p>The SINGULARITY_STATE Telemetry Response is always sent in response to the GET_SINGULARITY Telemetry Request. The SINGULARITY_STATE Telemetry Response is sent in response to the SET_SINGULARITY Telecommand if the SET_SINGULARITY does not prompt an error or if the telecommand includes the SINGULARITY_THOLD keyword. If prompted by the GET_SINGULARITY Telemetry Request, the SINGULARITY_STATE Telemetry Response includes all Singularity Control keywords. If prompted by the SET_SINGULARITY Telecommand, the SINGULARITY_STATE Telemetry Response includes all keywords specified in the SET_SINGULARITY Telecommand, excepting the ENABLE_OVERRIDE keyword.</p>
-<h3 id="SIDD-050">CORALS_STATE Telemetry Response <small>SIDD-050</small></h3>
+<h3 id="SIDD-050">5.4.10 CORALS_STATE Telemetry Response <small>SIDD-050</small></h3>
 <p>The CORALS_STATE Telemetry Response is sent in response to the GET_STATE Telemetry Response. The CORALS_STATE Telmetry Response is sent automatically on a 5 second period. The CORALS_STATE Telemetry Response includes all testbed State keywords.</p>
-<h3 id="SIDD-051">ATTITUDE Telemetry Repsonse <small>SIDD-051</small></h3>
+<h3 id="SIDD-051">5.4.11 ATTITUDE Telemetry Repsonse <small>SIDD-051</small></h3>
 <p>The ATTITUDE Telemetry Response is sent in response to the GET_ATTITUDE Telemetry Response. The ATTITUDE Telmetry Response is sent automatically on a 5 second period. It always contains the Q1, Q2, and Q3 keywords. If the QUAT_FORMAT is currently 'Q0', then it also contains Q0. Otherwise, it also contains Q4.</p>
       </div>
     </div>
